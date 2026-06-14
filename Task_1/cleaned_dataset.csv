@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Customer_ID,Customer_Name,Age,Gender,City,Product,Category,Quantity,Unit_Price,Total_Sales,Order_Date_Year,Order_Date_Month,Order_Date_Day,Revenue_Category,Age_Group,Purchase_Month_Name,Order_Day_Of_Week,Customer_Sales_Category
+Ord100002,2025-02-25,Cust5529,Customer_227,30,Female,Bengaluru,Rice,Grocery,7,2829.77,19808.39,2025,2,25,Low_Revenue,Young Adult,February,Tuesday,Low_Spender
+Ord100003,2025-10-14,Cust3127,Customer_182,63,Male,Bengaluru,Book,Education,5,27906.16,139530.8,2025,10,14,Medium_Revenue,Senior,October,Tuesday,Medium_Spender
+Ord100004,2025-05-13,Cust8887,Customer_487,62,Female,Bengaluru,Book,Education,8,37491.06,299928.48,2025,5,13,High_Revenue,Senior,May,Tuesday,High_Spender
+Ord100005,2025-12-02,Cust2515,Customer_470,65,Female,Kolkata,Mobile,Electronics,9,28541.36,256872.24,2025,12,2,High_Revenue,Senior,December,Tuesday,High_Spender
+Ord100006,2025-11-20,Cust4796,Customer_380,44,Male,Bengaluru,Rice,Grocery,10,14036.59,140365.9,2025,11,20,Medium_Revenue,Adult,November,Thursday,Medium_Spender
+Ord100007,2025-12-31,Cust3952,Customer_71,40,Female,Hyderabad,Laptop,Electronics,9,35947.47,323527.23,2025,12,31,High_Revenue,Adult,December,Wednesday,High_Spender
+Ord100008,2025-10-14,Cust1758,Customer_335,61,Male,Patna,Mobile,Electronics,6,49997.53,299985.18,2025,10,14,High_Revenue,Senior,October,Tuesday,High_Spender
+Ord100009,2025-12-05,Cust9622,Customer_224,35,Male,Kolkata,Laptop,Electronics,3,9488.83,28466.49,2025,12,5,Low_Revenue,Young Adult,December,Friday,Low_Spender
+Ord100010,2025-11-21,Cust9770,Customer_494,41,Female,Mumbai,Book,Education,6,19488.23,116929.38,2025,11,21,Medium_Revenue,Adult,November,Friday,Medium_Spender
+Ord100011,2025-04-16,Cust1312,Customer_40,30,Male,Kolkata,Mobile,Electronics,8,18024.34,144194.72,2025,4,16,Medium_Revenue,Young Adult,April,Wednesday,Medium_Spender
+Ord100012,2025-05-05,Cust9642,Customer_162,51,Male,Delhi,Shoes,Fashion,3,14151.42,42454.26,2025,5,5,Low_Revenue,Adult,May,Monday,Low_Spender
+Ord100013,2025-05-02,Cust3228,Customer_209,55,Female,Patna,Chair,Furniture,6,47175.43,283052.58,2025,5,2,High_Revenue,Adult,May,Friday,High_Spender
+Ord100014,2025-05-06,Cust1038,Customer_454,32,Male,Patna,Rice,Grocery,5,7413.68,37068.4,2025,5,6,Low_Revenue,Young Adult,May,Tuesday,Low_Spender
+Ord100015,2025-04-24,Cust6413,Customer_490,50,Female,Patna,Shoes,Fashion,8,12042.52,96340.16,2025,4,24,Medium_Revenue,Adult,April,Thursday,Medium_Spender
+Ord100016,2025-03-12,Cust8660,Customer_213,42,Female,Patna,Mobile,Electronics,8,25465.31,203722.48,2025,3,12,High_Revenue,Adult,March,Wednesday,High_Spender
+Ord100017,2025-08-30,Cust9307,Customer_313,36,Female,Delhi,Shoes,Fashion,10,20111.09,201110.9,2025,8,30,High_Revenue,Adult,August,Saturday,High_Spender
+Ord100018,2025-11-30,Cust4363,Customer_161,30,Female,Delhi,Book,Education,10,40109.12,401091.2,2025,11,30,High_Revenue,Young Adult,November,Sunday,High_Spender
+Ord100019,2025-10-19,Cust3508,Customer_67,31,Male,Gaya,Shoes,Fashion,1,7280.64,7280.64,2025,10,19,Low_Revenue,Young Adult,October,Sunday,High_Spender
+Ord100020,2025-07-24,Cust5806,Customer_103,57,Female,Mumbai,Chair,Furniture,5,6122.59,30612.95,2025,7,24,Low_Revenue,Senior,July,Thursday,Medium_Spender
+Ord100021,2025-03-20,Cust6504,Customer_357,34,Male,Kolkata,Laptop,Electronics,8,23770.36,190162.88,2025,3,20,High_Revenue,Young Adult,March,Thursday,High_Spender
+Ord100022,2025-03-18,Cust8908,Customer_190,65,Male,Pune,Shoes,Fashion,1,2344.98,2344.98,2025,3,18,Low_Revenue,Senior,March,Tuesday,Low_Spender
+Ord100023,2025-10-04,Cust2903,Customer_122,31,Female,Mumbai,Book,Education,7,15396.37,107774.59,2025,10,4,Medium_Revenue,Young Adult,October,Saturday,Medium_Spender
+Ord100024,2025-11-23,Cust1406,Customer_499,52,Male,Gaya,Shoes,Fashion,10,31576.5,315765.0,2025,11,23,High_Revenue,Adult,November,Sunday,High_Spender
+Ord100025,2025-09-14,Cust8036,Customer_173,44,Male,Patna,Laptop,Electronics,2,11127.06,22254.12,2025,9,14,Low_Revenue,Adult,September,Sunday,Low_Spender
+Ord100026,2025-03-16,Cust6532,Customer_348,30,Male,Pune,Rice,Grocery,7,36069.86,252489.02,2025,3,16,High_Revenue,Young Adult,March,Sunday,High_Spender
+Ord100027,2025-04-10,Cust2482,Customer_183,65,Male,Mumbai,Book,Education,9,39414.46,354730.14,2025,4,10,High_Revenue,Senior,April,Thursday,High_Spender
+Ord100028,2025-08-01,Cust2003,Customer_48,35,Female,Mumbai,Rice,Grocery,2,23837.41,47674.82,2025,8,1,Low_Revenue,Young Adult,August,Friday,Low_Spender
+Ord100029,2025-08-10,Cust6149,Customer_181,32,Female,Patna,Laptop,Electronics,5,14534.79,72673.95,2025,8,10,Medium_Revenue,Young Adult,August,Sunday,Low_Spender
+Ord100030,2025-02-05,Cust3688,Customer_205,38,Female,Bengaluru,Mobile,Electronics,10,21393.69,213936.9,2025,2,5,High_Revenue,Adult,February,Wednesday,High_Spender
+Ord100031,2025-08-09,Cust3212,Customer_415,33,Male,Gaya,Rice,Grocery,2,21382.16,42764.32,2025,8,9,Low_Revenue,Young Adult,August,Saturday,Low_Spender
+Ord100032,2025-05-13,Cust5063,Customer_50,33,Female,Mumbai,Mobile,Electronics,1,15831.03,15831.03,2025,5,13,Low_Revenue,Young Adult,May,Tuesday,Low_Spender
+Ord100033,2025-10-22,Cust9565,Customer_350,21,Female,Mumbai,Book,Education,8,21791.66,174333.28,2025,10,22,High_Revenue,Young Adult,October,Wednesday,Medium_Spender
+Ord100034,2025-12-04,Cust9325,Customer_352,44,Female,Mumbai,Laptop,Electronics,5,17556.08,87780.4,2025,12,4,Medium_Revenue,Adult,December,Thursday,Medium_Spender
+Ord100035,2025-05-03,Cust4002,Customer_388,18,Female,Gaya,Laptop,Electronics,5,46822.84,234114.2,2025,5,3,High_Revenue,Youth,May,Saturday,High_Spender
+Ord100036,2025-03-08,Cust8975,Customer_315,36,Female,Gaya,Mobile,Electronics,4,47896.7,191586.8,2025,3,8,High_Revenue,Adult,March,Saturday,High_Spender
+Ord100037,2025-02-07,Cust2669,Customer_151,46,Male,Bengaluru,Laptop,Electronics,8,44911.49,359291.92,2025,2,7,High_Revenue,Adult,February,Friday,High_Spender
+Ord100038,2025-02-20,Cust5869,Customer_415,23,Male,Delhi,Chair,Furniture,7,40746.79,285227.53,2025,2,20,High_Revenue,Young Adult,February,Thursday,High_Spender
+Ord100039,2025-10-20,Cust7249,Customer_144,29,Male,Kolkata,Rice,Grocery,4,4794.08,19176.32,2025,10,20,Low_Revenue,Young Adult,October,Monday,Low_Spender
+Ord100040,2025-03-07,Cust7465,Customer_345,58,Female,Bengaluru,Shoes,Fashion,8,29270.98,234167.84,2025,3,7,High_Revenue,Senior,March,Friday,High_Spender
+Ord100041,2025-04-21,Cust7988,Customer_383,39,Female,Mumbai,Shoes,Fashion,1,3992.85,3992.85,2025,4,21,Low_Revenue,Adult,April,Monday,Low_Spender
+Ord100042,2025-05-31,Cust9953,Customer_484,50,Female,Hyderabad,Mobile,Electronics,5,44365.94,221829.7,2025,5,31,High_Revenue,Adult,May,Saturday,High_Spender
+Ord100043,2025-04-20,Cust6938,Customer_344,43,Female,Kolkata,Mobile,Electronics,4,29915.72,119662.88,2025,4,20,Medium_Revenue,Adult,April,Sunday,Medium_Spender
+Ord100044,2025-09-22,Cust3006,Customer_256,58,Male,Patna,Chair,Furniture,6,16521.44,99128.64,2025,9,22,Medium_Revenue,Senior,September,Monday,High_Spender
+Ord100045,2025-07-04,Cust5151,Customer_409,55,Female,Bengaluru,Rice,Grocery,6,14399.11,86394.66,2025,7,4,Medium_Revenue,Adult,July,Friday,Medium_Spender
+Ord100046,2025-04-26,Cust5903,Customer_396,27,Female,Hyderabad,Shoes,Fashion,9,1491.63,13424.67,2025,4,26,Low_Revenue,Young Adult,April,Saturday,Low_Spender
+Ord100047,2025-05-11,Cust4943,Customer_198,34,Male,Mumbai,Rice,Grocery,2,6210.24,12420.48,2025,5,11,Low_Revenue,Young Adult,May,Sunday,Low_Spender
+Ord100048,2025-09-02,Cust4750,Customer_78,42,Female,Delhi,Mobile,Electronics,2,47649.61,95299.22,2025,9,2,Medium_Revenue,Adult,September,Tuesday,Medium_Spender
+Ord100049,2025-10-25,Cust2705,Customer_117,55,Male,Kolkata,Mobile,Electronics,5,24854.05,124270.25,2025,10,25,Medium_Revenue,Adult,October,Saturday,Medium_Spender
+Ord100050,2025-10-03,Cust5523,Customer_432,41,Male,Pune,Chair,Furniture,9,30834.87,277513.83,2025,10,3,High_Revenue,Adult,October,Friday,High_Spender
+Ord100051,2025-02-27,Cust1557,Customer_87,39,Female,Mumbai,Chair,Furniture,6,20561.97,123371.82,2025,2,27,Medium_Revenue,Adult,February,Thursday,Medium_Spender
+Ord100052,2025-09-09,Cust2062,Customer_254,58,Male,Patna,Book,Education,10,49367.75,493677.5,2025,9,9,High_Revenue,Senior,September,Tuesday,High_Spender
+Ord100053,2025-06-08,Cust9203,Customer_70,33,Male,Delhi,Laptop,Electronics,6,4656.1,27936.6,2025,6,8,Low_Revenue,Young Adult,June,Sunday,Low_Spender
+Ord100054,2025-07-07,Cust8053,Customer_408,58,Male,Delhi,Rice,Grocery,7,42345.82,296420.74,2025,7,7,High_Revenue,Senior,July,Monday,High_Spender
+Ord100055,2025-04-16,Cust1017,Customer_387,42,Female,Pune,Shoes,Fashion,7,37747.24,264230.68,2025,4,16,High_Revenue,Adult,April,Wednesday,High_Spender
+Ord100056,2025-11-16,Cust2690,Customer_11,26,Male,Delhi,Book,Education,2,33304.17,66608.34,2025,11,16,Low_Revenue,Young Adult,November,Sunday,Low_Spender
+Ord100057,2025-12-07,Cust2791,Customer_20,58,Female,Bengaluru,Laptop,Electronics,6,41157.44,246944.64,2025,12,7,High_Revenue,Senior,December,Sunday,High_Spender
+Ord100058,2025-03-12,Cust4496,Customer_53,18,Female,Bengaluru,Chair,Furniture,7,47669.63,333687.41,2025,3,12,High_Revenue,Youth,March,Wednesday,High_Spender
+Ord100059,2025-12-12,Cust8811,Customer_115,50,Female,Bengaluru,Chair,Furniture,1,44708.5,44708.5,2025,12,12,Low_Revenue,Adult,December,Friday,Low_Spender
+Ord100060,2025-01-15,Cust2411,Customer_292,47,Female,Mumbai,Mobile,Electronics,5,36809.08,184045.4,2025,1,15,High_Revenue,Adult,January,Wednesday,High_Spender
+Ord100061,2025-11-08,Cust2350,Customer_205,46,Male,Pune,Mobile,Electronics,4,25292.97,101171.88,2025,11,8,Medium_Revenue,Adult,November,Saturday,Medium_Spender
+Ord100062,2025-07-06,Cust9745,Customer_48,27,Male,Mumbai,Shoes,Fashion,1,29263.26,29263.26,2025,7,6,Low_Revenue,Young Adult,July,Sunday,Low_Spender
+Ord100063,2025-07-15,Cust6236,Customer_312,43,Female,Kolkata,Laptop,Electronics,3,5679.91,17039.73,2025,7,15,Low_Revenue,Adult,July,Tuesday,Low_Spender
+Ord100064,2025-09-26,Cust1887,Customer_209,21,Male,Hyderabad,Chair,Furniture,6,46235.96,277415.76,2025,9,26,High_Revenue,Young Adult,September,Friday,High_Spender
+Ord100065,2025-05-16,Cust5386,Customer_125,47,Male,Gaya,Rice,Grocery,9,27164.06,244476.54,2025,5,16,High_Revenue,Adult,May,Friday,High_Spender
+Ord100066,2025-07-25,Cust8065,Customer_92,53,Male,Kolkata,Mobile,Electronics,10,8905.49,89054.9,2025,7,25,Medium_Revenue,Adult,July,Friday,Medium_Spender
+Ord100067,2025-01-30,Cust8841,Customer_407,36,Female,Patna,Book,Education,10,17406.52,174065.2,2025,1,30,High_Revenue,Adult,January,Thursday,Medium_Spender
+Ord100068,2025-02-25,Cust5871,Customer_335,39,Female,Delhi,Chair,Furniture,5,27366.58,136832.9,2025,2,25,Medium_Revenue,Adult,February,Tuesday,Medium_Spender
+Ord100069,2025-06-24,Cust9869,Customer_394,40,Female,Hyderabad,Book,Education,5,41282.63,206413.15,2025,6,24,High_Revenue,Adult,June,Tuesday,High_Spender
+Ord100070,2025-08-15,Cust9017,Customer_51,26,Female,Delhi,Book,Education,8,13645.41,109163.28,2025,8,15,Medium_Revenue,Young Adult,August,Friday,Medium_Spender
+Ord100071,2025-10-21,Cust1808,Customer_150,56,Male,Patna,Chair,Furniture,8,27337.64,218701.12,2025,10,21,High_Revenue,Senior,October,Tuesday,High_Spender
+Ord100072,2025-08-25,Cust2565,Customer_360,52,Female,Hyderabad,Shoes,Fashion,5,29219.72,146098.6,2025,8,25,Medium_Revenue,Adult,August,Monday,Medium_Spender
+Ord100073,2025-06-19,Cust4958,Customer_160,45,Male,Gaya,Rice,Grocery,3,8572.65,25717.95,2025,6,19,Low_Revenue,Adult,June,Thursday,Low_Spender
+Ord100074,2025-12-04,Cust7587,Customer_223,27,Male,Pune,Laptop,Electronics,9,45419.62,408776.58,2025,12,4,High_Revenue,Young Adult,December,Thursday,High_Spender
+Ord100075,2025-03-30,Cust2157,Customer_31,58,Male,Patna,Mobile,Electronics,4,21599.26,86397.04,2025,3,30,Medium_Revenue,Senior,March,Sunday,Medium_Spender
+Ord100076,2025-12-30,Cust8430,Customer_277,45,Male,Gaya,Laptop,Electronics,2,8883.45,17766.9,2025,12,30,Low_Revenue,Adult,December,Tuesday,Low_Spender
+Ord100077,2025-12-27,Cust1956,Customer_317,22,Female,Bengaluru,Shoes,Fashion,9,12290.45,110614.05,2025,12,27,Medium_Revenue,Young Adult,December,Saturday,Medium_Spender
+Ord100078,2025-04-14,Cust9846,Customer_298,58,Female,Patna,Book,Education,6,10784.64,64707.84,2025,4,14,Low_Revenue,Senior,April,Monday,Low_Spender
+Ord100079,2026-01-01,Cust4706,Customer_34,62,Female,Delhi,Rice,Grocery,1,35862.34,35862.34,2026,1,1,Low_Revenue,Senior,January,Thursday,High_Spender
+Ord100080,2025-08-21,Cust5607,Customer_265,61,Female,Gaya,Rice,Grocery,1,13129.64,13129.64,2025,8,21,Low_Revenue,Senior,August,Thursday,Low_Spender
+Ord100081,2025-03-05,Cust8211,Customer_62,19,Female,Gaya,Chair,Furniture,9,45747.37,411726.33,2025,3,5,High_Revenue,Young Adult,March,Wednesday,High_Spender
+Ord100082,2025-09-01,Cust5367,Customer_499,25,Female,Hyderabad,Book,Education,6,5849.89,35099.34,2025,9,1,Low_Revenue,Young Adult,September,Monday,Low_Spender
+Ord100083,2025-01-06,Cust8346,Customer_384,30,Male,Hyderabad,Laptop,Electronics,9,48845.5,439609.5,2025,1,6,High_Revenue,Young Adult,January,Monday,High_Spender
+Ord100084,2025-10-24,Cust7484,Customer_478,36,Male,Gaya,Book,Education,9,24828.05,223452.45,2025,10,24,High_Revenue,Adult,October,Friday,High_Spender
+Ord100085,2025-03-07,Cust7911,Customer_7,59,Male,Delhi,Mobile,Electronics,8,17841.4,142731.2,2025,3,7,Medium_Revenue,Senior,March,Friday,Medium_Spender
+Ord100086,2025-08-24,Cust4229,Customer_234,51,Male,Hyderabad,Book,Education,10,13662.66,136626.6,2025,8,24,Medium_Revenue,Adult,August,Sunday,Medium_Spender
+Ord100087,2025-03-17,Cust2290,Customer_195,56,Male,Mumbai,Book,Education,4,12169.49,48677.96,2025,3,17,Low_Revenue,Senior,March,Monday,Low_Spender
+Ord100088,2025-12-17,Cust1246,Customer_165,59,Female,Kolkata,Mobile,Electronics,6,349.06,2094.36,2025,12,17,Low_Revenue,Senior,December,Wednesday,Low_Spender
+Ord100089,2025-04-16,Cust3689,Customer_179,44,Female,Delhi,Laptop,Electronics,8,20498.74,163989.92,2025,4,16,High_Revenue,Adult,April,Wednesday,High_Spender
+Ord100090,2025-10-29,Cust7476,Customer_45,21,Female,Hyderabad,Book,Education,9,13111.39,118002.51,2025,10,29,Medium_Revenue,Young Adult,October,Wednesday,Medium_Spender
+Ord100091,2025-12-15,Cust7037,Customer_45,34,Male,Mumbai,Rice,Grocery,9,45000.49,405004.41,2025,12,15,High_Revenue,Young Adult,December,Monday,High_Spender
+Ord100092,2025-12-24,Cust8578,Customer_154,48,Male,Kolkata,Laptop,Electronics,2,3455.06,6910.12,2025,12,24,Low_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100093,2025-04-28,Cust6618,Customer_311,19,Male,Pune,Shoes,Fashion,8,28874.64,230997.12,2025,4,28,High_Revenue,Young Adult,April,Monday,High_Spender
+Ord100094,2025-11-07,Cust4650,Customer_370,32,Male,Delhi,Shoes,Fashion,3,47917.49,143752.47,2025,11,7,Medium_Revenue,Young Adult,November,Friday,Medium_Spender
+Ord100095,2025-02-19,Cust5091,Customer_375,47,Male,Bengaluru,Rice,Grocery,10,21399.51,213995.1,2025,2,19,High_Revenue,Adult,February,Wednesday,High_Spender
+Ord100096,2025-05-31,Cust2190,Customer_318,38,Male,Hyderabad,Rice,Grocery,5,15127.88,75639.4,2025,5,31,Medium_Revenue,Adult,May,Saturday,Medium_Spender
+Ord100097,2025-11-12,Cust7277,Customer_320,62,Female,Mumbai,Shoes,Fashion,7,41677.34,291741.38,2025,11,12,High_Revenue,Senior,November,Wednesday,High_Spender
+Ord100098,2025-01-22,Cust8623,Customer_84,32,Male,Hyderabad,Mobile,Electronics,10,40745.55,407455.5,2025,1,22,High_Revenue,Young Adult,January,Wednesday,High_Spender
+Ord100099,2025-02-13,Cust5232,Customer_395,54,Male,Gaya,Mobile,Electronics,2,31217.12,62434.24,2025,2,13,Low_Revenue,Adult,February,Thursday,Low_Spender
+Ord100100,2025-11-02,Cust7462,Customer_379,41,Male,Patna,Laptop,Electronics,5,553.62,2768.1,2025,11,2,Low_Revenue,Adult,November,Sunday,Low_Spender
+Ord100101,2025-10-05,Cust7588,Customer_67,47,Male,Pune,Rice,Grocery,4,6974.66,27898.64,2025,10,5,Low_Revenue,Adult,October,Sunday,Low_Spender
+Ord100102,2025-12-19,Cust5005,Customer_176,20,Female,Kolkata,Book,Education,9,19437.88,174940.92,2025,12,19,High_Revenue,Young Adult,December,Friday,Medium_Spender
+Ord100103,2025-01-14,Cust3210,Customer_15,43,Female,Mumbai,Laptop,Electronics,9,13617.93,122561.37,2025,1,14,Medium_Revenue,Adult,January,Tuesday,Medium_Spender
+Ord100104,2025-12-12,Cust5926,Customer_308,54,Male,Gaya,Chair,Furniture,8,38897.58,311180.64,2025,12,12,High_Revenue,Adult,December,Friday,High_Spender
+Ord100105,2025-11-23,Cust3809,Customer_394,44,Female,Gaya,Book,Education,6,8547.07,51282.42,2025,11,23,Low_Revenue,Adult,November,Sunday,Low_Spender
+Ord100106,2025-10-26,Cust2079,Customer_35,44,Male,Mumbai,Chair,Furniture,7,46263.01,323841.07,2025,10,26,High_Revenue,Adult,October,Sunday,High_Spender
+Ord100107,2025-08-09,Cust4881,Customer_389,32,Male,Patna,Book,Education,2,2814.55,5629.1,2025,8,9,Low_Revenue,Young Adult,August,Saturday,Low_Spender
+Ord100108,2025-03-20,Cust6707,Customer_420,33,Male,Pune,Mobile,Electronics,8,41112.05,328896.4,2025,3,20,High_Revenue,Young Adult,March,Thursday,High_Spender
+Ord100109,2025-09-18,Cust2796,Customer_471,29,Male,Patna,Book,Education,4,36826.88,147307.52,2025,9,18,Medium_Revenue,Young Adult,September,Thursday,Medium_Spender
+Ord100110,2025-10-15,Cust5524,Customer_154,44,Male,Hyderabad,Chair,Furniture,3,42806.52,128419.56,2025,10,15,Medium_Revenue,Adult,October,Wednesday,Medium_Spender
+Ord100111,2025-09-04,Cust9882,Customer_103,28,Female,Kolkata,Laptop,Electronics,6,5533.0,33198.0,2025,9,4,Low_Revenue,Young Adult,September,Thursday,Low_Spender
+Ord100112,2025-03-01,Cust3001,Customer_341,32,Male,Gaya,Laptop,Electronics,3,2638.97,7916.91,2025,3,1,Low_Revenue,Young Adult,March,Saturday,Low_Spender
+Ord100113,2025-01-17,Cust5433,Customer_355,49,Male,Delhi,Book,Education,4,25002.72,100010.88,2025,1,17,Medium_Revenue,Adult,January,Friday,Medium_Spender
+Ord100114,2025-07-11,Cust3794,Customer_315,35,Female,Hyderabad,Book,Education,10,10391.75,103917.5,2025,7,11,Medium_Revenue,Young Adult,July,Friday,Medium_Spender
+Ord100115,2025-09-09,Cust2345,Customer_302,48,Male,Bengaluru,Book,Education,10,22437.16,224371.6,2025,9,9,High_Revenue,Adult,September,Tuesday,High_Spender
+Ord100116,2025-02-13,Cust8316,Customer_121,63,Female,Hyderabad,Laptop,Electronics,9,41053.56,369482.04,2025,2,13,High_Revenue,Senior,February,Thursday,High_Spender
+Ord100117,2025-03-27,Cust9354,Customer_241,46,Female,Patna,Rice,Grocery,2,21391.19,42782.38,2025,3,27,Low_Revenue,Adult,March,Thursday,Low_Spender
+Ord100118,2025-09-18,Cust2871,Customer_8,33,Female,Delhi,Chair,Furniture,4,36875.19,147500.76,2025,9,18,Medium_Revenue,Young Adult,September,Thursday,Medium_Spender
+Ord100119,2025-04-10,Cust7341,Customer_457,49,Female,Hyderabad,Mobile,Electronics,4,41640.74,166562.96,2025,4,10,High_Revenue,Adult,April,Thursday,Medium_Spender
+Ord100050,2025-01-22,Cust3194,Customer_114,34,Male,Kolkata,Book,Education,2,25795.55,51591.1,2025,1,22,Low_Revenue,Young Adult,January,Wednesday,Low_Spender
+Ord100121,2025-05-19,Cust9563,Customer_166,24,Male,Gaya,Book,Education,8,4391.72,35133.76,2025,5,19,Low_Revenue,Young Adult,May,Monday,Low_Spender
+Ord100122,2025-12-22,Cust2286,Customer_298,39,Female,Patna,Laptop,Electronics,2,18152.14,36304.28,2025,12,22,Low_Revenue,Adult,December,Monday,Low_Spender
+Ord100123,2025-11-20,Cust2423,Customer_376,23,Male,Hyderabad,Mobile,Electronics,7,16254.12,113778.84,2025,11,20,Medium_Revenue,Young Adult,November,Thursday,Medium_Spender
+Ord100124,2025-07-08,Cust2378,Customer_95,53,Male,Hyderabad,Shoes,Fashion,5,3805.27,19026.35,2025,7,8,Low_Revenue,Adult,July,Tuesday,Low_Spender
+Ord100125,2025-01-14,Cust6995,Customer_374,33,Male,Hyderabad,Book,Education,7,46489.41,325425.87,2025,1,14,High_Revenue,Young Adult,January,Tuesday,High_Spender
+Ord100126,2025-06-13,Cust3677,Customer_459,34,Female,Patna,Shoes,Fashion,1,17041.21,17041.21,2025,6,13,Low_Revenue,Young Adult,June,Friday,Low_Spender
+Ord100127,2025-01-14,Cust6627,Customer_353,57,Male,Patna,Rice,Grocery,6,41494.43,248966.58,2025,1,14,High_Revenue,Senior,January,Tuesday,High_Spender
+Ord100128,2025-12-04,Cust6238,Customer_258,55,Male,Gaya,Rice,Grocery,10,25930.1,259301.0,2025,12,4,High_Revenue,Adult,December,Thursday,High_Spender
+Ord100129,2025-03-04,Cust8352,Customer_400,44,Male,Gaya,Laptop,Electronics,8,26281.83,210254.64,2025,3,4,High_Revenue,Adult,March,Tuesday,High_Spender
+Ord100130,2025-03-09,Cust2870,Customer_495,33,Male,Patna,Mobile,Electronics,8,21833.32,174666.56,2025,3,9,High_Revenue,Young Adult,March,Sunday,High_Spender
+Ord100131,2025-11-29,Cust4751,Customer_260,20,Male,Patna,Rice,Grocery,6,40577.1,243462.6,2025,11,29,High_Revenue,Young Adult,November,Saturday,High_Spender
+Ord100132,2025-01-17,Cust7031,Customer_224,37,Female,Gaya,Shoes,Fashion,5,39039.96,195199.8,2025,1,17,High_Revenue,Adult,January,Friday,High_Spender
+Ord100133,2025-03-25,Cust8366,Customer_355,65,Female,Bengaluru,Book,Education,10,29902.97,299029.7,2025,3,25,High_Revenue,Senior,March,Tuesday,High_Spender
+Ord100134,2025-02-10,Cust2863,Customer_375,34,Female,Patna,Mobile,Electronics,7,18967.46,132772.22,2025,2,10,Medium_Revenue,Young Adult,February,Monday,Medium_Spender
+Ord100135,2025-03-10,Cust8298,Customer_489,45,Female,Delhi,Mobile,Electronics,10,42943.17,429431.7,2025,3,10,High_Revenue,Adult,March,Monday,High_Spender
+Ord100136,2025-03-21,Cust9577,Customer_302,46,Male,Mumbai,Laptop,Electronics,6,24216.91,145301.46,2025,3,21,Medium_Revenue,Adult,March,Friday,Medium_Spender
+Ord100137,2025-05-30,Cust3054,Customer_96,28,Female,Mumbai,Chair,Furniture,9,7093.9,63845.1,2025,5,30,Low_Revenue,Young Adult,May,Friday,Low_Spender
+Ord100138,2025-11-27,Cust6791,Customer_430,22,Female,Pune,Chair,Furniture,5,29748.17,148740.85,2025,11,27,Medium_Revenue,Young Adult,November,Thursday,Medium_Spender
+Ord100139,2025-09-18,Cust7062,Customer_92,52,Male,Bengaluru,Laptop,Electronics,8,22563.72,180509.76,2025,9,18,High_Revenue,Adult,September,Thursday,Medium_Spender
+Ord100140,2025-04-04,Cust6625,Customer_121,18,Male,Hyderabad,Mobile,Electronics,7,17321.68,121251.76,2025,4,4,Medium_Revenue,Youth,April,Friday,Medium_Spender
+Ord100141,2025-01-25,Cust4824,Customer_98,24,Male,Gaya,Laptop,Electronics,9,25138.42,226245.78,2025,1,25,High_Revenue,Young Adult,January,Saturday,High_Spender
+Ord100142,2025-07-31,Cust1339,Customer_107,54,Male,Kolkata,Book,Education,6,33887.35,203324.1,2025,7,31,High_Revenue,Adult,July,Thursday,High_Spender
+Ord100143,2025-03-05,Cust1113,Customer_104,33,Female,Gaya,Shoes,Fashion,6,30177.21,181063.26,2025,3,5,High_Revenue,Young Adult,March,Wednesday,High_Spender
+Ord100144,2025-06-30,Cust4034,Customer_271,32,Female,Kolkata,Mobile,Electronics,3,28572.4,85717.2,2025,6,30,Medium_Revenue,Young Adult,June,Monday,Medium_Spender
+Ord100145,2025-12-06,Cust6997,Customer_244,28,Male,Gaya,Mobile,Electronics,4,6898.4,27593.6,2025,12,6,Low_Revenue,Young Adult,December,Saturday,Low_Spender
+Ord100146,2025-03-12,Cust2480,Customer_491,59,Female,Gaya,Shoes,Fashion,1,20740.93,20740.93,2025,3,12,Low_Revenue,Senior,March,Wednesday,Low_Spender
+Ord100147,2025-06-08,Cust9450,Customer_230,18,Male,Bengaluru,Laptop,Electronics,3,37576.35,112729.05,2025,6,8,Medium_Revenue,Youth,June,Sunday,Medium_Spender
+Ord100148,2025-07-07,Cust8408,Customer_249,51,Female,Delhi,Mobile,Electronics,6,20416.04,122496.24,2025,7,7,Medium_Revenue,Adult,July,Monday,Medium_Spender
+Ord100149,2025-09-17,Cust7178,Customer_478,64,Male,Bengaluru,Chair,Furniture,2,8092.78,16185.56,2025,9,17,Low_Revenue,Senior,September,Wednesday,Low_Spender
+Ord100150,2025-04-01,Cust4132,Customer_47,41,Female,Patna,Chair,Furniture,4,1973.64,7894.56,2025,4,1,Low_Revenue,Adult,April,Tuesday,Low_Spender
+Ord100151,2025-09-13,Cust4829,Customer_202,19,Female,Mumbai,Shoes,Fashion,8,41749.55,333996.4,2025,9,13,High_Revenue,Young Adult,September,Saturday,High_Spender
+Ord100152,2025-02-08,Cust5188,Customer_286,53,Male,Gaya,Laptop,Electronics,9,48833.27,439499.43,2025,2,8,High_Revenue,Adult,February,Saturday,High_Spender
+Ord100153,2025-06-26,Cust1928,Customer_17,30,Female,Mumbai,Mobile,Electronics,7,48642.53,340497.71,2025,6,26,High_Revenue,Young Adult,June,Thursday,High_Spender
+Ord100154,2025-10-26,Cust3887,Customer_371,56,Female,Mumbai,Laptop,Electronics,4,42299.16,169196.64,2025,10,26,High_Revenue,Senior,October,Sunday,Medium_Spender
+Ord100155,2025-03-18,Cust5211,Customer_215,53,Female,Patna,Book,Education,5,38233.51,191167.55,2025,3,18,High_Revenue,Adult,March,Tuesday,High_Spender
+Ord100156,2025-07-22,Cust2236,Customer_173,64,Male,Pune,Mobile,Electronics,4,6502.53,26010.12,2025,7,22,Low_Revenue,Senior,July,Tuesday,Low_Spender
+Ord100157,2025-03-11,Cust5375,Customer_265,60,Male,Bengaluru,Book,Education,2,18293.96,36587.92,2025,3,11,Low_Revenue,Senior,March,Tuesday,Low_Spender
+Ord100158,2025-08-31,Cust4137,Customer_221,36,Male,Gaya,Mobile,Electronics,2,40810.01,81620.02,2025,8,31,Medium_Revenue,Adult,August,Sunday,High_Spender
+Ord100159,2025-02-16,Cust5113,Customer_271,30,Female,Kolkata,Mobile,Electronics,7,28469.0,199283.0,2025,2,16,High_Revenue,Young Adult,February,Sunday,High_Spender
+Ord100160,2025-09-20,Cust7263,Customer_120,55,Male,Hyderabad,Chair,Furniture,10,1085.13,10851.3,2025,9,20,Low_Revenue,Adult,September,Saturday,Low_Spender
+Ord100161,2025-10-22,Cust2562,Customer_280,65,Male,Bengaluru,Rice,Grocery,3,145.78,437.34,2025,10,22,Low_Revenue,Senior,October,Wednesday,Low_Spender
+Ord100162,2025-06-03,Cust9297,Customer_488,27,Female,Kolkata,Mobile,Electronics,9,22636.01,203724.09,2025,6,3,High_Revenue,Young Adult,June,Tuesday,High_Spender
+Ord100163,2025-11-04,Cust2295,Customer_319,57,Male,Mumbai,Book,Education,6,39830.65,238983.9,2025,11,4,High_Revenue,Senior,November,Tuesday,High_Spender
+Ord100164,2025-01-07,Cust3839,Customer_274,61,Male,Bengaluru,Mobile,Electronics,10,41054.72,410547.2,2025,1,7,High_Revenue,Senior,January,Tuesday,High_Spender
+Ord100165,2026-01-01,Cust8010,Customer_187,41,Female,Hyderabad,Rice,Grocery,4,35300.11,141200.44,2026,1,1,Medium_Revenue,Adult,January,Thursday,Medium_Spender
+Ord100166,2025-10-20,Cust9008,Customer_279,54,Female,Hyderabad,Book,Education,5,25053.25,125266.25,2025,10,20,Medium_Revenue,Adult,October,Monday,Medium_Spender
+Ord100167,2025-09-04,Cust3714,Customer_295,37,Female,Patna,Rice,Grocery,7,23674.97,165724.79,2025,9,4,High_Revenue,Adult,September,Thursday,Medium_Spender
+Ord100168,2025-03-03,Cust5036,Customer_468,32,Male,Patna,Chair,Furniture,8,37436.26,299490.08,2025,3,3,High_Revenue,Young Adult,March,Monday,High_Spender
+Ord100169,2025-08-06,Cust1479,Customer_375,35,Female,Bengaluru,Chair,Furniture,10,31730.57,317305.7,2025,8,6,High_Revenue,Young Adult,August,Wednesday,High_Spender
+Ord100170,2025-04-04,Cust9875,Customer_6,49,Male,Bengaluru,Laptop,Electronics,4,30139.27,120557.08,2025,4,4,Medium_Revenue,Adult,April,Friday,Medium_Spender
+Ord100171,2025-01-20,Cust3522,Customer_67,24,Male,Bengaluru,Chair,Furniture,3,10289.67,30869.01,2025,1,20,Low_Revenue,Young Adult,January,Monday,Low_Spender
+Ord100172,2025-05-10,Cust4062,Customer_23,56,Female,Mumbai,Chair,Furniture,1,8906.18,8906.18,2025,5,10,Low_Revenue,Senior,May,Saturday,Low_Spender
+Ord100173,2025-01-26,Cust4009,Customer_273,18,Male,Hyderabad,Rice,Grocery,2,21856.64,43713.28,2025,1,26,Low_Revenue,Youth,January,Sunday,Low_Spender
+Ord100174,2025-04-08,Cust4685,Customer_22,35,Male,Gaya,Rice,Grocery,9,26781.39,241032.51,2025,4,8,High_Revenue,Young Adult,April,Tuesday,High_Spender
+Ord100175,2025-06-07,Cust3564,Customer_267,41,Male,Patna,Rice,Grocery,9,49390.42,444513.78,2025,6,7,High_Revenue,Adult,June,Saturday,High_Spender
+Ord100176,2025-01-11,Cust8722,Customer_475,21,Male,Mumbai,Laptop,Electronics,9,21792.76,196134.84,2025,1,11,High_Revenue,Young Adult,January,Saturday,High_Spender
+Ord100177,2025-06-04,Cust3602,Customer_295,54,Male,Pune,Mobile,Electronics,4,16850.46,67401.84,2025,6,4,Medium_Revenue,Adult,June,Wednesday,Low_Spender
+Ord100178,2025-06-21,Cust9812,Customer_333,20,Female,Pune,Mobile,Electronics,2,14098.13,28196.26,2025,6,21,Low_Revenue,Young Adult,June,Saturday,Low_Spender
+Ord100179,2025-07-01,Cust4747,Customer_193,44,Male,Gaya,Mobile,Electronics,3,34033.11,102099.33,2025,7,1,Medium_Revenue,Adult,July,Tuesday,Medium_Spender
+Ord100180,2025-03-05,Cust1766,Customer_319,27,Male,Kolkata,Laptop,Electronics,5,1423.81,7119.05,2025,3,5,Low_Revenue,Young Adult,March,Wednesday,Low_Spender
+Ord100181,2025-10-31,Cust3366,Customer_363,55,Male,Delhi,Rice,Grocery,8,29735.57,237884.56,2025,10,31,High_Revenue,Adult,October,Friday,High_Spender
+Ord100182,2025-01-26,Cust1215,Customer_19,35,Male,Gaya,Chair,Furniture,7,1481.0,10367.0,2025,1,26,Low_Revenue,Young Adult,January,Sunday,Low_Spender
+Ord100183,2025-11-14,Cust3508,Customer_163,60,Female,Pune,Laptop,Electronics,8,23129.36,185034.88,2025,11,14,High_Revenue,Senior,November,Friday,High_Spender
+Ord100184,2025-10-24,Cust5988,Customer_266,43,Male,Kolkata,Chair,Furniture,2,44336.38,88672.76,2025,10,24,Medium_Revenue,Adult,October,Friday,Medium_Spender
+Ord100185,2025-01-15,Cust3662,Customer_223,34,Female,Hyderabad,Laptop,Electronics,5,2983.97,14919.85,2025,1,15,Low_Revenue,Young Adult,January,Wednesday,Low_Spender
+Ord100186,2025-03-08,Cust3397,Customer_101,44,Male,Gaya,Chair,Furniture,3,8820.55,26461.65,2025,3,8,Low_Revenue,Adult,March,Saturday,Low_Spender
+Ord100187,2025-05-13,Cust4777,Customer_233,60,Female,Gaya,Laptop,Electronics,1,21001.73,21001.73,2025,5,13,Low_Revenue,Senior,May,Tuesday,Low_Spender
+Ord100188,2025-04-27,Cust9059,Customer_288,33,Male,Delhi,Laptop,Electronics,9,16767.5,150907.5,2025,4,27,Medium_Revenue,Young Adult,April,Sunday,Medium_Spender
+Ord100189,2025-06-26,Cust5600,Customer_176,27,Male,Bengaluru,Rice,Grocery,3,47959.38,143878.14,2025,6,26,Medium_Revenue,Young Adult,June,Thursday,Medium_Spender
+Ord100190,2025-09-08,Cust7574,Customer_66,43,Female,Delhi,Chair,Furniture,5,7642.84,38214.2,2025,9,8,Low_Revenue,Adult,September,Monday,Low_Spender
+Ord100191,2025-11-27,Cust1436,Customer_144,60,Female,Delhi,Laptop,Electronics,10,1959.05,19590.5,2025,11,27,Low_Revenue,Senior,November,Thursday,Low_Spender
+Ord100192,2025-02-26,Cust3625,Customer_382,55,Female,Kolkata,Mobile,Electronics,4,26460.39,105841.56,2025,2,26,Medium_Revenue,Adult,February,Wednesday,Medium_Spender
+Ord100193,2025-06-05,Cust5168,Customer_295,25,Male,Hyderabad,Laptop,Electronics,6,9132.85,54797.1,2025,6,5,Low_Revenue,Young Adult,June,Thursday,Low_Spender
+Ord100194,2025-06-13,Cust6821,Customer_73,24,Male,Pune,Book,Education,8,34260.45,274083.6,2025,6,13,High_Revenue,Young Adult,June,Friday,High_Spender
+Ord100195,2025-08-06,Cust6228,Customer_466,41,Female,Pune,Book,Education,4,22321.8,89287.2,2025,8,6,Medium_Revenue,Adult,August,Wednesday,Medium_Spender
+Ord100196,2025-11-19,Cust3002,Customer_57,61,Male,Mumbai,Book,Education,8,27492.16,219937.28,2025,11,19,High_Revenue,Senior,November,Wednesday,High_Spender
+Ord100197,2025-10-26,Cust3685,Customer_94,23,Female,Delhi,Chair,Furniture,1,35489.21,35489.21,2025,10,26,Low_Revenue,Young Adult,October,Sunday,Low_Spender
+Ord100198,2025-02-08,Cust3417,Customer_102,36,Male,Patna,Laptop,Electronics,8,31510.55,252084.4,2025,2,8,High_Revenue,Adult,February,Saturday,High_Spender
+Ord100199,2025-01-04,Cust7187,Customer_149,38,Male,Patna,Mobile,Electronics,1,16633.85,16633.85,2025,1,4,Low_Revenue,Adult,January,Saturday,Low_Spender
+Ord100200,2025-02-24,Cust2953,Customer_435,41,Female,Kolkata,Rice,Grocery,8,27608.55,220868.4,2025,2,24,High_Revenue,Adult,February,Monday,High_Spender
+Ord100201,2025-12-23,Cust2779,Customer_336,44,Female,Patna,Rice,Grocery,7,25521.26,178648.82,2025,12,23,High_Revenue,Adult,December,Tuesday,Medium_Spender
+Ord100202,2025-02-26,Cust6564,Customer_216,59,Female,Patna,Mobile,Electronics,4,35658.89,142635.56,2025,2,26,Medium_Revenue,Senior,February,Wednesday,Medium_Spender
+Ord100203,2025-03-10,Cust4996,Customer_449,61,Female,Hyderabad,Laptop,Electronics,8,18088.02,144704.16,2025,3,10,Medium_Revenue,Senior,March,Monday,High_Spender
+Ord100204,2025-12-16,Cust2428,Customer_127,52,Female,Mumbai,Book,Education,3,16041.29,48123.87,2025,12,16,Low_Revenue,Adult,December,Tuesday,Low_Spender
+Ord100205,2025-02-26,Cust2448,Customer_444,59,Female,Kolkata,Chair,Furniture,9,16533.74,148803.66,2025,2,26,Medium_Revenue,Senior,February,Wednesday,Medium_Spender
+Ord100206,2025-03-09,Cust1049,Customer_243,55,Female,Hyderabad,Book,Education,1,16714.64,16714.64,2025,3,9,Low_Revenue,Adult,March,Sunday,Low_Spender
+Ord100207,2025-08-30,Cust9728,Customer_338,45,Male,Gaya,Rice,Grocery,4,46356.08,185424.32,2025,8,30,High_Revenue,Adult,August,Saturday,High_Spender
+Ord100208,2025-02-25,Cust6932,Customer_304,31,Male,Kolkata,Shoes,Fashion,8,2636.28,21090.24,2025,2,25,Low_Revenue,Young Adult,February,Tuesday,Low_Spender
+Ord100209,2025-04-05,Cust9159,Customer_12,40,Female,Kolkata,Mobile,Electronics,6,34808.76,208852.56,2025,4,5,High_Revenue,Adult,April,Saturday,High_Spender
+Ord100210,2025-08-25,Cust6518,Customer_410,44,Female,Hyderabad,Shoes,Fashion,10,17713.87,177138.7,2025,8,25,High_Revenue,Adult,August,Monday,Medium_Spender
+Ord100211,2025-04-16,Cust4756,Customer_15,55,Female,Bengaluru,Book,Education,3,4421.33,13263.99,2025,4,16,Low_Revenue,Adult,April,Wednesday,Low_Spender
+Ord100212,2025-04-10,Cust7659,Customer_445,20,Male,Patna,Chair,Furniture,1,49067.82,49067.82,2025,4,10,Low_Revenue,Young Adult,April,Thursday,Low_Spender
+Ord100213,2025-11-09,Cust6727,Customer_452,34,Female,Mumbai,Mobile,Electronics,6,18644.18,111865.08,2025,11,9,Medium_Revenue,Young Adult,November,Sunday,Medium_Spender
+Ord100214,2025-08-25,Cust8049,Customer_384,37,Female,Delhi,Laptop,Electronics,9,14462.81,130165.29,2025,8,25,Medium_Revenue,Adult,August,Monday,Medium_Spender
+Ord100215,2025-07-18,Cust4705,Customer_53,43,Female,Hyderabad,Shoes,Fashion,1,29838.32,29838.32,2025,7,18,Low_Revenue,Adult,July,Friday,Low_Spender
+Ord100216,2025-03-20,Cust5355,Customer_108,23,Male,Delhi,Rice,Grocery,5,9508.4,47542.0,2025,3,20,Low_Revenue,Young Adult,March,Thursday,Low_Spender
+Ord100217,2025-03-23,Cust3186,Customer_412,60,Female,Delhi,Mobile,Electronics,4,39054.95,156219.8,2025,3,23,Medium_Revenue,Senior,March,Sunday,Medium_Spender
+Ord100218,2025-10-07,Cust1822,Customer_174,39,Male,Kolkata,Mobile,Electronics,6,20308.85,121853.1,2025,10,7,Medium_Revenue,Adult,October,Tuesday,Medium_Spender
+Ord100219,2025-01-13,Cust9645,Customer_341,25,Female,Hyderabad,Rice,Grocery,4,15549.95,62199.8,2025,1,13,Low_Revenue,Young Adult,January,Monday,Medium_Spender
+Ord100220,2025-09-14,Cust2997,Customer_181,23,Female,Hyderabad,Laptop,Electronics,1,34192.3,34192.3,2025,9,14,Low_Revenue,Young Adult,September,Sunday,Low_Spender
+Ord100221,2025-04-27,Cust2088,Customer_382,65,Female,Hyderabad,Book,Education,2,12214.1,24428.2,2025,4,27,Low_Revenue,Senior,April,Sunday,Low_Spender
+Ord100222,2025-07-13,Cust1711,Customer_36,20,Female,Bengaluru,Shoes,Fashion,10,49086.64,490866.4,2025,7,13,High_Revenue,Young Adult,July,Sunday,High_Spender
+Ord100223,2025-01-10,Cust9840,Customer_347,38,Female,Bengaluru,Mobile,Electronics,8,20404.62,163236.96,2025,1,10,High_Revenue,Adult,January,Friday,Medium_Spender
+Ord100224,2025-12-06,Cust7613,Customer_432,22,Male,Mumbai,Laptop,Electronics,8,49347.28,394778.24,2025,12,6,High_Revenue,Young Adult,December,Saturday,High_Spender
+Ord100225,2025-12-07,Cust1443,Customer_315,37,Female,Patna,Rice,Grocery,1,25336.7,25336.7,2025,12,7,Low_Revenue,Adult,December,Sunday,Low_Spender
+Ord100226,2025-02-08,Cust9319,Customer_434,54,Female,Pune,Rice,Grocery,5,7361.11,36805.55,2025,2,8,Low_Revenue,Adult,February,Saturday,Low_Spender
+Ord100227,2025-04-07,Cust6773,Customer_200,22,Male,Hyderabad,Laptop,Electronics,4,33205.94,132823.76,2025,4,7,Medium_Revenue,Young Adult,April,Monday,Medium_Spender
+Ord100228,2025-06-19,Cust5214,Customer_142,63,Female,Patna,Chair,Furniture,4,21609.52,86438.08,2025,6,19,Medium_Revenue,Senior,June,Thursday,Medium_Spender
+Ord100229,2025-07-08,Cust3618,Customer_131,28,Male,Pune,Laptop,Electronics,10,33072.39,330723.9,2025,7,8,High_Revenue,Young Adult,July,Tuesday,High_Spender
+Ord100230,2025-11-01,Cust3668,Customer_415,63,Male,Patna,Mobile,Electronics,6,46679.69,280078.14,2025,11,1,High_Revenue,Senior,November,Saturday,High_Spender
+Ord100231,2025-05-16,Cust7315,Customer_283,45,Female,Mumbai,Book,Education,3,17931.34,53794.02,2025,5,16,Low_Revenue,Adult,May,Friday,Low_Spender
+Ord100232,2025-04-11,Cust9158,Customer_297,61,Male,Gaya,Chair,Furniture,4,5518.32,22073.28,2025,4,11,Low_Revenue,Senior,April,Friday,Low_Spender
+Ord100233,2025-06-21,Cust6522,Customer_468,61,Male,Mumbai,Book,Education,7,15331.09,107317.63,2025,6,21,Medium_Revenue,Senior,June,Saturday,Medium_Spender
+Ord100234,2025-09-05,Cust3760,Customer_360,63,Female,Bengaluru,Shoes,Fashion,1,41626.11,41626.11,2025,9,5,Low_Revenue,Senior,September,Friday,Low_Spender
+Ord100235,2025-10-22,Cust5079,Customer_348,41,Female,Bengaluru,Chair,Furniture,8,33479.62,267836.96,2025,10,22,High_Revenue,Adult,October,Wednesday,High_Spender
+Ord100236,2025-05-19,Cust6082,Customer_301,62,Male,Mumbai,Laptop,Electronics,9,44135.66,397220.94,2025,5,19,High_Revenue,Senior,May,Monday,High_Spender
+Ord100237,2025-06-25,Cust8311,Customer_225,32,Male,Bengaluru,Mobile,Electronics,10,4504.89,45048.9,2025,6,25,Low_Revenue,Young Adult,June,Wednesday,Low_Spender
+Ord100238,2025-02-04,Cust5945,Customer_49,40,Female,Kolkata,Shoes,Fashion,7,28710.98,200976.86,2025,2,4,High_Revenue,Adult,February,Tuesday,High_Spender
+Ord100239,2025-02-23,Cust9191,Customer_323,38,Male,Hyderabad,Book,Education,6,25562.3,153373.8,2025,2,23,Medium_Revenue,Adult,February,Sunday,Medium_Spender
+Ord100050,2025-03-01,Cust8467,Customer_104,23,Male,Bengaluru,Book,Education,3,2860.83,8582.49,2025,3,1,Low_Revenue,Young Adult,March,Saturday,Low_Spender
+Ord100241,2025-02-12,Cust1197,Customer_419,36,Male,Pune,Book,Education,4,1486.03,5944.12,2025,2,12,Low_Revenue,Adult,February,Wednesday,Low_Spender
+Ord100242,2025-12-22,Cust6111,Customer_204,34,Female,Hyderabad,Laptop,Electronics,8,4159.17,33273.36,2025,12,22,Low_Revenue,Young Adult,December,Monday,Medium_Spender
+Ord100243,2025-05-04,Cust1367,Customer_48,21,Female,Bengaluru,Book,Education,7,6218.47,43529.29,2025,5,4,Low_Revenue,Young Adult,May,Sunday,Low_Spender
+Ord100244,2025-03-27,Cust6584,Customer_449,21,Male,Mumbai,Mobile,Electronics,10,29646.26,296462.6,2025,3,27,High_Revenue,Young Adult,March,Thursday,High_Spender
+Ord100245,2025-09-21,Cust2862,Customer_122,25,Male,Bengaluru,Rice,Grocery,7,10674.88,74724.16,2025,9,21,Medium_Revenue,Young Adult,September,Sunday,Low_Spender
+Ord100246,2025-05-31,Cust4094,Customer_382,51,Male,Hyderabad,Rice,Grocery,4,44577.29,178309.16,2025,5,31,High_Revenue,Adult,May,Saturday,Medium_Spender
+Ord100247,2025-09-17,Cust5129,Customer_404,54,Male,Bengaluru,Book,Education,6,36587.03,219522.18,2025,9,17,High_Revenue,Adult,September,Wednesday,High_Spender
+Ord100248,2025-02-09,Cust4629,Customer_167,40,Female,Patna,Mobile,Electronics,3,25277.79,75833.37,2025,2,9,Medium_Revenue,Adult,February,Sunday,Medium_Spender
+Ord100249,2025-01-23,Cust5454,Customer_368,19,Female,Hyderabad,Chair,Furniture,10,30855.5,308555.0,2025,1,23,High_Revenue,Young Adult,January,Thursday,High_Spender
+Ord100250,2025-12-20,Cust3169,Customer_138,41,Female,Delhi,Mobile,Electronics,7,19829.73,138808.11,2025,12,20,Medium_Revenue,Adult,December,Saturday,Medium_Spender
+Ord100251,2025-04-02,Cust9047,Customer_363,42,Male,Patna,Laptop,Electronics,7,46461.17,325228.19,2025,4,2,High_Revenue,Adult,April,Wednesday,High_Spender
+Ord100252,2025-08-28,Cust9097,Customer_384,26,Male,Hyderabad,Book,Education,2,32168.36,64336.72,2025,8,28,Low_Revenue,Young Adult,August,Thursday,Low_Spender
+Ord100253,2025-04-16,Cust2006,Customer_131,50,Male,Kolkata,Book,Education,2,1655.36,3310.72,2025,4,16,Low_Revenue,Adult,April,Wednesday,Low_Spender
+Ord100254,2025-08-17,Cust5418,Customer_491,41,Female,Kolkata,Book,Education,4,44463.18,177852.72,2025,8,17,High_Revenue,Adult,August,Sunday,Medium_Spender
+Ord100255,2025-05-02,Cust8067,Customer_283,47,Female,Patna,Chair,Furniture,6,43576.14,261456.84,2025,5,2,High_Revenue,Adult,May,Friday,High_Spender
+Ord100256,2025-05-03,Cust3080,Customer_378,41,Female,Pune,Chair,Furniture,1,43789.89,43789.89,2025,5,3,Low_Revenue,Adult,May,Saturday,Low_Spender
+Ord100257,2025-12-15,Cust6728,Customer_413,64,Male,Bengaluru,Mobile,Electronics,1,34757.71,34757.71,2025,12,15,Low_Revenue,Senior,December,Monday,Low_Spender
+Ord100258,2025-09-10,Cust7801,Customer_150,41,Male,Pune,Chair,Furniture,7,6196.22,43373.54,2025,9,10,Low_Revenue,Adult,September,Wednesday,Low_Spender
+Ord100259,2025-06-18,Cust4686,Customer_473,27,Male,Pune,Rice,Grocery,8,36364.84,290918.72,2025,6,18,High_Revenue,Young Adult,June,Wednesday,High_Spender
+Ord100260,2025-01-20,Cust6345,Customer_420,32,Male,Hyderabad,Chair,Furniture,3,15948.34,47845.02,2025,1,20,Low_Revenue,Young Adult,January,Monday,Medium_Spender
+Ord100261,2025-07-09,Cust6927,Customer_165,23,Male,Gaya,Chair,Furniture,5,17292.4,86462.0,2025,7,9,Medium_Revenue,Young Adult,July,Wednesday,Medium_Spender
+Ord100262,2025-10-28,Cust8686,Customer_404,56,Female,Patna,Chair,Furniture,6,29255.02,175530.12,2025,10,28,High_Revenue,Senior,October,Tuesday,Medium_Spender
+Ord100263,2025-06-22,Cust6585,Customer_214,21,Male,Hyderabad,Rice,Grocery,4,25906.46,103625.84,2025,6,22,Medium_Revenue,Young Adult,June,Sunday,Medium_Spender
+Ord100264,2025-04-18,Cust7176,Customer_434,33,Male,Bengaluru,Chair,Furniture,9,6110.1,54990.9,2025,4,18,Low_Revenue,Young Adult,April,Friday,Low_Spender
+Ord100265,2025-05-04,Cust9233,Customer_485,35,Male,Hyderabad,Chair,Furniture,10,36331.75,363317.5,2025,5,4,High_Revenue,Young Adult,May,Sunday,High_Spender
+Ord100266,2025-11-26,Cust7501,Customer_2,40,Female,Gaya,Rice,Grocery,8,6459.95,51679.6,2025,11,26,Low_Revenue,Adult,November,Wednesday,Low_Spender
+Ord100267,2025-05-06,Cust7082,Customer_492,21,Female,Bengaluru,Book,Education,4,25164.5,100658.0,2025,5,6,Medium_Revenue,Young Adult,May,Tuesday,Medium_Spender
+Ord100268,2025-04-04,Cust2463,Customer_390,25,Male,Bengaluru,Laptop,Electronics,5,49665.71,248328.55,2025,4,4,High_Revenue,Young Adult,April,Friday,High_Spender
+Ord100269,2025-08-01,Cust1662,Customer_365,31,Female,Pune,Book,Education,7,13789.53,96526.71,2025,8,1,Medium_Revenue,Young Adult,August,Friday,Medium_Spender
+Ord100270,2025-10-25,Cust7413,Customer_4,54,Male,Kolkata,Laptop,Electronics,5,16404.25,82021.25,2025,10,25,Medium_Revenue,Adult,October,Saturday,Medium_Spender
+Ord100271,2025-12-26,Cust1994,Customer_390,48,Male,Pune,Book,Education,3,32373.88,97121.64,2025,12,26,Medium_Revenue,Adult,December,Friday,High_Spender
+Ord100272,2025-08-03,Cust6173,Customer_51,22,Male,Pune,Mobile,Electronics,7,21466.96,150268.72,2025,8,3,Medium_Revenue,Young Adult,August,Sunday,Medium_Spender
+Ord100273,2025-01-10,Cust7374,Customer_375,62,Female,Patna,Book,Education,5,47201.84,236009.2,2025,1,10,High_Revenue,Senior,January,Friday,High_Spender
+Ord100274,2025-09-11,Cust4737,Customer_367,22,Female,Patna,Book,Education,5,36171.66,180858.3,2025,9,11,High_Revenue,Young Adult,September,Thursday,Medium_Spender
+Ord100275,2025-06-07,Cust3689,Customer_335,34,Female,Patna,Laptop,Electronics,8,47311.77,378494.16,2025,6,7,High_Revenue,Young Adult,June,Saturday,High_Spender
+Ord100276,2025-09-06,Cust6444,Customer_251,23,Female,Mumbai,Book,Education,9,28865.26,259787.34,2025,9,6,High_Revenue,Young Adult,September,Saturday,High_Spender
+Ord100277,2025-09-13,Cust2152,Customer_99,63,Female,Bengaluru,Mobile,Electronics,2,48433.7,96867.4,2025,9,13,Medium_Revenue,Senior,September,Saturday,Medium_Spender
+Ord100278,2025-09-14,Cust1636,Customer_243,63,Female,Patna,Chair,Furniture,7,7528.42,52698.94,2025,9,14,Low_Revenue,Senior,September,Sunday,Low_Spender
+Ord100279,2025-09-30,Cust3341,Customer_263,54,Male,Gaya,Mobile,Electronics,4,46629.93,186519.72,2025,9,30,High_Revenue,Adult,September,Tuesday,High_Spender
+Ord100280,2025-08-19,Cust1463,Customer_397,21,Female,Bengaluru,Shoes,Fashion,3,32403.32,97209.96,2025,8,19,Medium_Revenue,Young Adult,August,Tuesday,Medium_Spender
+Ord100281,2025-12-26,Cust3877,Customer_133,18,Male,Delhi,Mobile,Electronics,6,14220.63,85323.78,2025,12,26,Medium_Revenue,Youth,December,Friday,Medium_Spender
+Ord100282,2025-12-28,Cust6407,Customer_157,26,Female,Delhi,Laptop,Electronics,6,5810.2,34861.2,2025,12,28,Low_Revenue,Young Adult,December,Sunday,High_Spender
+Ord100283,2025-01-09,Cust4381,Customer_324,39,Female,Kolkata,Laptop,Electronics,6,22627.46,135764.76,2025,1,9,Medium_Revenue,Adult,January,Thursday,Medium_Spender
+Ord100284,2025-05-09,Cust5097,Customer_302,65,Female,Mumbai,Mobile,Electronics,9,20619.08,185571.72,2025,5,9,High_Revenue,Senior,May,Friday,High_Spender
+Ord100285,2025-10-17,Cust9910,Customer_110,18,Male,Hyderabad,Shoes,Fashion,2,45034.12,90068.24,2025,10,17,Medium_Revenue,Youth,October,Friday,Medium_Spender
+Ord100286,2025-10-23,Cust7806,Customer_4,64,Female,Hyderabad,Rice,Grocery,2,40768.5,81537.0,2025,10,23,Medium_Revenue,Senior,October,Thursday,Medium_Spender
+Ord100287,2025-01-11,Cust8105,Customer_385,52,Male,Delhi,Mobile,Electronics,3,35888.63,107665.89,2025,1,11,Medium_Revenue,Adult,January,Saturday,Medium_Spender
+Ord100288,2025-11-04,Cust6002,Customer_83,46,Male,Delhi,Laptop,Electronics,9,23875.09,214875.81,2025,11,4,High_Revenue,Adult,November,Tuesday,High_Spender
+Ord100289,2025-11-07,Cust1334,Customer_364,31,Male,Kolkata,Shoes,Fashion,2,17100.29,34200.58,2025,11,7,Low_Revenue,Young Adult,November,Friday,Low_Spender
+Ord100290,2025-04-06,Cust9248,Customer_451,51,Male,Mumbai,Chair,Furniture,7,15202.84,106419.88,2025,4,6,Medium_Revenue,Adult,April,Sunday,Medium_Spender
+Ord100291,2025-08-31,Cust7152,Customer_423,22,Female,Patna,Mobile,Electronics,6,17696.96,106181.76,2025,8,31,Medium_Revenue,Young Adult,August,Sunday,Medium_Spender
+Ord100292,2025-02-20,Cust8650,Customer_384,23,Male,Gaya,Rice,Grocery,6,13138.1,78828.6,2025,2,20,Medium_Revenue,Young Adult,February,Thursday,Medium_Spender
+Ord100293,2025-04-16,Cust9284,Customer_212,44,Female,Kolkata,Book,Education,5,3842.06,19210.3,2025,4,16,Low_Revenue,Adult,April,Wednesday,Low_Spender
+Ord100294,2025-03-02,Cust4169,Customer_307,41,Female,Hyderabad,Rice,Grocery,4,6495.5,25982.0,2025,3,2,Low_Revenue,Adult,March,Sunday,Low_Spender
+Ord100295,2025-05-04,Cust3464,Customer_1,18,Female,Bengaluru,Book,Education,4,43207.48,172829.92,2025,5,4,High_Revenue,Youth,May,Sunday,Medium_Spender
+Ord100296,2025-07-04,Cust8294,Customer_103,30,Female,Hyderabad,Book,Education,4,49876.67,199506.68,2025,7,4,High_Revenue,Young Adult,July,Friday,High_Spender
+Ord100297,2025-11-18,Cust4845,Customer_401,18,Male,Mumbai,Chair,Furniture,1,2599.12,2599.12,2025,11,18,Low_Revenue,Youth,November,Tuesday,Low_Spender
+Ord100298,2025-07-28,Cust6538,Customer_365,37,Female,Pune,Mobile,Electronics,4,6652.95,26611.8,2025,7,28,Low_Revenue,Adult,July,Monday,Low_Spender
+Ord100299,2025-03-25,Cust6028,Customer_58,39,Male,Delhi,Laptop,Electronics,4,20533.23,82132.92,2025,3,25,Medium_Revenue,Adult,March,Tuesday,Medium_Spender
+Ord100300,2025-07-01,Cust7944,Customer_282,41,Male,Patna,Chair,Furniture,6,28595.31,171571.86,2025,7,1,High_Revenue,Adult,July,Tuesday,Medium_Spender
+Ord100301,2025-09-12,Cust5406,Customer_164,30,Male,Kolkata,Mobile,Electronics,5,9509.13,47545.65,2025,9,12,Low_Revenue,Young Adult,September,Friday,Low_Spender
+Ord100302,2025-08-09,Cust9552,Customer_340,30,Male,Patna,Chair,Furniture,7,1106.55,7745.85,2025,8,9,Low_Revenue,Young Adult,August,Saturday,Low_Spender
+Ord100303,2025-03-27,Cust3059,Customer_104,36,Male,Patna,Shoes,Fashion,6,39075.07,234450.42,2025,3,27,High_Revenue,Adult,March,Thursday,High_Spender
+Ord100304,2025-07-06,Cust1183,Customer_189,20,Female,Gaya,Chair,Furniture,7,7046.4,49324.8,2025,7,6,Low_Revenue,Young Adult,July,Sunday,Low_Spender
+Ord100305,2025-08-27,Cust1088,Customer_1,40,Male,Patna,Shoes,Fashion,5,40763.95,203819.75,2025,8,27,High_Revenue,Adult,August,Wednesday,High_Spender
+Ord100306,2025-08-02,Cust8195,Customer_388,52,Female,Patna,Shoes,Fashion,1,3727.43,3727.43,2025,8,2,Low_Revenue,Adult,August,Saturday,Low_Spender
+Ord100307,2026-01-01,Cust1231,Customer_339,53,Male,Patna,Rice,Grocery,4,46771.94,187087.76,2026,1,1,High_Revenue,Adult,January,Thursday,High_Spender
+Ord100308,2025-12-12,Cust6206,Customer_18,50,Male,Kolkata,Book,Education,7,43207.91,302455.37,2025,12,12,High_Revenue,Adult,December,Friday,High_Spender
+Ord100309,2025-03-23,Cust7625,Customer_251,50,Female,Patna,Book,Education,3,5803.11,17409.33,2025,3,23,Low_Revenue,Adult,March,Sunday,Low_Spender
+Ord100310,2025-07-29,Cust1762,Customer_141,27,Male,Delhi,Book,Education,4,30974.95,123899.8,2025,7,29,Medium_Revenue,Young Adult,July,Tuesday,Medium_Spender
+Ord100311,2025-09-08,Cust1743,Customer_222,56,Male,Hyderabad,Shoes,Fashion,4,40276.76,161107.04,2025,9,8,Medium_Revenue,Senior,September,Monday,Medium_Spender
+Ord100312,2025-11-12,Cust9788,Customer_229,64,Male,Hyderabad,Mobile,Electronics,8,17270.72,138165.76,2025,11,12,Medium_Revenue,Senior,November,Wednesday,Medium_Spender
+Ord100313,2025-10-23,Cust2687,Customer_190,64,Female,Hyderabad,Book,Education,6,8249.36,49496.16,2025,10,23,Low_Revenue,Senior,October,Thursday,Low_Spender
+Ord100314,2025-07-22,Cust3094,Customer_47,49,Female,Bengaluru,Mobile,Electronics,8,42935.06,343480.48,2025,7,22,High_Revenue,Adult,July,Tuesday,High_Spender
+Ord100315,2025-06-08,Cust7059,Customer_224,51,Female,Delhi,Laptop,Electronics,8,1722.06,13776.48,2025,6,8,Low_Revenue,Adult,June,Sunday,Low_Spender
+Ord100316,2025-04-21,Cust8229,Customer_161,32,Male,Pune,Mobile,Electronics,5,25857.91,129289.55,2025,4,21,Medium_Revenue,Young Adult,April,Monday,Medium_Spender
+Ord100317,2025-02-25,Cust9307,Customer_274,37,Female,Hyderabad,Book,Education,4,47319.13,189276.52,2025,2,25,High_Revenue,Adult,February,Tuesday,High_Spender
+Ord100318,2025-01-30,Cust2457,Customer_462,51,Male,Kolkata,Mobile,Electronics,2,21816.67,43633.34,2025,1,30,Low_Revenue,Adult,January,Thursday,Low_Spender
+Ord100319,2025-06-08,Cust5057,Customer_158,52,Female,Patna,Shoes,Fashion,3,10075.98,30227.94,2025,6,8,Low_Revenue,Adult,June,Sunday,Low_Spender
+Ord100320,2025-05-07,Cust1516,Customer_148,52,Male,Mumbai,Laptop,Electronics,9,22182.44,199641.96,2025,5,7,High_Revenue,Adult,May,Wednesday,High_Spender
+Ord100321,2025-06-22,Cust4527,Customer_359,54,Male,Mumbai,Book,Education,6,35006.3,210037.8,2025,6,22,High_Revenue,Adult,June,Sunday,High_Spender
+Ord100322,2025-08-15,Cust2650,Customer_276,56,Female,Kolkata,Chair,Furniture,10,16222.64,162226.4,2025,8,15,Medium_Revenue,Senior,August,Friday,Medium_Spender
+Ord100323,2025-09-20,Cust1932,Customer_369,35,Male,Delhi,Mobile,Electronics,4,1935.28,7741.12,2025,9,20,Low_Revenue,Young Adult,September,Saturday,Low_Spender
+Ord100324,2025-07-20,Cust2094,Customer_165,54,Female,Hyderabad,Book,Education,4,28385.87,113543.48,2025,7,20,Medium_Revenue,Adult,July,Sunday,Medium_Spender
+Ord100325,2025-08-26,Cust7196,Customer_286,40,Male,Delhi,Chair,Furniture,8,33388.11,267104.88,2025,8,26,High_Revenue,Adult,August,Tuesday,High_Spender
+Ord100326,2025-05-27,Cust2537,Customer_32,30,Female,Bengaluru,Mobile,Electronics,1,1005.21,1005.21,2025,5,27,Low_Revenue,Young Adult,May,Tuesday,Low_Spender
+Ord100327,2025-03-30,Cust9627,Customer_444,47,Male,Gaya,Rice,Grocery,5,27900.36,139501.8,2025,3,30,Medium_Revenue,Adult,March,Sunday,Medium_Spender
+Ord100328,2025-05-06,Cust3044,Customer_27,65,Female,Bengaluru,Rice,Grocery,10,31855.44,318554.4,2025,5,6,High_Revenue,Senior,May,Tuesday,High_Spender
+Ord100329,2025-04-12,Cust9693,Customer_343,48,Male,Patna,Book,Education,9,45988.02,413892.18,2025,4,12,High_Revenue,Adult,April,Saturday,High_Spender
+Ord100330,2025-10-14,Cust5621,Customer_427,62,Female,Delhi,Shoes,Fashion,7,19261.81,134832.67,2025,10,14,Medium_Revenue,Senior,October,Tuesday,Medium_Spender
+Ord100331,2025-04-28,Cust6067,Customer_316,55,Male,Patna,Laptop,Electronics,8,22233.15,177865.2,2025,4,28,High_Revenue,Adult,April,Monday,High_Spender
+Ord100332,2025-02-03,Cust9465,Customer_470,44,Male,Kolkata,Shoes,Fashion,4,2247.11,8988.44,2025,2,3,Low_Revenue,Adult,February,Monday,High_Spender
+Ord100333,2025-07-23,Cust3773,Customer_336,41,Female,Pune,Chair,Furniture,6,27965.93,167795.58,2025,7,23,High_Revenue,Adult,July,Wednesday,High_Spender
+Ord100334,2025-01-29,Cust5933,Customer_92,29,Male,Mumbai,Chair,Furniture,5,13013.63,65068.15,2025,1,29,Low_Revenue,Young Adult,January,Wednesday,Low_Spender
+Ord100335,2025-10-16,Cust8904,Customer_152,28,Female,Kolkata,Rice,Grocery,2,31943.19,63886.38,2025,10,16,Low_Revenue,Young Adult,October,Thursday,Low_Spender
+Ord100336,2025-02-24,Cust2599,Customer_390,35,Male,Mumbai,Laptop,Electronics,5,26823.14,134115.7,2025,2,24,Medium_Revenue,Young Adult,February,Monday,Medium_Spender
+Ord100337,2025-12-05,Cust5249,Customer_236,57,Male,Pune,Shoes,Fashion,10,11637.38,116373.8,2025,12,5,Medium_Revenue,Senior,December,Friday,Medium_Spender
+Ord100338,2025-09-21,Cust9849,Customer_264,53,Female,Delhi,Chair,Furniture,5,38518.95,192594.75,2025,9,21,High_Revenue,Adult,September,Sunday,High_Spender
+Ord100339,2025-03-02,Cust3891,Customer_453,65,Male,Mumbai,Laptop,Electronics,6,25123.86,150743.16,2025,3,2,Medium_Revenue,Senior,March,Sunday,Medium_Spender
+Ord100340,2025-10-28,Cust8154,Customer_224,47,Female,Pune,Mobile,Electronics,9,47289.86,425608.74,2025,10,28,High_Revenue,Adult,October,Tuesday,High_Spender
+Ord100341,2025-02-13,Cust1614,Customer_267,52,Female,Bengaluru,Book,Education,4,18655.09,74620.36,2025,2,13,Medium_Revenue,Adult,February,Thursday,Low_Spender
+Ord100342,2025-01-28,Cust9557,Customer_475,47,Male,Mumbai,Book,Education,3,45718.65,137155.95,2025,1,28,Medium_Revenue,Adult,January,Tuesday,Medium_Spender
+Ord100343,2025-10-29,Cust9253,Customer_371,50,Female,Pune,Rice,Grocery,10,21580.33,215803.3,2025,10,29,High_Revenue,Adult,October,Wednesday,High_Spender
+Ord100344,2025-12-18,Cust2794,Customer_98,31,Female,Patna,Shoes,Fashion,5,10932.32,54661.6,2025,12,18,Low_Revenue,Young Adult,December,Thursday,High_Spender
+Ord100345,2025-05-01,Cust1463,Customer_257,56,Female,Gaya,Mobile,Electronics,6,12740.73,76444.38,2025,5,1,Medium_Revenue,Senior,May,Thursday,Medium_Spender
+Ord100346,2025-02-09,Cust2051,Customer_103,31,Male,Bengaluru,Rice,Grocery,9,12137.54,109237.86,2025,2,9,Medium_Revenue,Young Adult,February,Sunday,Medium_Spender
+Ord100347,2025-02-16,Cust1577,Customer_59,37,Male,Delhi,Shoes,Fashion,1,36943.51,36943.51,2025,2,16,Low_Revenue,Adult,February,Sunday,Low_Spender
+Ord100348,2025-07-16,Cust7654,Customer_172,42,Male,Delhi,Rice,Grocery,2,33566.2,67132.4,2025,7,16,Medium_Revenue,Adult,July,Wednesday,Low_Spender
+Ord100349,2025-03-27,Cust9304,Customer_216,38,Female,Bengaluru,Shoes,Fashion,2,32332.27,64664.54,2025,3,27,Low_Revenue,Adult,March,Thursday,Low_Spender
+Ord100350,2025-07-11,Cust9709,Customer_409,41,Male,Pune,Laptop,Electronics,8,47254.7,378037.6,2025,7,11,High_Revenue,Adult,July,Friday,High_Spender
+Ord100351,2025-03-26,Cust6828,Customer_222,50,Male,Bengaluru,Chair,Furniture,3,42538.14,127614.42,2025,3,26,Medium_Revenue,Adult,March,Wednesday,Medium_Spender
+Ord100352,2025-02-24,Cust1170,Customer_67,37,Male,Mumbai,Mobile,Electronics,4,25840.34,103361.36,2025,2,24,Medium_Revenue,Adult,February,Monday,Medium_Spender
+Ord100353,2025-02-13,Cust3075,Customer_249,55,Male,Bengaluru,Laptop,Electronics,1,8162.84,8162.84,2025,2,13,Low_Revenue,Adult,February,Thursday,Low_Spender
+Ord100354,2025-11-08,Cust7104,Customer_498,34,Male,Mumbai,Chair,Furniture,5,49012.25,245061.25,2025,11,8,High_Revenue,Young Adult,November,Saturday,High_Spender
+Ord100355,2025-10-20,Cust3265,Customer_256,29,Male,Gaya,Rice,Grocery,5,19538.67,97693.35,2025,10,20,Medium_Revenue,Young Adult,October,Monday,Medium_Spender
+Ord100356,2025-08-17,Cust4601,Customer_82,55,Female,Hyderabad,Book,Education,1,5053.68,5053.68,2025,8,17,Low_Revenue,Adult,August,Sunday,Low_Spender
+Ord100357,2025-07-15,Cust5743,Customer_248,28,Male,Gaya,Laptop,Electronics,6,14400.18,86401.08,2025,7,15,Medium_Revenue,Young Adult,July,Tuesday,Medium_Spender
+Ord100358,2025-08-11,Cust8871,Customer_345,43,Female,Kolkata,Chair,Furniture,4,28464.26,113857.04,2025,8,11,Medium_Revenue,Adult,August,Monday,Medium_Spender
+Ord100359,2025-01-26,Cust3763,Customer_221,32,Female,Delhi,Shoes,Fashion,5,40682.5,203412.5,2025,1,26,High_Revenue,Young Adult,January,Sunday,High_Spender
+Ord100050,2025-02-11,Cust6467,Customer_181,24,Female,Pune,Rice,Grocery,7,45480.39,318362.73,2025,2,11,High_Revenue,Young Adult,February,Tuesday,High_Spender
+Ord100361,2025-04-26,Cust7309,Customer_266,52,Female,Delhi,Book,Education,6,42742.96,256457.76,2025,4,26,High_Revenue,Adult,April,Saturday,High_Spender
+Ord100362,2025-10-01,Cust3281,Customer_243,64,Female,Pune,Laptop,Electronics,10,19010.69,190106.9,2025,10,1,High_Revenue,Senior,October,Wednesday,High_Spender
+Ord100363,2025-04-30,Cust9724,Customer_220,35,Male,Pune,Laptop,Electronics,5,31244.32,156221.6,2025,4,30,Medium_Revenue,Young Adult,April,Wednesday,Medium_Spender
+Ord100364,2025-11-16,Cust5468,Customer_463,32,Male,Bengaluru,Laptop,Electronics,7,42733.08,299131.56,2025,11,16,High_Revenue,Young Adult,November,Sunday,High_Spender
+Ord100365,2025-12-30,Cust7621,Customer_375,61,Female,Gaya,Shoes,Fashion,1,44751.42,44751.42,2025,12,30,Low_Revenue,Senior,December,Tuesday,Low_Spender
+Ord100366,2025-03-13,Cust9551,Customer_230,18,Male,Bengaluru,Mobile,Electronics,10,47493.59,474935.9,2025,3,13,High_Revenue,Youth,March,Thursday,High_Spender
+Ord100367,2025-09-07,Cust3023,Customer_223,43,Female,Gaya,Shoes,Fashion,8,46122.45,368979.6,2025,9,7,High_Revenue,Adult,September,Sunday,High_Spender
+Ord100368,2025-06-06,Cust5318,Customer_376,61,Male,Bengaluru,Shoes,Fashion,3,31028.12,93084.36,2025,6,6,Medium_Revenue,Senior,June,Friday,Medium_Spender
+Ord100369,2025-06-12,Cust9900,Customer_496,26,Male,Bengaluru,Shoes,Fashion,2,48986.48,97972.96,2025,6,12,Medium_Revenue,Young Adult,June,Thursday,Medium_Spender
+Ord100370,2025-01-26,Cust6142,Customer_410,37,Male,Patna,Mobile,Electronics,10,12839.38,128393.8,2025,1,26,Medium_Revenue,Adult,January,Sunday,Medium_Spender
+Ord100371,2025-09-25,Cust8318,Customer_189,29,Female,Kolkata,Mobile,Electronics,1,6050.27,6050.27,2025,9,25,Low_Revenue,Young Adult,September,Thursday,Low_Spender
+Ord100372,2025-06-15,Cust9485,Customer_43,57,Male,Mumbai,Mobile,Electronics,2,42518.8,85037.6,2025,6,15,Medium_Revenue,Senior,June,Sunday,Medium_Spender
+Ord100373,2025-06-04,Cust9022,Customer_131,49,Female,Mumbai,Rice,Grocery,4,22806.21,91224.84,2025,6,4,Medium_Revenue,Adult,June,Wednesday,Medium_Spender
+Ord100374,2025-01-18,Cust4041,Customer_433,32,Female,Bengaluru,Laptop,Electronics,4,39453.46,157813.84,2025,1,18,Medium_Revenue,Young Adult,January,Saturday,Medium_Spender
+Ord100375,2025-05-06,Cust5835,Customer_362,20,Male,Patna,Laptop,Electronics,2,28311.58,56623.16,2025,5,6,Low_Revenue,Young Adult,May,Tuesday,Low_Spender
+Ord100376,2025-02-28,Cust9776,Customer_345,54,Female,Delhi,Rice,Grocery,3,11513.96,34541.88,2025,2,28,Low_Revenue,Adult,February,Friday,Low_Spender
+Ord100377,2025-10-25,Cust9292,Customer_89,33,Male,Bengaluru,Shoes,Fashion,8,16079.7,128637.6,2025,10,25,Medium_Revenue,Young Adult,October,Saturday,Medium_Spender
+Ord100378,2025-09-29,Cust3607,Customer_266,64,Female,Patna,Book,Education,5,21152.92,105764.6,2025,9,29,Medium_Revenue,Senior,September,Monday,Medium_Spender
+Ord100379,2025-04-28,Cust1032,Customer_20,22,Female,Pune,Mobile,Electronics,7,20998.7,146990.9,2025,4,28,Medium_Revenue,Young Adult,April,Monday,Medium_Spender
+Ord100380,2025-04-04,Cust6531,Customer_218,57,Male,Kolkata,Rice,Grocery,6,13054.61,78327.66,2025,4,4,Medium_Revenue,Senior,April,Friday,Medium_Spender
+Ord100381,2025-06-07,Cust4482,Customer_139,53,Male,Pune,Mobile,Electronics,9,46780.58,421025.22,2025,6,7,High_Revenue,Adult,June,Saturday,High_Spender
+Ord100382,2025-10-16,Cust4655,Customer_167,35,Male,Kolkata,Shoes,Fashion,7,34258.83,239811.81,2025,10,16,High_Revenue,Young Adult,October,Thursday,High_Spender
+Ord100383,2025-08-25,Cust3365,Customer_80,23,Male,Delhi,Mobile,Electronics,7,17055.84,119390.88,2025,8,25,Medium_Revenue,Young Adult,August,Monday,Medium_Spender
+Ord100384,2025-10-15,Cust1481,Customer_40,40,Female,Patna,Chair,Furniture,10,7876.48,78764.8,2025,10,15,Medium_Revenue,Adult,October,Wednesday,Medium_Spender
+Ord100385,2025-11-24,Cust2242,Customer_331,53,Female,Delhi,Mobile,Electronics,10,34976.79,349767.9,2025,11,24,High_Revenue,Adult,November,Monday,High_Spender
+Ord100386,2025-06-30,Cust8164,Customer_156,34,Female,Delhi,Chair,Furniture,8,38672.34,309378.72,2025,6,30,High_Revenue,Young Adult,June,Monday,High_Spender
+Ord100387,2025-06-17,Cust9469,Customer_426,18,Female,Kolkata,Shoes,Fashion,1,48695.59,48695.59,2025,6,17,Low_Revenue,Youth,June,Tuesday,High_Spender
+Ord100388,2025-10-04,Cust3129,Customer_138,39,Male,Hyderabad,Book,Education,9,41871.43,376842.87,2025,10,4,High_Revenue,Adult,October,Saturday,High_Spender
+Ord100389,2025-08-30,Cust6180,Customer_73,64,Male,Patna,Mobile,Electronics,6,26179.81,157078.86,2025,8,30,Medium_Revenue,Senior,August,Saturday,Medium_Spender
+Ord100390,2025-03-23,Cust2671,Customer_58,52,Male,Delhi,Shoes,Fashion,1,23398.57,23398.57,2025,3,23,Low_Revenue,Adult,March,Sunday,Low_Spender
+Ord100391,2025-03-30,Cust6111,Customer_388,20,Male,Kolkata,Laptop,Electronics,5,24596.56,122982.8,2025,3,30,Medium_Revenue,Young Adult,March,Sunday,Medium_Spender
+Ord100392,2025-08-11,Cust9927,Customer_357,37,Female,Bengaluru,Shoes,Fashion,1,35804.49,35804.49,2025,8,11,Low_Revenue,Adult,August,Monday,Low_Spender
+Ord100393,2025-09-09,Cust3393,Customer_175,24,Female,Hyderabad,Mobile,Electronics,3,36239.15,108717.45,2025,9,9,Medium_Revenue,Young Adult,September,Tuesday,Medium_Spender
+Ord100394,2025-11-22,Cust5569,Customer_188,27,Female,Pune,Shoes,Fashion,5,21143.07,105715.35,2025,11,22,Medium_Revenue,Young Adult,November,Saturday,Medium_Spender
+Ord100395,2025-04-01,Cust5128,Customer_192,47,Male,Bengaluru,Rice,Grocery,8,30277.06,242216.48,2025,4,1,High_Revenue,Adult,April,Tuesday,High_Spender
+Ord100396,2025-10-26,Cust8053,Customer_159,53,Female,Mumbai,Laptop,Electronics,4,41264.56,165058.24,2025,10,26,High_Revenue,Adult,October,Sunday,High_Spender
+Ord100397,2025-02-12,Cust3345,Customer_202,35,Female,Gaya,Book,Education,5,11761.9,58809.5,2025,2,12,Low_Revenue,Young Adult,February,Wednesday,Low_Spender
+Ord100398,2025-03-07,Cust6600,Customer_242,58,Female,Bengaluru,Mobile,Electronics,9,48807.37,439266.33,2025,3,7,High_Revenue,Senior,March,Friday,High_Spender
+Ord100399,2025-06-14,Cust5615,Customer_56,63,Female,Bengaluru,Rice,Grocery,4,1895.99,7583.96,2025,6,14,Low_Revenue,Senior,June,Saturday,Low_Spender
+Ord100400,2025-04-20,Cust5102,Customer_416,41,Female,Hyderabad,Book,Education,3,26269.62,78808.86,2025,4,20,Medium_Revenue,Adult,April,Sunday,Medium_Spender
+Ord100401,2025-01-13,Cust6037,Customer_121,28,Male,Patna,Mobile,Electronics,2,1793.29,3586.58,2025,1,13,Low_Revenue,Young Adult,January,Monday,Low_Spender
+Ord100402,2025-04-05,Cust2137,Customer_57,40,Female,Mumbai,Shoes,Fashion,5,18223.06,91115.3,2025,4,5,Medium_Revenue,Adult,April,Saturday,Medium_Spender
+Ord100403,2025-02-22,Cust4625,Customer_296,25,Female,Gaya,Book,Education,7,43850.91,306956.37,2025,2,22,High_Revenue,Young Adult,February,Saturday,High_Spender
+Ord100404,2025-01-10,Cust4414,Customer_194,53,Female,Delhi,Book,Education,1,15617.29,15617.29,2025,1,10,Low_Revenue,Adult,January,Friday,Low_Spender
+Ord100405,2025-04-05,Cust5778,Customer_346,37,Male,Patna,Shoes,Fashion,2,36062.36,72124.72,2025,4,5,Medium_Revenue,Adult,April,Saturday,Low_Spender
+Ord100406,2025-03-21,Cust1528,Customer_170,46,Male,Patna,Mobile,Electronics,2,24194.96,48389.92,2025,3,21,Low_Revenue,Adult,March,Friday,Low_Spender
+Ord100407,2025-06-29,Cust5430,Customer_333,48,Male,Mumbai,Shoes,Fashion,3,46253.94,138761.82,2025,6,29,Medium_Revenue,Adult,June,Sunday,Medium_Spender
+Ord100408,2025-02-28,Cust8759,Customer_20,64,Female,Hyderabad,Chair,Furniture,1,22534.47,22534.47,2025,2,28,Low_Revenue,Senior,February,Friday,Low_Spender
+Ord100409,2025-01-23,Cust9421,Customer_355,64,Female,Bengaluru,Shoes,Fashion,5,23003.28,115016.4,2025,1,23,Medium_Revenue,Senior,January,Thursday,Medium_Spender
+Ord100410,2025-07-07,Cust3440,Customer_28,32,Female,Pune,Laptop,Electronics,5,6619.66,33098.3,2025,7,7,Low_Revenue,Young Adult,July,Monday,Low_Spender
+Ord100411,2025-07-11,Cust6631,Customer_141,58,Male,Kolkata,Book,Education,4,7231.17,28924.68,2025,7,11,Low_Revenue,Senior,July,Friday,Low_Spender
+Ord100412,2025-12-16,Cust9089,Customer_177,24,Male,Patna,Book,Education,10,14441.39,144413.9,2025,12,16,Medium_Revenue,Young Adult,December,Tuesday,High_Spender
+Ord100413,2025-12-03,Cust4703,Customer_394,58,Male,Patna,Laptop,Electronics,4,39636.15,158544.6,2025,12,3,Medium_Revenue,Senior,December,Wednesday,Medium_Spender
+Ord100414,2025-07-18,Cust4598,Customer_96,33,Female,Patna,Shoes,Fashion,10,6633.6,66336.0,2025,7,18,Low_Revenue,Young Adult,July,Friday,Low_Spender
+Ord100415,2025-01-16,Cust3277,Customer_148,46,Female,Gaya,Mobile,Electronics,6,31722.52,190335.12,2025,1,16,High_Revenue,Adult,January,Thursday,High_Spender
+Ord100416,2025-06-30,Cust5932,Customer_183,62,Female,Gaya,Rice,Grocery,3,24990.09,74970.27,2025,6,30,Medium_Revenue,Senior,June,Monday,Medium_Spender
+Ord100417,2025-03-25,Cust7628,Customer_120,56,Male,Bengaluru,Chair,Furniture,6,26716.59,160299.54,2025,3,25,Medium_Revenue,Senior,March,Tuesday,Medium_Spender
+Ord100418,2025-06-04,Cust9942,Customer_466,29,Female,Kolkata,Mobile,Electronics,8,28813.93,230511.44,2025,6,4,High_Revenue,Young Adult,June,Wednesday,High_Spender
+Ord100419,2025-08-21,Cust6436,Customer_288,52,Male,Bengaluru,Shoes,Fashion,2,2209.43,4418.86,2025,8,21,Low_Revenue,Adult,August,Thursday,Low_Spender
+Ord100420,2025-05-12,Cust2231,Customer_38,51,Male,Delhi,Mobile,Electronics,2,572.39,1144.78,2025,5,12,Low_Revenue,Adult,May,Monday,Low_Spender
+Ord100421,2025-10-04,Cust2956,Customer_177,39,Male,Patna,Chair,Furniture,5,26522.29,132611.45,2025,10,4,Medium_Revenue,Adult,October,Saturday,Medium_Spender
+Ord100422,2025-12-23,Cust1764,Customer_47,24,Male,Hyderabad,Laptop,Electronics,2,25875.53,51751.06,2025,12,23,Low_Revenue,Young Adult,December,Tuesday,Low_Spender
+Ord100423,2025-04-03,Cust9649,Customer_322,58,Male,Gaya,Mobile,Electronics,9,37176.15,334585.35,2025,4,3,High_Revenue,Senior,April,Thursday,High_Spender
+Ord100424,2025-10-03,Cust6655,Customer_192,31,Female,Pune,Laptop,Electronics,10,315.67,3156.7,2025,10,3,Low_Revenue,Young Adult,October,Friday,Low_Spender
+Ord100425,2025-02-28,Cust4284,Customer_270,46,Male,Patna,Mobile,Electronics,1,30640.69,30640.69,2025,2,28,Low_Revenue,Adult,February,Friday,Low_Spender
+Ord100426,2025-06-21,Cust4269,Customer_268,65,Female,Gaya,Laptop,Electronics,8,23432.88,187463.04,2025,6,21,High_Revenue,Senior,June,Saturday,High_Spender
+Ord100427,2025-05-31,Cust1253,Customer_334,32,Female,Gaya,Laptop,Electronics,3,29297.53,87892.59,2025,5,31,Medium_Revenue,Young Adult,May,Saturday,Medium_Spender
+Ord100428,2025-02-14,Cust9754,Customer_304,19,Male,Delhi,Chair,Furniture,6,33928.27,203569.62,2025,2,14,High_Revenue,Young Adult,February,Friday,High_Spender
+Ord100429,2025-08-08,Cust2697,Customer_155,49,Male,Hyderabad,Book,Education,6,13857.45,83144.7,2025,8,8,Medium_Revenue,Adult,August,Friday,Medium_Spender
+Ord100430,2025-10-24,Cust9209,Customer_233,21,Female,Mumbai,Laptop,Electronics,9,29804.26,268238.34,2025,10,24,High_Revenue,Young Adult,October,Friday,High_Spender
+Ord100431,2025-07-21,Cust4215,Customer_103,28,Male,Delhi,Shoes,Fashion,9,12279.11,110511.99,2025,7,21,Medium_Revenue,Young Adult,July,Monday,Medium_Spender
+Ord100432,2025-02-04,Cust2935,Customer_26,28,Male,Delhi,Mobile,Electronics,6,5060.75,30364.5,2025,2,4,Low_Revenue,Young Adult,February,Tuesday,Low_Spender
+Ord100433,2025-05-11,Cust9381,Customer_352,45,Male,Kolkata,Laptop,Electronics,2,42427.93,84855.86,2025,5,11,Medium_Revenue,Adult,May,Sunday,High_Spender
+Ord100434,2025-06-10,Cust4982,Customer_370,33,Male,Delhi,Mobile,Electronics,10,43997.22,439972.2,2025,6,10,High_Revenue,Young Adult,June,Tuesday,High_Spender
+Ord100435,2025-01-05,Cust4849,Customer_209,28,Male,Patna,Rice,Grocery,1,28812.06,28812.06,2025,1,5,Low_Revenue,Young Adult,January,Sunday,Low_Spender
+Ord100436,2025-05-28,Cust3418,Customer_499,33,Female,Gaya,Mobile,Electronics,1,1229.02,1229.02,2025,5,28,Low_Revenue,Young Adult,May,Wednesday,Low_Spender
+Ord100437,2025-08-01,Cust3459,Customer_320,19,Male,Pune,Mobile,Electronics,3,29528.77,88586.31,2025,8,1,Medium_Revenue,Young Adult,August,Friday,Medium_Spender
+Ord100438,2025-11-29,Cust7937,Customer_158,43,Female,Mumbai,Chair,Furniture,9,24864.11,223776.99,2025,11,29,High_Revenue,Adult,November,Saturday,High_Spender
+Ord100439,2025-12-13,Cust8269,Customer_104,34,Female,Bengaluru,Book,Education,8,11693.63,93549.04,2025,12,13,Medium_Revenue,Young Adult,December,Saturday,Medium_Spender
+Ord100440,2025-05-26,Cust9209,Customer_173,49,Female,Gaya,Shoes,Fashion,2,5988.17,11976.34,2025,5,26,Low_Revenue,Adult,May,Monday,High_Spender
+Ord100441,2025-01-22,Cust9619,Customer_491,30,Male,Pune,Mobile,Electronics,1,3839.04,3839.04,2025,1,22,Low_Revenue,Young Adult,January,Wednesday,Low_Spender
+Ord100442,2025-08-30,Cust6887,Customer_423,21,Male,Delhi,Chair,Furniture,5,3146.73,15733.65,2025,8,30,Low_Revenue,Young Adult,August,Saturday,Low_Spender
+Ord100443,2025-07-24,Cust8515,Customer_445,22,Male,Mumbai,Chair,Furniture,7,33771.26,236398.82,2025,7,24,High_Revenue,Young Adult,July,Thursday,High_Spender
+Ord100444,2025-10-01,Cust9942,Customer_227,47,Male,Delhi,Mobile,Electronics,3,28342.81,85028.43,2025,10,1,Medium_Revenue,Adult,October,Wednesday,High_Spender
+Ord100445,2025-06-16,Cust1256,Customer_279,34,Male,Kolkata,Mobile,Electronics,5,48457.94,242289.7,2025,6,16,High_Revenue,Young Adult,June,Monday,High_Spender
+Ord100446,2025-02-23,Cust1841,Customer_129,45,Male,Kolkata,Book,Education,2,41096.75,82193.5,2025,2,23,Medium_Revenue,Adult,February,Sunday,Medium_Spender
+Ord100447,2025-02-28,Cust2777,Customer_417,49,Male,Gaya,Mobile,Electronics,9,19415.21,174736.89,2025,2,28,High_Revenue,Adult,February,Friday,Medium_Spender
+Ord100448,2025-02-08,Cust2031,Customer_309,45,Female,Gaya,Shoes,Fashion,4,8654.13,34616.52,2025,2,8,Low_Revenue,Adult,February,Saturday,Low_Spender
+Ord100449,2025-02-02,Cust9219,Customer_132,30,Female,Gaya,Laptop,Electronics,5,26337.15,131685.75,2025,2,2,Medium_Revenue,Young Adult,February,Sunday,Medium_Spender
+Ord100450,2025-02-13,Cust6714,Customer_31,41,Female,Patna,Book,Education,10,43946.96,439469.6,2025,2,13,High_Revenue,Adult,February,Thursday,High_Spender
+Ord100451,2025-02-28,Cust3773,Customer_181,27,Male,Patna,Chair,Furniture,8,30576.0,244608.0,2025,2,28,High_Revenue,Young Adult,February,Friday,High_Spender
+Ord100452,2025-01-22,Cust5766,Customer_85,27,Male,Gaya,Shoes,Fashion,7,32289.77,226028.39,2025,1,22,High_Revenue,Young Adult,January,Wednesday,High_Spender
+Ord100453,2025-08-30,Cust1189,Customer_490,39,Female,Pune,Shoes,Fashion,2,18153.87,36307.74,2025,8,30,Low_Revenue,Adult,August,Saturday,Low_Spender
+Ord100454,2025-09-15,Cust4756,Customer_104,57,Female,Delhi,Laptop,Electronics,1,5815.69,5815.69,2025,9,15,Low_Revenue,Senior,September,Monday,Low_Spender
+Ord100455,2025-08-10,Cust9125,Customer_19,21,Female,Mumbai,Chair,Furniture,1,47927.36,47927.36,2025,8,10,Low_Revenue,Young Adult,August,Sunday,Low_Spender
+Ord100456,2025-04-16,Cust6806,Customer_316,46,Male,Pune,Laptop,Electronics,8,30816.21,246529.68,2025,4,16,High_Revenue,Adult,April,Wednesday,High_Spender
+Ord100457,2025-02-17,Cust9543,Customer_448,45,Female,Bengaluru,Chair,Furniture,2,45809.09,91618.18,2025,2,17,Medium_Revenue,Adult,February,Monday,Medium_Spender
+Ord100458,2025-03-20,Cust6136,Customer_328,22,Male,Hyderabad,Chair,Furniture,10,7127.33,71273.3,2025,3,20,Medium_Revenue,Young Adult,March,Thursday,Low_Spender
+Ord100459,2025-04-28,Cust9131,Customer_249,38,Female,Delhi,Book,Education,9,41434.83,372913.47,2025,4,28,High_Revenue,Adult,April,Monday,High_Spender
+Ord100460,2025-04-17,Cust4317,Customer_498,50,Female,Delhi,Book,Education,4,36242.41,144969.64,2025,4,17,Medium_Revenue,Adult,April,Thursday,Medium_Spender
+Ord100461,2025-07-11,Cust5702,Customer_381,48,Female,Pune,Book,Education,10,13908.48,139084.8,2025,7,11,Medium_Revenue,Adult,July,Friday,Medium_Spender
+Ord100462,2025-03-22,Cust9379,Customer_263,38,Female,Kolkata,Laptop,Electronics,1,9009.36,9009.36,2025,3,22,Low_Revenue,Adult,March,Saturday,Low_Spender
+Ord100463,2025-04-25,Cust7664,Customer_376,43,Female,Delhi,Shoes,Fashion,6,36021.08,216126.48,2025,4,25,High_Revenue,Adult,April,Friday,High_Spender
+Ord100464,2025-09-17,Cust1710,Customer_355,46,Female,Hyderabad,Book,Education,10,44045.66,440456.6,2025,9,17,High_Revenue,Adult,September,Wednesday,High_Spender
+Ord100465,2025-07-30,Cust2680,Customer_90,65,Female,Patna,Book,Education,3,41596.85,124790.55,2025,7,30,Medium_Revenue,Senior,July,Wednesday,Medium_Spender
+Ord100466,2025-08-25,Cust6783,Customer_7,30,Male,Kolkata,Book,Education,9,21020.37,189183.33,2025,8,25,High_Revenue,Young Adult,August,Monday,High_Spender
+Ord100467,2025-05-27,Cust8039,Customer_391,55,Female,Kolkata,Book,Education,6,28483.33,170899.98,2025,5,27,High_Revenue,Adult,May,Tuesday,Medium_Spender
+Ord100468,2025-12-23,Cust7564,Customer_478,20,Female,Patna,Book,Education,8,22060.38,176483.04,2025,12,23,High_Revenue,Young Adult,December,Tuesday,Medium_Spender
+Ord100469,2025-04-15,Cust8899,Customer_482,30,Male,Delhi,Mobile,Electronics,9,17074.46,153670.14,2025,4,15,Medium_Revenue,Young Adult,April,Tuesday,Medium_Spender
+Ord100470,2025-05-05,Cust1453,Customer_60,51,Male,Gaya,Shoes,Fashion,6,7136.1,42816.6,2025,5,5,Low_Revenue,Adult,May,Monday,Low_Spender
+Ord100471,2025-11-18,Cust5363,Customer_423,56,Male,Delhi,Rice,Grocery,4,33964.14,135856.56,2025,11,18,Medium_Revenue,Senior,November,Tuesday,High_Spender
+Ord100472,2025-03-19,Cust8325,Customer_16,62,Female,Bengaluru,Chair,Furniture,7,46331.16,324318.12,2025,3,19,High_Revenue,Senior,March,Wednesday,High_Spender
+Ord100473,2025-02-23,Cust7374,Customer_382,21,Male,Mumbai,Rice,Grocery,10,27530.02,275300.2,2025,2,23,High_Revenue,Young Adult,February,Sunday,High_Spender
+Ord100474,2025-12-08,Cust3741,Customer_461,57,Female,Mumbai,Laptop,Electronics,2,24291.74,48583.48,2025,12,8,Low_Revenue,Senior,December,Monday,Low_Spender
+Ord100475,2025-07-24,Cust4758,Customer_372,63,Male,Pune,Laptop,Electronics,5,13257.79,66288.95,2025,7,24,Low_Revenue,Senior,July,Thursday,Low_Spender
+Ord100476,2025-08-22,Cust1940,Customer_40,48,Male,Gaya,Shoes,Fashion,10,16360.67,163606.7,2025,8,22,High_Revenue,Adult,August,Friday,Medium_Spender
+Ord100477,2025-05-27,Cust3024,Customer_332,22,Female,Patna,Laptop,Electronics,6,40480.73,242884.38,2025,5,27,High_Revenue,Young Adult,May,Tuesday,High_Spender
+Ord100478,2025-10-09,Cust7981,Customer_196,46,Male,Mumbai,Chair,Furniture,2,747.57,1495.14,2025,10,9,Low_Revenue,Adult,October,Thursday,Low_Spender
+Ord100479,2025-08-22,Cust9259,Customer_276,30,Male,Hyderabad,Laptop,Electronics,2,35420.46,70840.92,2025,8,22,Medium_Revenue,Young Adult,August,Friday,Low_Spender
+Ord100050,2025-11-22,Cust8225,Customer_468,64,Male,Bengaluru,Rice,Grocery,8,38957.59,311660.72,2025,11,22,High_Revenue,Senior,November,Saturday,High_Spender
+Ord100481,2025-08-26,Cust4966,Customer_367,47,Female,Bengaluru,Chair,Furniture,3,2762.18,8286.54,2025,8,26,Low_Revenue,Adult,August,Tuesday,Low_Spender
+Ord100482,2025-01-07,Cust2632,Customer_321,56,Male,Kolkata,Laptop,Electronics,2,33800.83,67601.66,2025,1,7,Medium_Revenue,Senior,January,Tuesday,Low_Spender
+Ord100483,2025-02-16,Cust3723,Customer_208,52,Male,Kolkata,Laptop,Electronics,4,4113.4,16453.6,2025,2,16,Low_Revenue,Adult,February,Sunday,Low_Spender
+Ord100484,2025-06-24,Cust8322,Customer_429,28,Male,Hyderabad,Chair,Furniture,10,24297.48,242974.8,2025,6,24,High_Revenue,Young Adult,June,Tuesday,High_Spender
+Ord100485,2025-12-25,Cust9464,Customer_357,39,Male,Gaya,Book,Education,9,5037.6,45338.4,2025,12,25,Low_Revenue,Adult,December,Thursday,Low_Spender
+Ord100486,2025-11-15,Cust4264,Customer_304,26,Female,Patna,Mobile,Electronics,8,34803.41,278427.28,2025,11,15,High_Revenue,Young Adult,November,Saturday,High_Spender
+Ord100487,2025-08-24,Cust8691,Customer_252,27,Male,Patna,Shoes,Fashion,9,9123.43,82110.87,2025,8,24,Medium_Revenue,Young Adult,August,Sunday,Medium_Spender
+Ord100488,2025-02-22,Cust7117,Customer_6,53,Female,Gaya,Chair,Furniture,6,6567.81,39406.86,2025,2,22,Low_Revenue,Adult,February,Saturday,Low_Spender
+Ord100489,2025-08-24,Cust4167,Customer_113,41,Female,Kolkata,Mobile,Electronics,9,27766.56,249899.04,2025,8,24,High_Revenue,Adult,August,Sunday,High_Spender
+Ord100490,2025-04-16,Cust6969,Customer_83,41,Female,Hyderabad,Rice,Grocery,5,33535.53,167677.65,2025,4,16,High_Revenue,Adult,April,Wednesday,Medium_Spender
+Ord100491,2025-04-18,Cust9486,Customer_19,29,Male,Hyderabad,Shoes,Fashion,9,48011.48,432103.32,2025,4,18,High_Revenue,Young Adult,April,Friday,High_Spender
+Ord100492,2025-03-21,Cust2708,Customer_57,52,Male,Delhi,Book,Education,9,21084.4,189759.6,2025,3,21,High_Revenue,Adult,March,Friday,High_Spender
+Ord100493,2025-12-28,Cust1833,Customer_357,63,Male,Gaya,Book,Education,3,37002.06,111006.18,2025,12,28,Medium_Revenue,Senior,December,Sunday,Medium_Spender
+Ord100494,2025-05-29,Cust8425,Customer_254,47,Male,Delhi,Laptop,Electronics,3,33382.46,100147.38,2025,5,29,Medium_Revenue,Adult,May,Thursday,Medium_Spender
+Ord100495,2025-07-28,Cust3911,Customer_304,26,Female,Gaya,Shoes,Fashion,5,16321.45,81607.25,2025,7,28,Medium_Revenue,Young Adult,July,Monday,Medium_Spender
+Ord100496,2025-05-29,Cust2812,Customer_249,55,Male,Gaya,Chair,Furniture,1,767.61,767.61,2025,5,29,Low_Revenue,Adult,May,Thursday,Low_Spender
+Ord100497,2025-04-07,Cust8000,Customer_275,51,Male,Kolkata,Rice,Grocery,8,18862.36,150898.88,2025,4,7,Medium_Revenue,Adult,April,Monday,Medium_Spender
+Ord100498,2025-12-31,Cust6862,Customer_257,45,Female,Patna,Chair,Furniture,2,47693.33,95386.66,2025,12,31,Medium_Revenue,Adult,December,Wednesday,Medium_Spender
+Ord100499,2025-08-24,Cust1616,Customer_288,44,Female,Delhi,Mobile,Electronics,3,33234.99,99704.97,2025,8,24,Medium_Revenue,Adult,August,Sunday,Medium_Spender
+Ord100500,2025-06-26,Cust2835,Customer_468,41,Male,Kolkata,Chair,Furniture,9,7268.14,65413.26,2025,6,26,Low_Revenue,Adult,June,Thursday,Low_Spender
+Ord100501,2025-06-18,Cust7494,Customer_188,30,Female,Mumbai,Mobile,Electronics,10,10702.89,107028.9,2025,6,18,Medium_Revenue,Young Adult,June,Wednesday,Medium_Spender
+Ord100502,2025-12-07,Cust8789,Customer_4,52,Female,Delhi,Book,Education,2,13323.8,26647.6,2025,12,7,Low_Revenue,Adult,December,Sunday,Low_Spender
+Ord100503,2025-04-30,Cust4457,Customer_212,31,Female,Hyderabad,Laptop,Electronics,4,27565.01,110260.04,2025,4,30,Medium_Revenue,Young Adult,April,Wednesday,Medium_Spender
+Ord100504,2025-07-15,Cust6258,Customer_229,52,Male,Pune,Mobile,Electronics,1,40225.63,40225.63,2025,7,15,Low_Revenue,Adult,July,Tuesday,Low_Spender
+Ord100505,2025-09-06,Cust9324,Customer_58,61,Female,Hyderabad,Chair,Furniture,1,12494.97,12494.97,2025,9,6,Low_Revenue,Senior,September,Saturday,Low_Spender
+Ord100506,2025-06-02,Cust2027,Customer_458,32,Male,Gaya,Rice,Grocery,3,40440.72,121322.16,2025,6,2,Medium_Revenue,Young Adult,June,Monday,Medium_Spender
+Ord100507,2025-11-06,Cust9966,Customer_199,44,Male,Kolkata,Laptop,Electronics,10,25386.4,253864.0,2025,11,6,High_Revenue,Adult,November,Thursday,High_Spender
+Ord100508,2025-03-08,Cust3747,Customer_322,47,Female,Mumbai,Laptop,Electronics,3,7991.06,23973.18,2025,3,8,Low_Revenue,Adult,March,Saturday,Low_Spender
+Ord100509,2025-08-25,Cust9303,Customer_321,44,Female,Kolkata,Mobile,Electronics,9,41886.87,376981.83,2025,8,25,High_Revenue,Adult,August,Monday,High_Spender
+Ord100510,2025-04-21,Cust9282,Customer_322,58,Female,Mumbai,Laptop,Electronics,10,7062.57,70625.7,2025,4,21,Medium_Revenue,Senior,April,Monday,Low_Spender
+Ord100511,2025-10-22,Cust1565,Customer_353,27,Female,Delhi,Book,Education,10,8028.98,80289.8,2025,10,22,Medium_Revenue,Young Adult,October,Wednesday,Medium_Spender
+Ord100512,2025-10-29,Cust6704,Customer_335,24,Female,Mumbai,Chair,Furniture,7,49735.32,348147.24,2025,10,29,High_Revenue,Young Adult,October,Wednesday,High_Spender
+Ord100513,2025-10-24,Cust8023,Customer_118,50,Female,Mumbai,Shoes,Fashion,4,25461.32,101845.28,2025,10,24,Medium_Revenue,Adult,October,Friday,Medium_Spender
+Ord100514,2025-08-09,Cust6860,Customer_168,30,Male,Bengaluru,Laptop,Electronics,1,30210.72,30210.72,2025,8,9,Low_Revenue,Young Adult,August,Saturday,Low_Spender
+Ord100515,2025-02-12,Cust2661,Customer_370,41,Male,Delhi,Mobile,Electronics,6,42150.74,252904.44,2025,2,12,High_Revenue,Adult,February,Wednesday,High_Spender
+Ord100516,2025-05-12,Cust1316,Customer_3,37,Female,Delhi,Mobile,Electronics,1,16249.69,16249.69,2025,5,12,Low_Revenue,Adult,May,Monday,Low_Spender
+Ord100517,2025-05-09,Cust7283,Customer_262,34,Male,Mumbai,Shoes,Fashion,6,16403.01,98418.06,2025,5,9,Medium_Revenue,Young Adult,May,Friday,Medium_Spender
+Ord100518,2025-12-16,Cust3089,Customer_339,35,Female,Kolkata,Laptop,Electronics,7,19933.44,139534.08,2025,12,16,Medium_Revenue,Young Adult,December,Tuesday,Medium_Spender
+Ord100519,2025-12-19,Cust8947,Customer_375,65,Female,Patna,Rice,Grocery,3,48879.87,146639.61,2025,12,19,Medium_Revenue,Senior,December,Friday,Medium_Spender
+Ord100520,2025-11-09,Cust9042,Customer_354,31,Female,Hyderabad,Chair,Furniture,2,32458.06,64916.12,2025,11,9,Low_Revenue,Young Adult,November,Sunday,Low_Spender
+Ord100521,2025-10-23,Cust8907,Customer_51,47,Male,Hyderabad,Rice,Grocery,9,32104.55,288940.95,2025,10,23,High_Revenue,Adult,October,Thursday,High_Spender
+Ord100522,2025-04-24,Cust6260,Customer_455,37,Male,Gaya,Laptop,Electronics,3,35318.2,105954.6,2025,4,24,Medium_Revenue,Adult,April,Thursday,Medium_Spender
+Ord100523,2025-07-05,Cust9055,Customer_359,62,Male,Gaya,Mobile,Electronics,1,47870.04,47870.04,2025,7,5,Low_Revenue,Senior,July,Saturday,Low_Spender
+Ord100524,2025-02-10,Cust3778,Customer_96,39,Female,Bengaluru,Shoes,Fashion,1,47848.0,47848.0,2025,2,10,Low_Revenue,Adult,February,Monday,Low_Spender
+Ord100525,2025-12-31,Cust1090,Customer_316,45,Female,Patna,Shoes,Fashion,7,751.97,5263.79,2025,12,31,Low_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100526,2025-02-14,Cust6706,Customer_215,54,Male,Mumbai,Mobile,Electronics,2,22666.98,45333.96,2025,2,14,Low_Revenue,Adult,February,Friday,Low_Spender
+Ord100527,2025-03-27,Cust8200,Customer_147,22,Female,Patna,Mobile,Electronics,8,12225.23,97801.84,2025,3,27,Medium_Revenue,Young Adult,March,Thursday,Medium_Spender
+Ord100528,2025-07-29,Cust5010,Customer_46,41,Female,Pune,Rice,Grocery,7,17760.62,124324.34,2025,7,29,Medium_Revenue,Adult,July,Tuesday,Medium_Spender
+Ord100529,2025-09-08,Cust5233,Customer_108,26,Male,Mumbai,Book,Education,6,8151.02,48906.12,2025,9,8,Low_Revenue,Young Adult,September,Monday,Low_Spender
+Ord100530,2025-12-18,Cust4089,Customer_79,42,Male,Gaya,Shoes,Fashion,9,12514.53,112630.77,2025,12,18,Medium_Revenue,Adult,December,Thursday,Medium_Spender
+Ord100531,2025-05-15,Cust7568,Customer_12,65,Male,Gaya,Rice,Grocery,1,40250.63,40250.63,2025,5,15,Low_Revenue,Senior,May,Thursday,Low_Spender
+Ord100532,2025-09-20,Cust3835,Customer_256,45,Male,Delhi,Book,Education,3,48031.9,144095.7,2025,9,20,Medium_Revenue,Adult,September,Saturday,Medium_Spender
+Ord100533,2025-06-08,Cust1124,Customer_360,18,Female,Patna,Rice,Grocery,8,45296.32,362370.56,2025,6,8,High_Revenue,Youth,June,Sunday,High_Spender
+Ord100534,2025-07-16,Cust8700,Customer_233,35,Female,Mumbai,Mobile,Electronics,5,25036.53,125182.65,2025,7,16,Medium_Revenue,Young Adult,July,Wednesday,Medium_Spender
+Ord100535,2025-04-05,Cust2742,Customer_216,22,Female,Delhi,Rice,Grocery,5,21466.01,107330.05,2025,4,5,Medium_Revenue,Young Adult,April,Saturday,Medium_Spender
+Ord100536,2025-12-14,Cust6394,Customer_338,57,Female,Bengaluru,Rice,Grocery,2,28506.81,57013.62,2025,12,14,Low_Revenue,Senior,December,Sunday,Low_Spender
+Ord100537,2025-01-30,Cust9469,Customer_154,37,Female,Mumbai,Chair,Furniture,6,30698.79,184192.74,2025,1,30,High_Revenue,Adult,January,Thursday,High_Spender
+Ord100538,2025-08-09,Cust5133,Customer_86,56,Female,Pune,Laptop,Electronics,6,3230.47,19382.82,2025,8,9,Low_Revenue,Senior,August,Saturday,Low_Spender
+Ord100539,2025-10-17,Cust5535,Customer_146,28,Male,Gaya,Rice,Grocery,6,13606.65,81639.9,2025,10,17,Medium_Revenue,Young Adult,October,Friday,Medium_Spender
+Ord100540,2025-06-12,Cust1419,Customer_226,28,Male,Mumbai,Rice,Grocery,6,9146.39,54878.34,2025,6,12,Low_Revenue,Young Adult,June,Thursday,Low_Spender
+Ord100541,2025-11-17,Cust3972,Customer_336,20,Male,Gaya,Rice,Grocery,9,26764.87,240883.83,2025,11,17,High_Revenue,Young Adult,November,Monday,High_Spender
+Ord100542,2025-09-16,Cust2515,Customer_74,26,Female,Patna,Shoes,Fashion,7,6887.98,48215.86,2025,9,16,Low_Revenue,Young Adult,September,Tuesday,High_Spender
+Ord100543,2025-06-30,Cust2394,Customer_293,27,Male,Patna,Rice,Grocery,6,49889.13,299334.78,2025,6,30,High_Revenue,Young Adult,June,Monday,High_Spender
+Ord100544,2025-11-21,Cust7033,Customer_359,33,Male,Gaya,Laptop,Electronics,4,39050.88,156203.52,2025,11,21,Medium_Revenue,Young Adult,November,Friday,Medium_Spender
+Ord100545,2025-02-19,Cust7824,Customer_21,20,Male,Pune,Rice,Grocery,1,14634.25,14634.25,2025,2,19,Low_Revenue,Young Adult,February,Wednesday,High_Spender
+Ord100546,2025-02-24,Cust2039,Customer_32,31,Male,Mumbai,Mobile,Electronics,7,33006.89,231048.23,2025,2,24,High_Revenue,Young Adult,February,Monday,High_Spender
+Ord100547,2025-12-25,Cust4569,Customer_238,38,Male,Patna,Laptop,Electronics,9,46663.92,419975.28,2025,12,25,High_Revenue,Adult,December,Thursday,High_Spender
+Ord100548,2025-12-10,Cust7568,Customer_212,37,Female,Pune,Shoes,Fashion,9,3626.27,32636.43,2025,12,10,Low_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100549,2025-05-31,Cust1780,Customer_250,64,Male,Hyderabad,Book,Education,8,13184.14,105473.12,2025,5,31,Medium_Revenue,Senior,May,Saturday,Medium_Spender
+Ord100550,2025-03-27,Cust5244,Customer_44,41,Male,Pune,Rice,Grocery,5,41509.54,207547.7,2025,3,27,High_Revenue,Adult,March,Thursday,High_Spender
+Ord100551,2025-09-26,Cust7188,Customer_180,37,Male,Bengaluru,Laptop,Electronics,2,27044.74,54089.48,2025,9,26,Low_Revenue,Adult,September,Friday,Medium_Spender
+Ord100552,2025-06-08,Cust7042,Customer_137,60,Male,Kolkata,Book,Education,2,35113.98,70227.96,2025,6,8,Medium_Revenue,Senior,June,Sunday,Low_Spender
+Ord100553,2025-12-25,Cust4646,Customer_365,36,Female,Bengaluru,Rice,Grocery,5,38032.02,190160.1,2025,12,25,High_Revenue,Adult,December,Thursday,High_Spender
+Ord100554,2025-07-03,Cust3623,Customer_1,35,Male,Mumbai,Mobile,Electronics,9,37614.58,338531.22,2025,7,3,High_Revenue,Young Adult,July,Thursday,High_Spender
+Ord100555,2025-01-28,Cust1399,Customer_431,60,Male,Gaya,Book,Education,4,18505.56,74022.24,2025,1,28,Medium_Revenue,Senior,January,Tuesday,Low_Spender
+Ord100556,2025-12-09,Cust2515,Customer_219,21,Male,Hyderabad,Mobile,Electronics,6,21017.46,126104.76,2025,12,9,Medium_Revenue,Young Adult,December,Tuesday,High_Spender
+Ord100557,2025-03-05,Cust7285,Customer_493,18,Female,Hyderabad,Book,Education,8,1204.93,9639.44,2025,3,5,Low_Revenue,Youth,March,Wednesday,Low_Spender
+Ord100558,2025-10-02,Cust1401,Customer_151,35,Male,Delhi,Rice,Grocery,7,36390.58,254734.06,2025,10,2,High_Revenue,Young Adult,October,Thursday,High_Spender
+Ord100559,2025-05-09,Cust9458,Customer_25,22,Male,Delhi,Mobile,Electronics,2,17302.3,34604.6,2025,5,9,Low_Revenue,Young Adult,May,Friday,Low_Spender
+Ord100560,2025-10-22,Cust9612,Customer_463,21,Male,Kolkata,Mobile,Electronics,10,6613.42,66134.2,2025,10,22,Low_Revenue,Young Adult,October,Wednesday,Low_Spender
+Ord100561,2025-01-11,Cust2520,Customer_93,34,Female,Kolkata,Mobile,Electronics,5,28280.37,141401.85,2025,1,11,Medium_Revenue,Young Adult,January,Saturday,Medium_Spender
+Ord100562,2025-09-07,Cust3001,Customer_327,56,Female,Delhi,Book,Education,1,6150.86,6150.86,2025,9,7,Low_Revenue,Senior,September,Sunday,Low_Spender
+Ord100563,2025-12-29,Cust7491,Customer_139,46,Female,Bengaluru,Rice,Grocery,4,26924.41,107697.64,2025,12,29,Medium_Revenue,Adult,December,Monday,Medium_Spender
+Ord100564,2025-03-16,Cust3473,Customer_20,56,Male,Hyderabad,Book,Education,3,6301.32,18903.96,2025,3,16,Low_Revenue,Senior,March,Sunday,Low_Spender
+Ord100565,2025-10-12,Cust6748,Customer_2,40,Female,Patna,Book,Education,10,39690.68,396906.8,2025,10,12,High_Revenue,Adult,October,Sunday,High_Spender
+Ord100566,2025-10-23,Cust4722,Customer_390,63,Male,Bengaluru,Chair,Furniture,6,36327.94,217967.64,2025,10,23,High_Revenue,Senior,October,Thursday,High_Spender
+Ord100567,2025-01-20,Cust5431,Customer_396,60,Female,Mumbai,Mobile,Electronics,10,21547.89,215478.9,2025,1,20,High_Revenue,Senior,January,Monday,High_Spender
+Ord100568,2025-04-13,Cust3316,Customer_458,41,Female,Patna,Book,Education,8,32749.76,261998.08,2025,4,13,High_Revenue,Adult,April,Sunday,High_Spender
+Ord100569,2025-03-17,Cust9510,Customer_345,21,Female,Kolkata,Chair,Furniture,10,43251.3,432513.0,2025,3,17,High_Revenue,Young Adult,March,Monday,High_Spender
+Ord100570,2025-03-08,Cust9273,Customer_162,32,Female,Hyderabad,Chair,Furniture,3,47748.45,143245.35,2025,3,8,Medium_Revenue,Young Adult,March,Saturday,Medium_Spender
+Ord100571,2025-12-22,Cust5206,Customer_327,52,Female,Patna,Book,Education,4,16276.94,65107.76,2025,12,22,Low_Revenue,Adult,December,Monday,Low_Spender
+Ord100572,2025-05-10,Cust3820,Customer_312,48,Female,Delhi,Rice,Grocery,9,11122.7,100104.3,2025,5,10,Medium_Revenue,Adult,May,Saturday,Medium_Spender
+Ord100573,2025-01-09,Cust5791,Customer_113,62,Male,Patna,Shoes,Fashion,2,39005.27,78010.54,2025,1,9,Medium_Revenue,Senior,January,Thursday,Medium_Spender
+Ord100574,2026-01-01,Cust2343,Customer_39,28,Male,Patna,Mobile,Electronics,6,16346.82,98080.92,2026,1,1,Medium_Revenue,Young Adult,January,Thursday,Medium_Spender
+Ord100575,2025-09-20,Cust6654,Customer_66,38,Female,Pune,Mobile,Electronics,4,3859.9,15439.6,2025,9,20,Low_Revenue,Adult,September,Saturday,Low_Spender
+Ord100576,2025-05-16,Cust8820,Customer_339,39,Female,Kolkata,Laptop,Electronics,6,49058.94,294353.64,2025,5,16,High_Revenue,Adult,May,Friday,High_Spender
+Ord100577,2025-06-18,Cust9181,Customer_122,24,Female,Patna,Mobile,Electronics,7,413.2,2892.4,2025,6,18,Low_Revenue,Young Adult,June,Wednesday,Low_Spender
+Ord100578,2025-03-09,Cust8098,Customer_337,26,Female,Patna,Shoes,Fashion,5,21555.12,107775.6,2025,3,9,Medium_Revenue,Young Adult,March,Sunday,Medium_Spender
+Ord100579,2025-04-19,Cust6006,Customer_344,38,Male,Delhi,Chair,Furniture,5,37214.58,186072.9,2025,4,19,High_Revenue,Adult,April,Saturday,High_Spender
+Ord100580,2025-06-20,Cust1094,Customer_91,31,Female,Patna,Mobile,Electronics,10,21194.59,211945.9,2025,6,20,High_Revenue,Young Adult,June,Friday,High_Spender
+Ord100581,2025-07-07,Cust1468,Customer_266,49,Female,Kolkata,Shoes,Fashion,8,44971.9,359775.2,2025,7,7,High_Revenue,Adult,July,Monday,High_Spender
+Ord100582,2025-12-29,Cust6704,Customer_141,39,Male,Pune,Shoes,Fashion,4,26046.5,104186.0,2025,12,29,Medium_Revenue,Adult,December,Monday,High_Spender
+Ord100583,2025-03-07,Cust1936,Customer_15,59,Male,Delhi,Mobile,Electronics,3,43567.37,130702.11,2025,3,7,Medium_Revenue,Senior,March,Friday,Medium_Spender
+Ord100584,2025-09-24,Cust8399,Customer_160,40,Male,Mumbai,Book,Education,5,19565.23,97826.15,2025,9,24,Medium_Revenue,Adult,September,Wednesday,Medium_Spender
+Ord100585,2025-02-08,Cust8075,Customer_401,62,Female,Patna,Shoes,Fashion,5,7642.55,38212.75,2025,2,8,Low_Revenue,Senior,February,Saturday,Low_Spender
+Ord100586,2025-01-13,Cust8826,Customer_206,20,Female,Gaya,Mobile,Electronics,7,22060.0,154420.0,2025,1,13,Medium_Revenue,Young Adult,January,Monday,Medium_Spender
+Ord100587,2025-09-04,Cust9700,Customer_441,25,Female,Kolkata,Laptop,Electronics,2,20074.3,40148.6,2025,9,4,Low_Revenue,Young Adult,September,Thursday,Low_Spender
+Ord100588,2025-03-20,Cust8600,Customer_53,42,Male,Hyderabad,Book,Education,2,5442.06,10884.12,2025,3,20,Low_Revenue,Adult,March,Thursday,Low_Spender
+Ord100589,2025-12-17,Cust8513,Customer_125,49,Female,Pune,Mobile,Electronics,6,38159.29,228955.74,2025,12,17,High_Revenue,Adult,December,Wednesday,High_Spender
+Ord100590,2025-12-19,Cust8595,Customer_63,44,Female,Mumbai,Laptop,Electronics,1,18229.0,18229.0,2025,12,19,Low_Revenue,Adult,December,Friday,Low_Spender
+Ord100591,2025-06-27,Cust9489,Customer_385,61,Male,Delhi,Book,Education,2,14656.73,29313.46,2025,6,27,Low_Revenue,Senior,June,Friday,Low_Spender
+Ord100592,2025-08-08,Cust7226,Customer_421,51,Male,Mumbai,Mobile,Electronics,3,1286.36,3859.08,2025,8,8,Low_Revenue,Adult,August,Friday,Low_Spender
+Ord100593,2025-01-01,Cust1840,Customer_90,43,Female,Kolkata,Laptop,Electronics,2,11893.8,23787.6,2025,1,1,Low_Revenue,Adult,January,Wednesday,Low_Spender
+Ord100594,2025-08-06,Cust9449,Customer_178,49,Female,Mumbai,Shoes,Fashion,2,11967.47,23934.94,2025,8,6,Low_Revenue,Adult,August,Wednesday,Low_Spender
+Ord100595,2025-04-17,Cust3537,Customer_377,24,Female,Pune,Chair,Furniture,4,35411.73,141646.92,2025,4,17,Medium_Revenue,Young Adult,April,Thursday,Medium_Spender
+Ord100596,2025-10-12,Cust4041,Customer_394,30,Female,Delhi,Rice,Grocery,1,15515.24,15515.24,2025,10,12,Low_Revenue,Young Adult,October,Sunday,Medium_Spender
+Ord100597,2025-05-06,Cust4417,Customer_234,52,Male,Mumbai,Mobile,Electronics,9,697.87,6280.83,2025,5,6,Low_Revenue,Adult,May,Tuesday,Low_Spender
+Ord100598,2025-08-04,Cust4099,Customer_377,55,Female,Delhi,Shoes,Fashion,10,20857.23,208572.3,2025,8,4,High_Revenue,Adult,August,Monday,High_Spender
+Ord100599,2025-03-28,Cust3107,Customer_99,21,Female,Kolkata,Mobile,Electronics,8,3595.82,28766.56,2025,3,28,Low_Revenue,Young Adult,March,Friday,Low_Spender
+Ord100050,2025-02-21,Cust8859,Customer_53,41,Male,Patna,Laptop,Electronics,7,20144.84,141013.88,2025,2,21,Medium_Revenue,Adult,February,Friday,Medium_Spender
+Ord100601,2025-04-02,Cust9111,Customer_235,61,Female,Kolkata,Shoes,Fashion,5,30620.75,153103.75,2025,4,2,Medium_Revenue,Senior,April,Wednesday,Medium_Spender
+Ord100602,2025-09-05,Cust8813,Customer_83,54,Male,Bengaluru,Laptop,Electronics,9,38955.26,350597.34,2025,9,5,High_Revenue,Adult,September,Friday,High_Spender
+Ord100603,2025-08-04,Cust7221,Customer_478,39,Male,Gaya,Laptop,Electronics,2,7534.68,15069.36,2025,8,4,Low_Revenue,Adult,August,Monday,Low_Spender
+Ord100604,2025-07-28,Cust5899,Customer_500,31,Female,Gaya,Laptop,Electronics,4,5789.5,23158.0,2025,7,28,Low_Revenue,Young Adult,July,Monday,Low_Spender
+Ord100605,2025-07-27,Cust4483,Customer_109,63,Female,Patna,Book,Education,8,46278.59,370228.72,2025,7,27,High_Revenue,Senior,July,Sunday,High_Spender
+Ord100606,2025-02-20,Cust4438,Customer_133,56,Female,Kolkata,Chair,Furniture,2,14770.13,29540.26,2025,2,20,Low_Revenue,Senior,February,Thursday,Low_Spender
+Ord100607,2025-10-21,Cust9123,Customer_395,27,Female,Mumbai,Rice,Grocery,6,45095.75,270574.5,2025,10,21,High_Revenue,Young Adult,October,Tuesday,High_Spender
+Ord100608,2025-07-22,Cust2364,Customer_290,34,Female,Hyderabad,Rice,Grocery,8,10393.69,83149.52,2025,7,22,Medium_Revenue,Young Adult,July,Tuesday,Medium_Spender
+Ord100609,2025-02-20,Cust6314,Customer_66,19,Female,Gaya,Rice,Grocery,4,38952.78,155811.12,2025,2,20,Medium_Revenue,Young Adult,February,Thursday,Medium_Spender
+Ord100610,2025-11-23,Cust8128,Customer_101,48,Male,Kolkata,Laptop,Electronics,5,3414.17,17070.85,2025,11,23,Low_Revenue,Adult,November,Sunday,Low_Spender
+Ord100611,2025-12-21,Cust8583,Customer_290,37,Female,Delhi,Laptop,Electronics,7,5129.02,35903.14,2025,12,21,Low_Revenue,Adult,December,Sunday,Low_Spender
+Ord100612,2025-04-09,Cust4488,Customer_414,39,Female,Kolkata,Mobile,Electronics,3,15846.45,47539.35,2025,4,9,Low_Revenue,Adult,April,Wednesday,Low_Spender
+Ord100613,2025-06-01,Cust5178,Customer_170,23,Male,Mumbai,Book,Education,4,27448.01,109792.04,2025,6,1,Medium_Revenue,Young Adult,June,Sunday,Medium_Spender
+Ord100614,2025-05-06,Cust9217,Customer_448,39,Female,Delhi,Book,Education,4,5518.35,22073.4,2025,5,6,Low_Revenue,Adult,May,Tuesday,Low_Spender
+Ord100615,2025-03-26,Cust4150,Customer_415,31,Female,Delhi,Book,Education,9,39988.02,359892.18,2025,3,26,High_Revenue,Young Adult,March,Wednesday,High_Spender
+Ord100616,2025-12-10,Cust3751,Customer_270,36,Male,Bengaluru,Shoes,Fashion,3,23079.96,69239.88,2025,12,10,Medium_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100617,2025-06-04,Cust1991,Customer_359,41,Female,Kolkata,Book,Education,9,14044.67,126402.03,2025,6,4,Medium_Revenue,Adult,June,Wednesday,Medium_Spender
+Ord100618,2025-07-14,Cust8124,Customer_344,33,Female,Pune,Shoes,Fashion,2,43693.36,87386.72,2025,7,14,Medium_Revenue,Young Adult,July,Monday,Medium_Spender
+Ord100619,2025-12-17,Cust6678,Customer_241,41,Male,Kolkata,Rice,Grocery,2,14181.47,28362.94,2025,12,17,Low_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100620,2025-10-11,Cust8268,Customer_18,47,Female,Kolkata,Shoes,Fashion,4,28783.13,115132.52,2025,10,11,Medium_Revenue,Adult,October,Saturday,Medium_Spender
+Ord100621,2025-12-25,Cust1835,Customer_81,61,Female,Gaya,Chair,Furniture,2,32432.65,64865.3,2025,12,25,Low_Revenue,Senior,December,Thursday,Low_Spender
+Ord100622,2025-05-11,Cust3497,Customer_408,57,Male,Patna,Laptop,Electronics,4,29976.58,119906.32,2025,5,11,Medium_Revenue,Senior,May,Sunday,Medium_Spender
+Ord100623,2025-02-13,Cust1452,Customer_68,62,Female,Hyderabad,Shoes,Fashion,7,38029.64,266207.48,2025,2,13,High_Revenue,Senior,February,Thursday,High_Spender
+Ord100624,2025-06-21,Cust7416,Customer_191,54,Female,Hyderabad,Rice,Grocery,10,48255.19,482551.9,2025,6,21,High_Revenue,Adult,June,Saturday,High_Spender
+Ord100625,2025-06-19,Cust4137,Customer_51,46,Male,Mumbai,Laptop,Electronics,9,27971.17,251740.53,2025,6,19,High_Revenue,Adult,June,Thursday,High_Spender
+Ord100626,2025-11-26,Cust8649,Customer_160,30,Male,Gaya,Rice,Grocery,9,46756.46,420808.14,2025,11,26,High_Revenue,Young Adult,November,Wednesday,High_Spender
+Ord100627,2025-02-02,Cust7361,Customer_159,20,Male,Hyderabad,Laptop,Electronics,3,47466.18,142398.54,2025,2,2,Medium_Revenue,Young Adult,February,Sunday,Medium_Spender
+Ord100628,2025-06-13,Cust9567,Customer_218,38,Male,Delhi,Shoes,Fashion,1,33193.9,33193.9,2025,6,13,Low_Revenue,Adult,June,Friday,Low_Spender
+Ord100629,2025-05-16,Cust6432,Customer_194,62,Male,Mumbai,Book,Education,1,46021.88,46021.88,2025,5,16,Low_Revenue,Senior,May,Friday,Low_Spender
+Ord100630,2025-03-12,Cust4934,Customer_25,41,Male,Bengaluru,Rice,Grocery,7,45512.65,318588.55,2025,3,12,High_Revenue,Adult,March,Wednesday,High_Spender
+Ord100631,2025-09-04,Cust6845,Customer_337,34,Male,Hyderabad,Chair,Furniture,9,46924.58,422321.22,2025,9,4,High_Revenue,Young Adult,September,Thursday,High_Spender
+Ord100632,2025-03-02,Cust1252,Customer_81,24,Male,Pune,Shoes,Fashion,3,37343.19,112029.57,2025,3,2,Medium_Revenue,Young Adult,March,Sunday,Medium_Spender
+Ord100633,2025-07-20,Cust1994,Customer_408,27,Female,Patna,Chair,Furniture,10,14175.96,141759.6,2025,7,20,Medium_Revenue,Young Adult,July,Sunday,High_Spender
+Ord100634,2025-03-13,Cust9488,Customer_147,37,Male,Pune,Shoes,Fashion,8,7259.89,58079.12,2025,3,13,Low_Revenue,Adult,March,Thursday,Low_Spender
+Ord100635,2025-11-20,Cust9421,Customer_213,58,Male,Patna,Chair,Furniture,3,257.28,771.84,2025,11,20,Low_Revenue,Senior,November,Thursday,Medium_Spender
+Ord100636,2025-05-10,Cust4810,Customer_416,18,Male,Kolkata,Shoes,Fashion,4,24291.82,97167.28,2025,5,10,Medium_Revenue,Youth,May,Saturday,Medium_Spender
+Ord100637,2025-03-10,Cust1106,Customer_135,31,Male,Patna,Rice,Grocery,2,25919.18,51838.36,2025,3,10,Low_Revenue,Young Adult,March,Monday,Low_Spender
+Ord100638,2025-03-27,Cust9693,Customer_267,19,Male,Bengaluru,Rice,Grocery,4,24382.42,97529.68,2025,3,27,Medium_Revenue,Young Adult,March,Thursday,High_Spender
+Ord100639,2025-05-08,Cust3004,Customer_162,46,Female,Pune,Shoes,Fashion,1,3971.35,3971.35,2025,5,8,Low_Revenue,Adult,May,Thursday,Low_Spender
+Ord100640,2025-10-13,Cust6421,Customer_218,22,Male,Gaya,Laptop,Electronics,5,7739.33,38696.65,2025,10,13,Low_Revenue,Young Adult,October,Monday,Low_Spender
+Ord100641,2025-06-14,Cust6345,Customer_214,32,Female,Delhi,Book,Education,1,34302.92,34302.92,2025,6,14,Low_Revenue,Young Adult,June,Saturday,Medium_Spender
+Ord100642,2025-10-19,Cust9384,Customer_230,28,Female,Mumbai,Rice,Grocery,1,20626.25,20626.25,2025,10,19,Low_Revenue,Young Adult,October,Sunday,Low_Spender
+Ord100643,2025-05-12,Cust9081,Customer_244,63,Female,Mumbai,Laptop,Electronics,9,39545.61,355910.49,2025,5,12,High_Revenue,Senior,May,Monday,High_Spender
+Ord100644,2025-09-18,Cust6589,Customer_367,30,Male,Kolkata,Chair,Furniture,3,23490.33,70470.99,2025,9,18,Medium_Revenue,Young Adult,September,Thursday,Low_Spender
+Ord100645,2025-05-04,Cust7844,Customer_469,53,Male,Patna,Chair,Furniture,6,22343.44,134060.64,2025,5,4,Medium_Revenue,Adult,May,Sunday,Medium_Spender
+Ord100646,2025-08-29,Cust4673,Customer_386,42,Female,Delhi,Shoes,Fashion,5,16279.37,81396.85,2025,8,29,Medium_Revenue,Adult,August,Friday,Medium_Spender
+Ord100647,2025-12-14,Cust7504,Customer_183,52,Male,Pune,Laptop,Electronics,4,26566.32,106265.28,2025,12,14,Medium_Revenue,Adult,December,Sunday,Medium_Spender
+Ord100648,2025-09-09,Cust6921,Customer_68,62,Female,Patna,Mobile,Electronics,6,1867.81,11206.86,2025,9,9,Low_Revenue,Senior,September,Tuesday,Low_Spender
+Ord100649,2025-01-06,Cust4109,Customer_31,53,Female,Delhi,Rice,Grocery,10,22106.78,221067.8,2025,1,6,High_Revenue,Adult,January,Monday,High_Spender
+Ord100650,2025-09-22,Cust2181,Customer_125,41,Female,Bengaluru,Rice,Grocery,3,7467.04,22401.12,2025,9,22,Low_Revenue,Adult,September,Monday,Low_Spender
+Ord100651,2025-01-31,Cust8708,Customer_293,59,Male,Kolkata,Laptop,Electronics,7,27547.81,192834.67,2025,1,31,High_Revenue,Senior,January,Friday,High_Spender
+Ord100652,2025-02-03,Cust7219,Customer_391,30,Male,Pune,Book,Education,10,22952.77,229527.7,2025,2,3,High_Revenue,Young Adult,February,Monday,High_Spender
+Ord100653,2025-04-21,Cust5516,Customer_343,21,Male,Kolkata,Rice,Grocery,6,35222.23,211333.38,2025,4,21,High_Revenue,Young Adult,April,Monday,High_Spender
+Ord100654,2025-02-23,Cust9562,Customer_162,39,Male,Mumbai,Chair,Furniture,8,16240.66,129925.28,2025,2,23,Medium_Revenue,Adult,February,Sunday,Medium_Spender
+Ord100655,2025-08-01,Cust8347,Customer_236,55,Male,Hyderabad,Book,Education,1,12255.87,12255.87,2025,8,1,Low_Revenue,Adult,August,Friday,Low_Spender
+Ord100656,2025-07-09,Cust3567,Customer_407,21,Male,Bengaluru,Chair,Furniture,7,42941.88,300593.16,2025,7,9,High_Revenue,Young Adult,July,Wednesday,High_Spender
+Ord100657,2025-12-01,Cust8110,Customer_268,54,Male,Delhi,Laptop,Electronics,10,10307.48,103074.8,2025,12,1,Medium_Revenue,Adult,December,Monday,Medium_Spender
+Ord100658,2025-10-14,Cust4584,Customer_138,18,Female,Pune,Shoes,Fashion,10,46270.13,462701.3,2025,10,14,High_Revenue,Youth,October,Tuesday,High_Spender
+Ord100659,2025-09-02,Cust4537,Customer_9,63,Male,Gaya,Book,Education,5,33524.03,167620.15,2025,9,2,High_Revenue,Senior,September,Tuesday,Medium_Spender
+Ord100660,2025-01-13,Cust5154,Customer_453,20,Male,Mumbai,Book,Education,2,38065.84,76131.68,2025,1,13,Medium_Revenue,Young Adult,January,Monday,Medium_Spender
+Ord100661,2025-09-13,Cust9614,Customer_235,23,Male,Bengaluru,Shoes,Fashion,10,8465.62,84656.2,2025,9,13,Medium_Revenue,Young Adult,September,Saturday,Medium_Spender
+Ord100662,2025-09-17,Cust8300,Customer_242,44,Female,Hyderabad,Rice,Grocery,9,1610.18,14491.62,2025,9,17,Low_Revenue,Adult,September,Wednesday,Low_Spender
+Ord100663,2025-07-20,Cust1673,Customer_103,18,Male,Gaya,Rice,Grocery,5,35120.83,175604.15,2025,7,20,High_Revenue,Youth,July,Sunday,Medium_Spender
+Ord100664,2025-07-07,Cust7016,Customer_88,33,Female,Pune,Chair,Furniture,6,30775.74,184654.44,2025,7,7,High_Revenue,Young Adult,July,Monday,High_Spender
+Ord100665,2025-07-04,Cust2672,Customer_324,27,Female,Pune,Laptop,Electronics,4,47796.53,191186.12,2025,7,4,High_Revenue,Young Adult,July,Friday,High_Spender
+Ord100666,2025-12-15,Cust3237,Customer_341,48,Female,Kolkata,Rice,Grocery,7,38583.88,270087.16,2025,12,15,High_Revenue,Adult,December,Monday,High_Spender
+Ord100667,2025-03-02,Cust2794,Customer_219,39,Male,Mumbai,Laptop,Electronics,6,38368.41,230210.46,2025,3,2,High_Revenue,Adult,March,Sunday,High_Spender
+Ord100668,2025-03-22,Cust6684,Customer_426,59,Male,Bengaluru,Chair,Furniture,4,48299.85,193199.4,2025,3,22,High_Revenue,Senior,March,Saturday,High_Spender
+Ord100669,2025-07-12,Cust3321,Customer_151,20,Female,Bengaluru,Laptop,Electronics,9,6889.29,62003.61,2025,7,12,Low_Revenue,Young Adult,July,Saturday,Low_Spender
+Ord100670,2025-08-13,Cust2904,Customer_269,60,Female,Bengaluru,Shoes,Fashion,10,41268.06,412680.6,2025,8,13,High_Revenue,Senior,August,Wednesday,High_Spender
+Ord100671,2025-07-16,Cust1681,Customer_160,60,Male,Delhi,Shoes,Fashion,5,28065.77,140328.85,2025,7,16,Medium_Revenue,Senior,July,Wednesday,Medium_Spender
+Ord100672,2025-12-22,Cust7863,Customer_316,37,Female,Gaya,Chair,Furniture,8,25269.25,202154.0,2025,12,22,High_Revenue,Adult,December,Monday,High_Spender
+Ord100673,2025-05-26,Cust2218,Customer_392,57,Male,Delhi,Chair,Furniture,2,31615.64,63231.28,2025,5,26,Low_Revenue,Senior,May,Monday,Low_Spender
+Ord100674,2025-01-16,Cust6288,Customer_407,55,Male,Kolkata,Mobile,Electronics,1,17212.99,17212.99,2025,1,16,Low_Revenue,Adult,January,Thursday,Low_Spender
+Ord100675,2025-11-20,Cust8502,Customer_220,47,Male,Patna,Laptop,Electronics,1,14756.18,14756.18,2025,11,20,Low_Revenue,Adult,November,Thursday,Low_Spender
+Ord100676,2025-12-04,Cust1433,Customer_391,47,Female,Mumbai,Shoes,Fashion,5,21694.12,108470.6,2025,12,4,Medium_Revenue,Adult,December,Thursday,Medium_Spender
+Ord100677,2025-07-21,Cust4997,Customer_371,31,Male,Hyderabad,Book,Education,8,5632.88,45063.04,2025,7,21,Low_Revenue,Young Adult,July,Monday,Low_Spender
+Ord100678,2025-08-01,Cust2827,Customer_287,35,Male,Hyderabad,Book,Education,5,16961.15,84805.75,2025,8,1,Medium_Revenue,Young Adult,August,Friday,Medium_Spender
+Ord100679,2025-05-30,Cust4559,Customer_466,57,Female,Bengaluru,Mobile,Electronics,3,17500.41,52501.23,2025,5,30,Low_Revenue,Senior,May,Friday,Low_Spender
+Ord100680,2025-07-04,Cust7093,Customer_174,23,Male,Mumbai,Chair,Furniture,5,47401.02,237005.1,2025,7,4,High_Revenue,Young Adult,July,Friday,High_Spender
+Ord100681,2025-07-07,Cust8364,Customer_325,21,Male,Hyderabad,Mobile,Electronics,7,12194.92,85364.44,2025,7,7,Medium_Revenue,Young Adult,July,Monday,Medium_Spender
+Ord100682,2025-06-03,Cust3285,Customer_232,30,Female,Mumbai,Mobile,Electronics,8,49052.97,392423.76,2025,6,3,High_Revenue,Young Adult,June,Tuesday,High_Spender
+Ord100683,2025-04-02,Cust1104,Customer_328,64,Female,Hyderabad,Book,Education,4,22686.59,90746.36,2025,4,2,Medium_Revenue,Senior,April,Wednesday,Medium_Spender
+Ord100684,2025-02-08,Cust5155,Customer_165,57,Male,Bengaluru,Laptop,Electronics,5,34508.6,172543.0,2025,2,8,High_Revenue,Senior,February,Saturday,Medium_Spender
+Ord100685,2025-10-24,Cust6082,Customer_105,53,Female,Mumbai,Laptop,Electronics,7,21599.35,151195.45,2025,10,24,Medium_Revenue,Adult,October,Friday,High_Spender
+Ord100686,2025-12-06,Cust3966,Customer_338,47,Female,Hyderabad,Chair,Furniture,4,30019.56,120078.24,2025,12,6,Medium_Revenue,Adult,December,Saturday,Medium_Spender
+Ord100687,2025-04-29,Cust2093,Customer_428,38,Female,Mumbai,Laptop,Electronics,5,24358.21,121791.05,2025,4,29,Medium_Revenue,Adult,April,Tuesday,Medium_Spender
+Ord100688,2025-12-31,Cust9957,Customer_116,29,Female,Pune,Chair,Furniture,6,16639.76,99838.56,2025,12,31,Medium_Revenue,Young Adult,December,Wednesday,Medium_Spender
+Ord100689,2025-11-13,Cust3682,Customer_132,56,Female,Kolkata,Book,Education,3,48276.39,144829.17,2025,11,13,Medium_Revenue,Senior,November,Thursday,Medium_Spender
+Ord100690,2025-02-07,Cust4110,Customer_73,59,Female,Kolkata,Rice,Grocery,9,40069.01,360621.09,2025,2,7,High_Revenue,Senior,February,Friday,High_Spender
+Ord100691,2025-08-03,Cust2597,Customer_354,22,Male,Kolkata,Mobile,Electronics,9,31937.15,287434.35,2025,8,3,High_Revenue,Young Adult,August,Sunday,High_Spender
+Ord100692,2025-02-22,Cust8390,Customer_297,47,Female,Mumbai,Laptop,Electronics,7,40754.69,285282.83,2025,2,22,High_Revenue,Adult,February,Saturday,High_Spender
+Ord100693,2025-12-09,Cust4270,Customer_266,30,Male,Kolkata,Book,Education,10,45877.49,458774.9,2025,12,9,High_Revenue,Young Adult,December,Tuesday,High_Spender
+Ord100694,2025-06-22,Cust3138,Customer_440,30,Female,Mumbai,Rice,Grocery,5,20994.21,104971.05,2025,6,22,Medium_Revenue,Young Adult,June,Sunday,Medium_Spender
+Ord100695,2025-11-30,Cust4602,Customer_150,26,Female,Pune,Chair,Furniture,2,3215.11,6430.22,2025,11,30,Low_Revenue,Young Adult,November,Sunday,Low_Spender
+Ord100696,2025-11-11,Cust7631,Customer_115,62,Female,Gaya,Shoes,Fashion,4,26936.34,107745.36,2025,11,11,Medium_Revenue,Senior,November,Tuesday,Medium_Spender
+Ord100697,2025-04-18,Cust8708,Customer_462,51,Female,Pune,Laptop,Electronics,9,29470.1,265230.9,2025,4,18,High_Revenue,Adult,April,Friday,High_Spender
+Ord100698,2025-03-04,Cust7317,Customer_70,54,Female,Delhi,Book,Education,4,31076.31,124305.24,2025,3,4,Medium_Revenue,Adult,March,Tuesday,Medium_Spender
+Ord100699,2025-07-06,Cust2644,Customer_222,24,Male,Pune,Chair,Furniture,4,43864.35,175457.4,2025,7,6,High_Revenue,Young Adult,July,Sunday,Medium_Spender
+Ord100700,2025-05-20,Cust9674,Customer_232,41,Female,Mumbai,Mobile,Electronics,9,11808.33,106274.97,2025,5,20,Medium_Revenue,Adult,May,Tuesday,Medium_Spender
+Ord100701,2025-09-01,Cust3078,Customer_230,22,Male,Gaya,Rice,Grocery,2,38128.32,76256.64,2025,9,1,Medium_Revenue,Young Adult,September,Monday,Medium_Spender
+Ord100702,2025-07-31,Cust8962,Customer_440,30,Female,Kolkata,Book,Education,9,28222.97,254006.73,2025,7,31,High_Revenue,Young Adult,July,Thursday,High_Spender
+Ord100703,2025-01-18,Cust7236,Customer_366,38,Male,Gaya,Book,Education,6,21720.56,130323.36,2025,1,18,Medium_Revenue,Adult,January,Saturday,Medium_Spender
+Ord100704,2025-08-18,Cust4420,Customer_268,38,Male,Gaya,Chair,Furniture,3,4568.61,13705.83,2025,8,18,Low_Revenue,Adult,August,Monday,Low_Spender
+Ord100705,2025-05-14,Cust6621,Customer_104,19,Female,Mumbai,Book,Education,3,11492.49,34477.47,2025,5,14,Low_Revenue,Young Adult,May,Wednesday,Low_Spender
+Ord100706,2025-05-05,Cust8532,Customer_323,43,Female,Delhi,Chair,Furniture,3,23252.08,69756.24,2025,5,5,Medium_Revenue,Adult,May,Monday,Low_Spender
+Ord100707,2025-11-19,Cust6658,Customer_274,60,Male,Patna,Book,Education,9,31686.77,285180.93,2025,11,19,High_Revenue,Senior,November,Wednesday,High_Spender
+Ord100708,2025-10-06,Cust4742,Customer_177,21,Male,Kolkata,Laptop,Electronics,2,37278.21,74556.42,2025,10,6,Medium_Revenue,Young Adult,October,Monday,Low_Spender
+Ord100709,2025-04-23,Cust2744,Customer_300,28,Male,Bengaluru,Laptop,Electronics,6,12680.8,76084.8,2025,4,23,Medium_Revenue,Young Adult,April,Wednesday,Medium_Spender
+Ord100710,2025-05-24,Cust6870,Customer_53,51,Female,Hyderabad,Rice,Grocery,4,17704.67,70818.68,2025,5,24,Medium_Revenue,Adult,May,Saturday,Low_Spender
+Ord100711,2025-01-07,Cust1175,Customer_472,20,Female,Gaya,Shoes,Fashion,5,22734.66,113673.3,2025,1,7,Medium_Revenue,Young Adult,January,Tuesday,Medium_Spender
+Ord100712,2025-09-04,Cust3745,Customer_138,55,Female,Hyderabad,Laptop,Electronics,6,36277.76,217666.56,2025,9,4,High_Revenue,Adult,September,Thursday,High_Spender
+Ord100713,2025-12-14,Cust6638,Customer_350,45,Male,Bengaluru,Shoes,Fashion,6,27885.58,167313.48,2025,12,14,High_Revenue,Adult,December,Sunday,Medium_Spender
+Ord100714,2025-05-05,Cust4037,Customer_205,30,Male,Kolkata,Mobile,Electronics,10,47079.86,470798.6,2025,5,5,High_Revenue,Young Adult,May,Monday,High_Spender
+Ord100715,2025-01-06,Cust8877,Customer_105,23,Female,Kolkata,Book,Education,2,30201.81,60403.62,2025,1,6,Low_Revenue,Young Adult,January,Monday,Low_Spender
+Ord100716,2025-02-08,Cust6096,Customer_53,51,Female,Patna,Shoes,Fashion,6,32890.28,197341.68,2025,2,8,High_Revenue,Adult,February,Saturday,High_Spender
+Ord100717,2025-02-24,Cust7371,Customer_463,38,Female,Bengaluru,Mobile,Electronics,1,39342.98,39342.98,2025,2,24,Low_Revenue,Adult,February,Monday,Low_Spender
+Ord100718,2025-02-27,Cust4532,Customer_68,52,Male,Pune,Shoes,Fashion,5,42114.22,210571.1,2025,2,27,High_Revenue,Adult,February,Thursday,High_Spender
+Ord100719,2025-09-13,Cust6697,Customer_137,26,Male,Pune,Chair,Furniture,5,15011.99,75059.95,2025,9,13,Medium_Revenue,Young Adult,September,Saturday,Medium_Spender
+Ord100050,2025-11-06,Cust7824,Customer_190,31,Female,Mumbai,Rice,Grocery,4,42642.59,170570.36,2025,11,6,High_Revenue,Young Adult,November,Thursday,High_Spender
+Ord100721,2025-09-14,Cust7615,Customer_277,37,Male,Patna,Rice,Grocery,6,27168.79,163012.74,2025,9,14,Medium_Revenue,Adult,September,Sunday,Medium_Spender
+Ord100722,2025-08-13,Cust8431,Customer_90,28,Male,Delhi,Rice,Grocery,7,31567.62,220973.34,2025,8,13,High_Revenue,Young Adult,August,Wednesday,High_Spender
+Ord100723,2025-11-28,Cust8657,Customer_495,58,Female,Delhi,Laptop,Electronics,10,44401.64,444016.4,2025,11,28,High_Revenue,Senior,November,Friday,High_Spender
+Ord100724,2025-01-28,Cust6762,Customer_235,47,Male,Delhi,Rice,Grocery,2,5467.01,10934.02,2025,1,28,Low_Revenue,Adult,January,Tuesday,Low_Spender
+Ord100725,2025-10-10,Cust5477,Customer_249,37,Female,Kolkata,Laptop,Electronics,7,40635.52,284448.64,2025,10,10,High_Revenue,Adult,October,Friday,High_Spender
+Ord100726,2025-07-06,Cust8338,Customer_90,38,Male,Pune,Shoes,Fashion,7,26916.23,188413.61,2025,7,6,High_Revenue,Adult,July,Sunday,High_Spender
+Ord100727,2025-09-29,Cust3850,Customer_163,27,Female,Kolkata,Chair,Furniture,5,24409.5,122047.5,2025,9,29,Medium_Revenue,Young Adult,September,Monday,Medium_Spender
+Ord100728,2025-10-11,Cust8017,Customer_371,37,Male,Patna,Chair,Furniture,10,19600.31,196003.1,2025,10,11,High_Revenue,Adult,October,Saturday,High_Spender
+Ord100729,2025-07-30,Cust5295,Customer_223,58,Female,Kolkata,Book,Education,3,40119.65,120358.95,2025,7,30,Medium_Revenue,Senior,July,Wednesday,Medium_Spender
+Ord100730,2025-01-05,Cust4553,Customer_489,44,Female,Kolkata,Chair,Furniture,5,33187.56,165937.8,2025,1,5,High_Revenue,Adult,January,Sunday,Medium_Spender
+Ord100731,2025-06-30,Cust1269,Customer_423,22,Female,Gaya,Book,Education,3,26807.04,80421.12,2025,6,30,Medium_Revenue,Young Adult,June,Monday,Medium_Spender
+Ord100732,2025-01-09,Cust6578,Customer_194,64,Female,Hyderabad,Shoes,Fashion,1,19202.88,19202.88,2025,1,9,Low_Revenue,Senior,January,Thursday,Low_Spender
+Ord100733,2025-02-13,Cust2832,Customer_204,22,Male,Pune,Chair,Furniture,6,27085.46,162512.76,2025,2,13,Medium_Revenue,Young Adult,February,Thursday,Medium_Spender
+Ord100734,2025-03-07,Cust8314,Customer_440,28,Female,Gaya,Chair,Furniture,3,24462.54,73387.62,2025,3,7,Medium_Revenue,Young Adult,March,Friday,Low_Spender
+Ord100735,2025-01-27,Cust7026,Customer_317,28,Male,Bengaluru,Rice,Grocery,6,25359.39,152156.34,2025,1,27,Medium_Revenue,Young Adult,January,Monday,High_Spender
+Ord100736,2025-09-23,Cust2793,Customer_462,32,Female,Gaya,Mobile,Electronics,6,19210.66,115263.96,2025,9,23,Medium_Revenue,Young Adult,September,Tuesday,Medium_Spender
+Ord100737,2025-02-27,Cust7522,Customer_322,53,Female,Kolkata,Rice,Grocery,5,414.13,2070.65,2025,2,27,Low_Revenue,Adult,February,Thursday,Low_Spender
+Ord100738,2025-12-29,Cust1987,Customer_35,24,Male,Kolkata,Laptop,Electronics,6,9761.46,58568.76,2025,12,29,Low_Revenue,Young Adult,December,Monday,Low_Spender
+Ord100739,2025-12-17,Cust9414,Customer_359,61,Female,Hyderabad,Rice,Grocery,4,19284.6,77138.4,2025,12,17,Medium_Revenue,Senior,December,Wednesday,Medium_Spender
+Ord100740,2025-07-13,Cust2589,Customer_426,49,Male,Delhi,Laptop,Electronics,4,21098.23,84392.92,2025,7,13,Medium_Revenue,Adult,July,Sunday,Medium_Spender
+Ord100741,2025-09-30,Cust8851,Customer_118,64,Male,Kolkata,Chair,Furniture,2,1876.89,3753.78,2025,9,30,Low_Revenue,Senior,September,Tuesday,Low_Spender
+Ord100742,2025-10-31,Cust4103,Customer_454,33,Male,Pune,Rice,Grocery,7,9084.03,63588.21,2025,10,31,Low_Revenue,Young Adult,October,Friday,Low_Spender
+Ord100743,2025-03-09,Cust2138,Customer_303,42,Female,Gaya,Rice,Grocery,3,45959.58,137878.74,2025,3,9,Medium_Revenue,Adult,March,Sunday,Medium_Spender
+Ord100744,2025-09-11,Cust9645,Customer_238,29,Male,Pune,Chair,Furniture,8,8692.39,69539.12,2025,9,11,Medium_Revenue,Young Adult,September,Thursday,Medium_Spender
+Ord100745,2025-11-27,Cust5624,Customer_25,22,Male,Patna,Laptop,Electronics,7,45703.28,319922.96,2025,11,27,High_Revenue,Young Adult,November,Thursday,High_Spender
+Ord100746,2025-11-13,Cust9518,Customer_192,22,Male,Pune,Mobile,Electronics,4,30973.53,123894.12,2025,11,13,Medium_Revenue,Young Adult,November,Thursday,Medium_Spender
+Ord100747,2025-01-04,Cust9339,Customer_127,55,Male,Patna,Chair,Furniture,5,49147.41,245737.05,2025,1,4,High_Revenue,Adult,January,Saturday,High_Spender
+Ord100748,2025-04-22,Cust9465,Customer_274,57,Male,Gaya,Laptop,Electronics,10,17533.55,175335.5,2025,4,22,High_Revenue,Senior,April,Tuesday,High_Spender
+Ord100749,2025-04-23,Cust6348,Customer_412,22,Female,Kolkata,Laptop,Electronics,5,18457.22,92286.1,2025,4,23,Medium_Revenue,Young Adult,April,Wednesday,Medium_Spender
+Ord100750,2025-07-18,Cust3730,Customer_273,41,Female,Patna,Chair,Furniture,10,43808.06,438080.6,2025,7,18,High_Revenue,Adult,July,Friday,High_Spender
+Ord100751,2025-01-11,Cust8058,Customer_273,60,Female,Pune,Book,Education,6,24375.93,146255.58,2025,1,11,Medium_Revenue,Senior,January,Saturday,Medium_Spender
+Ord100752,2025-03-12,Cust2921,Customer_420,27,Male,Patna,Shoes,Fashion,4,34969.02,139876.08,2025,3,12,Medium_Revenue,Young Adult,March,Wednesday,Medium_Spender
+Ord100753,2025-09-19,Cust9650,Customer_361,33,Female,Hyderabad,Book,Education,1,17299.04,17299.04,2025,9,19,Low_Revenue,Young Adult,September,Friday,Low_Spender
+Ord100754,2025-01-24,Cust2604,Customer_356,40,Male,Kolkata,Mobile,Electronics,5,10274.45,51372.25,2025,1,24,Low_Revenue,Adult,January,Friday,Low_Spender
+Ord100755,2025-11-19,Cust9651,Customer_461,60,Female,Delhi,Book,Education,10,24270.17,242701.7,2025,11,19,High_Revenue,Senior,November,Wednesday,High_Spender
+Ord100756,2025-12-20,Cust1637,Customer_70,59,Male,Patna,Rice,Grocery,10,2066.93,20669.3,2025,12,20,Low_Revenue,Senior,December,Saturday,Low_Spender
+Ord100757,2025-05-08,Cust9515,Customer_52,29,Female,Kolkata,Chair,Furniture,10,13304.47,133044.7,2025,5,8,Medium_Revenue,Young Adult,May,Thursday,Medium_Spender
+Ord100758,2025-11-02,Cust7173,Customer_44,21,Male,Hyderabad,Mobile,Electronics,5,9442.5,47212.5,2025,11,2,Low_Revenue,Young Adult,November,Sunday,Low_Spender
+Ord100759,2025-06-04,Cust6279,Customer_97,21,Female,Kolkata,Mobile,Electronics,10,25698.62,256986.2,2025,6,4,High_Revenue,Young Adult,June,Wednesday,High_Spender
+Ord100760,2025-12-27,Cust2867,Customer_221,61,Male,Hyderabad,Shoes,Fashion,8,32219.95,257759.6,2025,12,27,High_Revenue,Senior,December,Saturday,High_Spender
+Ord100761,2025-10-02,Cust3851,Customer_487,59,Male,Delhi,Laptop,Electronics,2,14931.2,29862.4,2025,10,2,Low_Revenue,Senior,October,Thursday,Low_Spender
+Ord100762,2025-12-07,Cust8729,Customer_72,48,Male,Kolkata,Chair,Furniture,4,40783.14,163132.56,2025,12,7,High_Revenue,Adult,December,Sunday,Medium_Spender
+Ord100763,2025-05-01,Cust3580,Customer_60,56,Female,Gaya,Laptop,Electronics,5,17824.96,89124.8,2025,5,1,Medium_Revenue,Senior,May,Thursday,Medium_Spender
+Ord100764,2025-10-13,Cust4706,Customer_200,32,Male,Bengaluru,Laptop,Electronics,10,49217.41,492174.1,2025,10,13,High_Revenue,Young Adult,October,Monday,High_Spender
+Ord100765,2025-07-05,Cust8834,Customer_413,61,Female,Mumbai,Rice,Grocery,2,36631.23,73262.46,2025,7,5,Medium_Revenue,Senior,July,Saturday,Low_Spender
+Ord100766,2025-06-24,Cust6815,Customer_295,43,Female,Patna,Chair,Furniture,3,5550.25,16650.75,2025,6,24,Low_Revenue,Adult,June,Tuesday,Low_Spender
+Ord100767,2025-03-31,Cust1790,Customer_12,43,Male,Hyderabad,Mobile,Electronics,1,12225.22,12225.22,2025,3,31,Low_Revenue,Adult,March,Monday,Low_Spender
+Ord100768,2025-05-09,Cust9952,Customer_453,30,Female,Bengaluru,Mobile,Electronics,10,19819.95,198199.5,2025,5,9,High_Revenue,Young Adult,May,Friday,High_Spender
+Ord100769,2025-10-10,Cust7600,Customer_208,23,Male,Pune,Laptop,Electronics,1,42736.43,42736.43,2025,10,10,Low_Revenue,Young Adult,October,Friday,Low_Spender
+Ord100770,2025-01-08,Cust9628,Customer_422,27,Male,Bengaluru,Chair,Furniture,2,36426.05,72852.1,2025,1,8,Medium_Revenue,Young Adult,January,Wednesday,Low_Spender
+Ord100771,2025-10-31,Cust5415,Customer_460,29,Female,Delhi,Shoes,Fashion,1,12121.61,12121.61,2025,10,31,Low_Revenue,Young Adult,October,Friday,Low_Spender
+Ord100772,2025-10-16,Cust6752,Customer_52,65,Male,Kolkata,Rice,Grocery,5,11824.36,59121.8,2025,10,16,Low_Revenue,Senior,October,Thursday,Low_Spender
+Ord100773,2025-04-24,Cust7110,Customer_176,60,Male,Hyderabad,Mobile,Electronics,4,988.45,3953.8,2025,4,24,Low_Revenue,Senior,April,Thursday,Low_Spender
+Ord100774,2025-10-06,Cust5240,Customer_379,43,Male,Patna,Mobile,Electronics,7,13263.83,92846.81,2025,10,6,Medium_Revenue,Adult,October,Monday,Medium_Spender
+Ord100775,2025-01-10,Cust5505,Customer_189,38,Female,Bengaluru,Book,Education,6,35023.55,210141.3,2025,1,10,High_Revenue,Adult,January,Friday,High_Spender
+Ord100776,2025-07-09,Cust6116,Customer_343,32,Female,Gaya,Chair,Furniture,10,8630.9,86309.0,2025,7,9,Medium_Revenue,Young Adult,July,Wednesday,Medium_Spender
+Ord100777,2025-02-16,Cust3566,Customer_430,45,Female,Patna,Mobile,Electronics,6,29757.58,178545.48,2025,2,16,High_Revenue,Adult,February,Sunday,Medium_Spender
+Ord100778,2025-12-04,Cust3763,Customer_257,57,Male,Hyderabad,Chair,Furniture,2,45538.2,91076.4,2025,12,4,Medium_Revenue,Senior,December,Thursday,High_Spender
+Ord100779,2025-04-18,Cust3948,Customer_465,38,Male,Hyderabad,Chair,Furniture,6,19454.75,116728.5,2025,4,18,Medium_Revenue,Adult,April,Friday,Medium_Spender
+Ord100780,2025-07-29,Cust2369,Customer_259,56,Male,Mumbai,Chair,Furniture,3,21435.84,64307.52,2025,7,29,Low_Revenue,Senior,July,Tuesday,Low_Spender
+Ord100781,2025-02-21,Cust3542,Customer_156,51,Male,Patna,Laptop,Electronics,1,47618.43,47618.43,2025,2,21,Low_Revenue,Adult,February,Friday,Low_Spender
+Ord100782,2025-12-23,Cust7724,Customer_365,38,Male,Kolkata,Book,Education,4,25110.56,100442.24,2025,12,23,Medium_Revenue,Adult,December,Tuesday,Medium_Spender
+Ord100783,2025-09-20,Cust5419,Customer_263,65,Female,Patna,Book,Education,9,797.71,7179.39,2025,9,20,Low_Revenue,Senior,September,Saturday,Low_Spender
+Ord100784,2025-12-11,Cust6571,Customer_156,43,Female,Pune,Chair,Furniture,3,25235.41,75706.23,2025,12,11,Medium_Revenue,Adult,December,Thursday,Medium_Spender
+Ord100785,2025-01-18,Cust7650,Customer_453,50,Male,Kolkata,Book,Education,8,43467.0,347736.0,2025,1,18,High_Revenue,Adult,January,Saturday,High_Spender
+Ord100786,2025-10-14,Cust7445,Customer_233,60,Female,Bengaluru,Shoes,Fashion,9,35691.39,321222.51,2025,10,14,High_Revenue,Senior,October,Tuesday,High_Spender
+Ord100787,2025-06-22,Cust6565,Customer_431,50,Female,Gaya,Book,Education,6,28107.77,168646.62,2025,6,22,High_Revenue,Adult,June,Sunday,Medium_Spender
+Ord100788,2025-05-04,Cust2969,Customer_287,59,Male,Kolkata,Rice,Grocery,6,39662.1,237972.6,2025,5,4,High_Revenue,Senior,May,Sunday,High_Spender
+Ord100789,2025-07-13,Cust3298,Customer_155,63,Female,Kolkata,Rice,Grocery,5,14533.4,72667.0,2025,7,13,Medium_Revenue,Senior,July,Sunday,Low_Spender
+Ord100790,2025-12-28,Cust3260,Customer_237,55,Male,Mumbai,Book,Education,9,12322.26,110900.34,2025,12,28,Medium_Revenue,Adult,December,Sunday,Medium_Spender
+Ord100791,2025-09-03,Cust9962,Customer_161,45,Male,Mumbai,Chair,Furniture,10,18178.32,181783.2,2025,9,3,High_Revenue,Adult,September,Wednesday,High_Spender
+Ord100792,2025-05-21,Cust6814,Customer_70,62,Male,Bengaluru,Shoes,Fashion,9,6282.93,56546.37,2025,5,21,Low_Revenue,Senior,May,Wednesday,Low_Spender
+Ord100793,2025-12-11,Cust2859,Customer_395,21,Female,Kolkata,Rice,Grocery,4,40391.3,161565.2,2025,12,11,Medium_Revenue,Young Adult,December,Thursday,Medium_Spender
+Ord100794,2025-05-24,Cust7228,Customer_200,21,Female,Bengaluru,Shoes,Fashion,3,39157.52,117472.56,2025,5,24,Medium_Revenue,Young Adult,May,Saturday,Medium_Spender
+Ord100795,2025-01-30,Cust2551,Customer_343,19,Male,Patna,Book,Education,5,12334.78,61673.9,2025,1,30,Low_Revenue,Young Adult,January,Thursday,Low_Spender
+Ord100796,2026-01-01,Cust6845,Customer_385,57,Female,Mumbai,Shoes,Fashion,9,38573.17,347158.53,2026,1,1,High_Revenue,Senior,January,Thursday,High_Spender
+Ord100797,2025-07-22,Cust5806,Customer_167,48,Male,Bengaluru,Book,Education,6,18842.34,113054.04,2025,7,22,Medium_Revenue,Adult,July,Tuesday,Medium_Spender
+Ord100798,2025-07-01,Cust5718,Customer_251,62,Female,Kolkata,Shoes,Fashion,4,20118.35,80473.4,2025,7,1,Medium_Revenue,Senior,July,Tuesday,Medium_Spender
+Ord100799,2025-11-07,Cust8242,Customer_492,51,Male,Mumbai,Rice,Grocery,6,39243.45,235460.7,2025,11,7,High_Revenue,Adult,November,Friday,High_Spender
+Ord100800,2025-09-27,Cust1618,Customer_166,41,Male,Patna,Rice,Grocery,10,15891.66,158916.6,2025,9,27,Medium_Revenue,Adult,September,Saturday,Medium_Spender
+Ord100801,2025-05-10,Cust3297,Customer_465,47,Male,Gaya,Mobile,Electronics,1,40350.67,40350.67,2025,5,10,Low_Revenue,Adult,May,Saturday,Low_Spender
+Ord100802,2025-11-14,Cust4901,Customer_327,29,Female,Mumbai,Rice,Grocery,1,47545.23,47545.23,2025,11,14,Low_Revenue,Young Adult,November,Friday,Low_Spender
+Ord100803,2025-10-11,Cust3189,Customer_384,30,Female,Kolkata,Book,Education,4,17304.91,69219.64,2025,10,11,Medium_Revenue,Young Adult,October,Saturday,Low_Spender
+Ord100804,2025-12-11,Cust3690,Customer_413,32,Female,Delhi,Book,Education,6,17079.99,102479.94,2025,12,11,Medium_Revenue,Young Adult,December,Thursday,Medium_Spender
+Ord100805,2025-05-22,Cust7876,Customer_34,57,Male,Bengaluru,Shoes,Fashion,9,44772.96,402956.64,2025,5,22,High_Revenue,Senior,May,Thursday,High_Spender
+Ord100806,2025-03-02,Cust9089,Customer_303,50,Female,Gaya,Shoes,Fashion,10,32483.32,324833.2,2025,3,2,High_Revenue,Adult,March,Sunday,High_Spender
+Ord100807,2025-10-05,Cust6442,Customer_10,62,Male,Kolkata,Chair,Furniture,9,47699.69,429297.21,2025,10,5,High_Revenue,Senior,October,Sunday,High_Spender
+Ord100808,2025-06-20,Cust9514,Customer_180,28,Female,Patna,Chair,Furniture,2,23127.63,46255.26,2025,6,20,Low_Revenue,Young Adult,June,Friday,Low_Spender
+Ord100809,2025-06-02,Cust7903,Customer_163,60,Female,Bengaluru,Shoes,Fashion,6,16882.56,101295.36,2025,6,2,Medium_Revenue,Senior,June,Monday,Medium_Spender
+Ord100810,2025-06-04,Cust1658,Customer_324,52,Male,Hyderabad,Rice,Grocery,6,32296.32,193777.92,2025,6,4,High_Revenue,Adult,June,Wednesday,High_Spender
+Ord100811,2025-01-04,Cust6719,Customer_394,30,Female,Patna,Book,Education,3,15090.15,45270.45,2025,1,4,Low_Revenue,Young Adult,January,Saturday,Low_Spender
+Ord100812,2025-01-31,Cust4941,Customer_457,50,Female,Mumbai,Chair,Furniture,2,30197.53,60395.06,2025,1,31,Low_Revenue,Adult,January,Friday,Low_Spender
+Ord100813,2025-05-14,Cust5851,Customer_418,50,Male,Patna,Mobile,Electronics,2,41544.45,83088.9,2025,5,14,Medium_Revenue,Adult,May,Wednesday,Medium_Spender
+Ord100814,2025-09-17,Cust1149,Customer_14,40,Female,Hyderabad,Laptop,Electronics,8,42593.69,340749.52,2025,9,17,High_Revenue,Adult,September,Wednesday,High_Spender
+Ord100815,2025-09-08,Cust6336,Customer_63,52,Male,Delhi,Mobile,Electronics,1,26771.99,26771.99,2025,9,8,Low_Revenue,Adult,September,Monday,Low_Spender
+Ord100816,2025-06-04,Cust1960,Customer_367,44,Male,Kolkata,Rice,Grocery,9,31690.41,285213.69,2025,6,4,High_Revenue,Adult,June,Wednesday,High_Spender
+Ord100817,2025-03-29,Cust6933,Customer_224,23,Female,Patna,Rice,Grocery,6,20913.85,125483.1,2025,3,29,Medium_Revenue,Young Adult,March,Saturday,Medium_Spender
+Ord100818,2025-07-05,Cust3006,Customer_343,49,Male,Hyderabad,Chair,Furniture,7,36034.1,252238.7,2025,7,5,High_Revenue,Adult,July,Saturday,High_Spender
+Ord100819,2025-12-09,Cust8754,Customer_77,28,Male,Kolkata,Mobile,Electronics,8,21646.64,173173.12,2025,12,9,High_Revenue,Young Adult,December,Tuesday,Medium_Spender
+Ord100820,2025-01-09,Cust9458,Customer_391,60,Male,Bengaluru,Laptop,Electronics,1,21553.66,21553.66,2025,1,9,Low_Revenue,Senior,January,Thursday,Low_Spender
+Ord100821,2025-06-16,Cust4979,Customer_273,45,Male,Mumbai,Book,Education,3,17152.2,51456.6,2025,6,16,Low_Revenue,Adult,June,Monday,Low_Spender
+Ord100822,2025-09-15,Cust6340,Customer_125,37,Female,Gaya,Rice,Grocery,1,21368.29,21368.29,2025,9,15,Low_Revenue,Adult,September,Monday,Low_Spender
+Ord100823,2025-07-21,Cust7814,Customer_134,20,Female,Bengaluru,Shoes,Fashion,7,47413.32,331893.24,2025,7,21,High_Revenue,Young Adult,July,Monday,High_Spender
+Ord100824,2025-03-30,Cust8199,Customer_39,64,Female,Gaya,Chair,Furniture,4,2716.24,10864.96,2025,3,30,Low_Revenue,Senior,March,Sunday,Low_Spender
+Ord100825,2025-07-13,Cust9718,Customer_11,57,Female,Patna,Laptop,Electronics,2,45863.13,91726.26,2025,7,13,Medium_Revenue,Senior,July,Sunday,Medium_Spender
+Ord100826,2025-04-05,Cust7065,Customer_335,24,Female,Bengaluru,Shoes,Fashion,5,48228.96,241144.8,2025,4,5,High_Revenue,Young Adult,April,Saturday,High_Spender
+Ord100827,2025-06-19,Cust6162,Customer_165,42,Male,Mumbai,Laptop,Electronics,1,31849.44,31849.44,2025,6,19,Low_Revenue,Adult,June,Thursday,Low_Spender
+Ord100828,2025-11-03,Cust6944,Customer_460,33,Male,Gaya,Book,Education,4,8685.69,34742.76,2025,11,3,Low_Revenue,Young Adult,November,Monday,Low_Spender
+Ord100829,2025-02-27,Cust8319,Customer_362,44,Male,Delhi,Rice,Grocery,2,49685.64,99371.28,2025,2,27,Medium_Revenue,Adult,February,Thursday,Medium_Spender
+Ord100830,2025-04-10,Cust6540,Customer_230,19,Male,Kolkata,Shoes,Fashion,8,10921.12,87368.96,2025,4,10,Medium_Revenue,Young Adult,April,Thursday,Medium_Spender
+Ord100831,2025-01-09,Cust8453,Customer_68,53,Female,Patna,Laptop,Electronics,3,33896.35,101689.05,2025,1,9,Medium_Revenue,Adult,January,Thursday,Medium_Spender
+Ord100832,2025-08-16,Cust5605,Customer_23,30,Female,Kolkata,Shoes,Fashion,4,31512.79,126051.16,2025,8,16,Medium_Revenue,Young Adult,August,Saturday,Medium_Spender
+Ord100833,2025-11-05,Cust8704,Customer_440,20,Female,Kolkata,Mobile,Electronics,6,17944.07,107664.42,2025,11,5,Medium_Revenue,Young Adult,November,Wednesday,Medium_Spender
+Ord100834,2025-12-03,Cust3264,Customer_227,51,Female,Gaya,Mobile,Electronics,3,14145.7,42437.1,2025,12,3,Low_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100835,2025-03-21,Cust9364,Customer_352,62,Female,Gaya,Book,Education,3,33186.38,99559.14,2025,3,21,Medium_Revenue,Senior,March,Friday,Medium_Spender
+Ord100836,2025-06-10,Cust3366,Customer_47,23,Male,Patna,Mobile,Electronics,5,24537.11,122685.55,2025,6,10,Medium_Revenue,Young Adult,June,Tuesday,High_Spender
+Ord100837,2025-09-05,Cust6067,Customer_499,26,Male,Kolkata,Mobile,Electronics,4,7989.47,31957.88,2025,9,5,Low_Revenue,Young Adult,September,Friday,High_Spender
+Ord100838,2025-11-27,Cust5389,Customer_362,44,Female,Mumbai,Shoes,Fashion,6,9784.56,58707.36,2025,11,27,Low_Revenue,Adult,November,Thursday,Low_Spender
+Ord100839,2025-05-12,Cust8766,Customer_140,47,Female,Hyderabad,Laptop,Electronics,5,47021.1,235105.5,2025,5,12,High_Revenue,Adult,May,Monday,High_Spender
+Ord100050,2025-08-03,Cust5585,Customer_289,35,Male,Kolkata,Chair,Furniture,9,28747.47,258727.23,2025,8,3,High_Revenue,Young Adult,August,Sunday,High_Spender
+Ord100841,2025-04-16,Cust7544,Customer_225,26,Male,Mumbai,Book,Education,10,35093.39,350933.9,2025,4,16,High_Revenue,Young Adult,April,Wednesday,High_Spender
+Ord100842,2025-11-06,Cust8217,Customer_83,43,Female,Delhi,Book,Education,3,22843.06,68529.18,2025,11,6,Medium_Revenue,Adult,November,Thursday,Low_Spender
+Ord100843,2025-06-05,Cust6780,Customer_262,42,Female,Hyderabad,Book,Education,7,38502.79,269519.53,2025,6,5,High_Revenue,Adult,June,Thursday,High_Spender
+Ord100844,2025-08-22,Cust9804,Customer_284,32,Male,Patna,Mobile,Electronics,5,45283.42,226417.1,2025,8,22,High_Revenue,Young Adult,August,Friday,High_Spender
+Ord100845,2025-11-07,Cust5876,Customer_389,42,Female,Patna,Mobile,Electronics,6,37149.97,222899.82,2025,11,7,High_Revenue,Adult,November,Friday,High_Spender
+Ord100846,2025-09-29,Cust1026,Customer_445,65,Female,Kolkata,Book,Education,7,23566.47,164965.29,2025,9,29,High_Revenue,Senior,September,Monday,Medium_Spender
+Ord100847,2025-11-08,Cust5432,Customer_163,57,Male,Patna,Shoes,Fashion,10,1557.12,15571.2,2025,11,8,Low_Revenue,Senior,November,Saturday,Low_Spender
+Ord100848,2025-03-28,Cust8575,Customer_481,21,Male,Patna,Book,Education,1,38929.37,38929.37,2025,3,28,Low_Revenue,Young Adult,March,Friday,Low_Spender
+Ord100849,2025-03-17,Cust5455,Customer_287,26,Male,Bengaluru,Chair,Furniture,2,43357.83,86715.66,2025,3,17,Medium_Revenue,Young Adult,March,Monday,Medium_Spender
+Ord100850,2025-04-12,Cust2834,Customer_98,41,Male,Kolkata,Rice,Grocery,9,30091.26,270821.34,2025,4,12,High_Revenue,Adult,April,Saturday,High_Spender
+Ord100851,2025-06-29,Cust4431,Customer_177,19,Male,Gaya,Chair,Furniture,10,3051.95,30519.5,2025,6,29,Low_Revenue,Young Adult,June,Sunday,Low_Spender
+Ord100852,2025-06-01,Cust3744,Customer_2,20,Female,Mumbai,Shoes,Fashion,3,31063.57,93190.71,2025,6,1,Medium_Revenue,Young Adult,June,Sunday,Medium_Spender
+Ord100853,2025-03-17,Cust1962,Customer_116,23,Male,Delhi,Rice,Grocery,10,5580.23,55802.3,2025,3,17,Low_Revenue,Young Adult,March,Monday,Low_Spender
+Ord100854,2025-06-25,Cust7787,Customer_139,40,Male,Pune,Book,Education,8,35859.94,286879.52,2025,6,25,High_Revenue,Adult,June,Wednesday,High_Spender
+Ord100855,2025-05-19,Cust3679,Customer_242,48,Male,Patna,Shoes,Fashion,5,47893.0,239465.0,2025,5,19,High_Revenue,Adult,May,Monday,High_Spender
+Ord100856,2025-05-26,Cust8455,Customer_468,37,Female,Bengaluru,Shoes,Fashion,2,47996.02,95992.04,2025,5,26,Medium_Revenue,Adult,May,Monday,Medium_Spender
+Ord100857,2025-09-18,Cust4973,Customer_443,24,Male,Kolkata,Shoes,Fashion,1,42500.65,42500.65,2025,9,18,Low_Revenue,Young Adult,September,Thursday,Low_Spender
+Ord100858,2025-12-20,Cust7578,Customer_245,38,Female,Delhi,Rice,Grocery,8,7543.31,60346.48,2025,12,20,Low_Revenue,Adult,December,Saturday,Low_Spender
+Ord100859,2025-07-28,Cust9287,Customer_281,54,Female,Bengaluru,Book,Education,4,7779.34,31117.36,2025,7,28,Low_Revenue,Adult,July,Monday,Medium_Spender
+Ord100860,2025-07-10,Cust3430,Customer_184,51,Female,Kolkata,Mobile,Electronics,6,35959.07,215754.42,2025,7,10,High_Revenue,Adult,July,Thursday,High_Spender
+Ord100861,2025-10-15,Cust9817,Customer_388,45,Male,Patna,Mobile,Electronics,7,9471.49,66300.43,2025,10,15,Low_Revenue,Adult,October,Wednesday,Low_Spender
+Ord100862,2025-09-28,Cust7072,Customer_4,62,Female,Gaya,Shoes,Fashion,8,26327.39,210619.12,2025,9,28,High_Revenue,Senior,September,Sunday,High_Spender
+Ord100863,2025-05-10,Cust9510,Customer_15,63,Female,Delhi,Chair,Furniture,9,48313.36,434820.24,2025,5,10,High_Revenue,Senior,May,Saturday,High_Spender
+Ord100864,2025-11-20,Cust3327,Customer_94,19,Female,Pune,Laptop,Electronics,2,45217.92,90435.84,2025,11,20,Medium_Revenue,Young Adult,November,Thursday,Medium_Spender
+Ord100865,2025-07-20,Cust2202,Customer_26,26,Female,Patna,Chair,Furniture,2,40130.21,80260.42,2025,7,20,Medium_Revenue,Young Adult,July,Sunday,Medium_Spender
+Ord100866,2025-12-23,Cust3767,Customer_470,49,Female,Hyderabad,Chair,Furniture,7,283.1,1981.7,2025,12,23,Low_Revenue,Adult,December,Tuesday,Low_Spender
+Ord100867,2025-01-09,Cust4947,Customer_352,58,Male,Bengaluru,Chair,Furniture,5,7521.13,37605.65,2025,1,9,Low_Revenue,Senior,January,Thursday,Low_Spender
+Ord100868,2025-06-14,Cust4888,Customer_13,38,Male,Pune,Shoes,Fashion,5,8055.03,40275.15,2025,6,14,Low_Revenue,Adult,June,Saturday,Low_Spender
+Ord100869,2025-12-21,Cust4996,Customer_184,64,Male,Delhi,Book,Education,4,28263.33,113053.32,2025,12,21,Medium_Revenue,Senior,December,Sunday,High_Spender
+Ord100870,2025-09-12,Cust4112,Customer_71,33,Female,Kolkata,Shoes,Fashion,4,12941.53,51766.12,2025,9,12,Low_Revenue,Young Adult,September,Friday,Low_Spender
+Ord100871,2025-03-16,Cust1442,Customer_371,22,Female,Pune,Book,Education,1,27918.98,27918.98,2025,3,16,Low_Revenue,Young Adult,March,Sunday,Low_Spender
+Ord100872,2025-12-23,Cust2757,Customer_366,55,Male,Patna,Mobile,Electronics,3,21349.35,64048.05,2025,12,23,Low_Revenue,Adult,December,Tuesday,Low_Spender
+Ord100873,2025-11-18,Cust5319,Customer_129,35,Female,Mumbai,Mobile,Electronics,5,27648.52,138242.6,2025,11,18,Medium_Revenue,Young Adult,November,Tuesday,Medium_Spender
+Ord100874,2025-12-12,Cust4391,Customer_214,36,Male,Hyderabad,Mobile,Electronics,5,39484.31,197421.55,2025,12,12,High_Revenue,Adult,December,Friday,High_Spender
+Ord100875,2025-10-12,Cust7317,Customer_304,25,Male,Delhi,Chair,Furniture,6,2417.66,14505.96,2025,10,12,Low_Revenue,Young Adult,October,Sunday,Medium_Spender
+Ord100876,2025-11-30,Cust7473,Customer_372,36,Female,Mumbai,Rice,Grocery,5,40104.71,200523.55,2025,11,30,High_Revenue,Adult,November,Sunday,High_Spender
+Ord100877,2025-12-19,Cust9104,Customer_443,37,Male,Bengaluru,Book,Education,4,22929.61,91718.44,2025,12,19,Medium_Revenue,Adult,December,Friday,Medium_Spender
+Ord100878,2025-11-25,Cust7091,Customer_1,48,Female,Mumbai,Rice,Grocery,10,23757.31,237573.1,2025,11,25,High_Revenue,Adult,November,Tuesday,High_Spender
+Ord100879,2025-05-18,Cust1258,Customer_443,40,Male,Hyderabad,Laptop,Electronics,7,6769.87,47389.09,2025,5,18,Low_Revenue,Adult,May,Sunday,Low_Spender
+Ord100880,2025-10-08,Cust1691,Customer_177,55,Male,Mumbai,Mobile,Electronics,2,7104.93,14209.86,2025,10,8,Low_Revenue,Adult,October,Wednesday,Low_Spender
+Ord100881,2025-06-27,Cust9404,Customer_463,19,Female,Gaya,Book,Education,2,35430.53,70861.06,2025,6,27,Medium_Revenue,Young Adult,June,Friday,Low_Spender
+Ord100882,2025-08-22,Cust6532,Customer_187,43,Female,Hyderabad,Rice,Grocery,8,44811.59,358492.72,2025,8,22,High_Revenue,Adult,August,Friday,High_Spender
+Ord100883,2025-06-03,Cust1779,Customer_378,65,Female,Delhi,Shoes,Fashion,10,16661.37,166613.7,2025,6,3,High_Revenue,Senior,June,Tuesday,Medium_Spender
+Ord100884,2025-03-07,Cust4651,Customer_359,54,Male,Kolkata,Mobile,Electronics,7,14207.04,99449.28,2025,3,7,Medium_Revenue,Adult,March,Friday,Medium_Spender
+Ord100885,2025-05-07,Cust9027,Customer_153,43,Female,Mumbai,Shoes,Fashion,8,3220.99,25767.92,2025,5,7,Low_Revenue,Adult,May,Wednesday,Low_Spender
+Ord100886,2025-08-12,Cust1396,Customer_479,34,Male,Pune,Chair,Furniture,1,21572.48,21572.48,2025,8,12,Low_Revenue,Young Adult,August,Tuesday,Low_Spender
+Ord100887,2025-01-15,Cust9132,Customer_210,21,Female,Pune,Rice,Grocery,8,38808.88,310471.04,2025,1,15,High_Revenue,Young Adult,January,Wednesday,High_Spender
+Ord100888,2025-11-26,Cust4926,Customer_102,45,Male,Delhi,Book,Education,2,6525.25,13050.5,2025,11,26,Low_Revenue,Adult,November,Wednesday,Low_Spender
+Ord100889,2025-03-25,Cust3987,Customer_126,55,Female,Pune,Rice,Grocery,9,36721.83,330496.47,2025,3,25,High_Revenue,Adult,March,Tuesday,High_Spender
+Ord100890,2025-08-30,Cust5136,Customer_257,30,Male,Mumbai,Rice,Grocery,1,16506.48,16506.48,2025,8,30,Low_Revenue,Young Adult,August,Saturday,Low_Spender
+Ord100891,2025-02-11,Cust8849,Customer_380,19,Female,Patna,Book,Education,4,45273.26,181093.04,2025,2,11,High_Revenue,Young Adult,February,Tuesday,High_Spender
+Ord100892,2025-04-26,Cust3603,Customer_448,56,Female,Delhi,Rice,Grocery,1,15061.67,15061.67,2025,4,26,Low_Revenue,Senior,April,Saturday,Low_Spender
+Ord100893,2025-05-18,Cust4073,Customer_353,25,Female,Pune,Shoes,Fashion,3,30814.91,92444.73,2025,5,18,Medium_Revenue,Young Adult,May,Sunday,Medium_Spender
+Ord100894,2025-12-01,Cust7068,Customer_106,24,Male,Hyderabad,Book,Education,8,36507.56,292060.48,2025,12,1,High_Revenue,Young Adult,December,Monday,High_Spender
+Ord100895,2025-10-20,Cust5762,Customer_404,20,Female,Mumbai,Book,Education,1,31247.14,31247.14,2025,10,20,Low_Revenue,Young Adult,October,Monday,Low_Spender
+Ord100896,2025-11-05,Cust1611,Customer_451,49,Male,Patna,Rice,Grocery,3,15350.0,46050.0,2025,11,5,Low_Revenue,Adult,November,Wednesday,Low_Spender
+Ord100897,2025-06-07,Cust1806,Customer_354,58,Male,Patna,Chair,Furniture,9,7148.05,64332.45,2025,6,7,Low_Revenue,Senior,June,Saturday,Low_Spender
+Ord100898,2025-11-02,Cust4730,Customer_484,20,Female,Patna,Laptop,Electronics,8,25411.08,203288.64,2025,11,2,High_Revenue,Young Adult,November,Sunday,High_Spender
+Ord100899,2025-12-15,Cust7164,Customer_251,64,Male,Pune,Shoes,Fashion,10,28254.51,282545.1,2025,12,15,High_Revenue,Senior,December,Monday,High_Spender
+Ord100900,2025-04-27,Cust3867,Customer_54,41,Female,Patna,Laptop,Electronics,5,5069.79,25348.95,2025,4,27,Low_Revenue,Adult,April,Sunday,Low_Spender
+Ord100901,2025-10-21,Cust6152,Customer_438,39,Female,Bengaluru,Mobile,Electronics,3,39619.15,118857.45,2025,10,21,Medium_Revenue,Adult,October,Tuesday,Medium_Spender
+Ord100902,2025-11-19,Cust6881,Customer_158,41,Female,Delhi,Laptop,Electronics,7,42494.73,297463.11,2025,11,19,High_Revenue,Adult,November,Wednesday,High_Spender
+Ord100903,2025-11-12,Cust3438,Customer_98,56,Male,Patna,Shoes,Fashion,6,24739.29,148435.74,2025,11,12,Medium_Revenue,Senior,November,Wednesday,Medium_Spender
+Ord100904,2025-03-25,Cust1890,Customer_277,21,Male,Gaya,Chair,Furniture,3,43166.95,129500.85,2025,3,25,Medium_Revenue,Young Adult,March,Tuesday,Medium_Spender
+Ord100905,2025-01-11,Cust9994,Customer_13,49,Male,Delhi,Chair,Furniture,6,43613.07,261678.42,2025,1,11,High_Revenue,Adult,January,Saturday,High_Spender
+Ord100906,2025-12-01,Cust1906,Customer_76,36,Male,Hyderabad,Chair,Furniture,2,20357.35,40714.7,2025,12,1,Low_Revenue,Adult,December,Monday,Low_Spender
+Ord100907,2025-01-19,Cust4977,Customer_359,33,Male,Mumbai,Chair,Furniture,5,40193.89,200969.45,2025,1,19,High_Revenue,Young Adult,January,Sunday,High_Spender
+Ord100908,2025-02-14,Cust6241,Customer_242,55,Male,Hyderabad,Chair,Furniture,2,9063.83,18127.66,2025,2,14,Low_Revenue,Adult,February,Friday,Low_Spender
+Ord100909,2025-08-13,Cust1759,Customer_71,64,Female,Delhi,Laptop,Electronics,5,21830.06,109150.3,2025,8,13,Medium_Revenue,Senior,August,Wednesday,Medium_Spender
+Ord100910,2025-07-28,Cust4515,Customer_281,48,Female,Hyderabad,Rice,Grocery,2,39424.04,78848.08,2025,7,28,Medium_Revenue,Adult,July,Monday,Medium_Spender
+Ord100911,2025-06-06,Cust6309,Customer_345,55,Female,Mumbai,Rice,Grocery,2,30743.1,61486.2,2025,6,6,Low_Revenue,Adult,June,Friday,Low_Spender
+Ord100912,2025-02-10,Cust2384,Customer_365,49,Male,Gaya,Laptop,Electronics,3,10131.58,30394.74,2025,2,10,Low_Revenue,Adult,February,Monday,Low_Spender
+Ord100913,2025-05-04,Cust5025,Customer_159,28,Female,Patna,Book,Education,1,20875.52,20875.52,2025,5,4,Low_Revenue,Young Adult,May,Sunday,Low_Spender
+Ord100914,2025-07-28,Cust5363,Customer_86,22,Female,Pune,Shoes,Fashion,3,43152.69,129458.07,2025,7,28,Medium_Revenue,Young Adult,July,Monday,High_Spender
+Ord100915,2025-05-21,Cust1753,Customer_493,58,Female,Hyderabad,Shoes,Fashion,1,3239.94,3239.94,2025,5,21,Low_Revenue,Senior,May,Wednesday,Low_Spender
+Ord100916,2025-02-27,Cust7186,Customer_150,36,Female,Mumbai,Shoes,Fashion,1,10625.65,10625.65,2025,2,27,Low_Revenue,Adult,February,Thursday,Low_Spender
+Ord100917,2025-04-03,Cust2804,Customer_115,32,Female,Pune,Mobile,Electronics,3,30169.38,90508.14,2025,4,3,Medium_Revenue,Young Adult,April,Thursday,Medium_Spender
+Ord100918,2025-11-06,Cust1997,Customer_219,29,Female,Patna,Mobile,Electronics,2,29914.46,59828.92,2025,11,6,Low_Revenue,Young Adult,November,Thursday,Medium_Spender
+Ord100919,2025-11-19,Cust7609,Customer_327,41,Female,Pune,Shoes,Fashion,5,30991.63,154958.15,2025,11,19,Medium_Revenue,Adult,November,Wednesday,Medium_Spender
+Ord100920,2025-12-08,Cust7026,Customer_105,36,Female,Bengaluru,Mobile,Electronics,7,15799.46,110596.22,2025,12,8,Medium_Revenue,Adult,December,Monday,High_Spender
+Ord100921,2025-05-06,Cust6414,Customer_82,30,Male,Delhi,Mobile,Electronics,6,10404.98,62429.88,2025,5,6,Low_Revenue,Young Adult,May,Tuesday,Low_Spender
+Ord100922,2025-10-19,Cust3652,Customer_436,59,Male,Hyderabad,Book,Education,1,21496.95,21496.95,2025,10,19,Low_Revenue,Senior,October,Sunday,Low_Spender
+Ord100923,2025-10-08,Cust4106,Customer_226,33,Male,Gaya,Rice,Grocery,7,42785.56,299498.92,2025,10,8,High_Revenue,Young Adult,October,Wednesday,High_Spender
+Ord100924,2025-11-13,Cust7933,Customer_232,50,Male,Bengaluru,Rice,Grocery,10,9123.6,91236.0,2025,11,13,Medium_Revenue,Adult,November,Thursday,Medium_Spender
+Ord100925,2025-06-10,Cust9299,Customer_13,62,Female,Delhi,Mobile,Electronics,6,35834.15,215004.9,2025,6,10,High_Revenue,Senior,June,Tuesday,High_Spender
+Ord100926,2025-12-24,Cust5160,Customer_144,52,Female,Delhi,Book,Education,3,653.97,1961.91,2025,12,24,Low_Revenue,Adult,December,Wednesday,Low_Spender
+Ord100927,2025-01-31,Cust2260,Customer_325,54,Male,Kolkata,Mobile,Electronics,3,3846.65,11539.95,2025,1,31,Low_Revenue,Adult,January,Friday,Low_Spender
+Ord100928,2025-08-03,Cust7676,Customer_42,39,Female,Bengaluru,Rice,Grocery,10,40522.56,405225.6,2025,8,3,High_Revenue,Adult,August,Sunday,High_Spender
+Ord100929,2025-08-29,Cust7405,Customer_15,57,Male,Mumbai,Shoes,Fashion,4,39917.24,159668.96,2025,8,29,Medium_Revenue,Senior,August,Friday,Medium_Spender
+Ord100930,2025-12-07,Cust4565,Customer_359,65,Female,Delhi,Rice,Grocery,1,23886.69,23886.69,2025,12,7,Low_Revenue,Senior,December,Sunday,Low_Spender
+Ord100931,2025-01-18,Cust6319,Customer_393,32,Female,Bengaluru,Shoes,Fashion,1,46629.03,46629.03,2025,1,18,Low_Revenue,Young Adult,January,Saturday,Low_Spender
+Ord100932,2025-08-04,Cust4077,Customer_138,50,Male,Mumbai,Laptop,Electronics,4,27478.45,109913.8,2025,8,4,Medium_Revenue,Adult,August,Monday,Medium_Spender
+Ord100933,2025-01-21,Cust8537,Customer_494,50,Female,Hyderabad,Laptop,Electronics,8,4925.05,39400.4,2025,1,21,Low_Revenue,Adult,January,Tuesday,Low_Spender
+Ord100934,2025-04-02,Cust6407,Customer_107,63,Male,Kolkata,Shoes,Fashion,8,35023.64,280189.12,2025,4,2,High_Revenue,Senior,April,Wednesday,High_Spender
+Ord100935,2025-11-01,Cust2025,Customer_239,37,Female,Delhi,Chair,Furniture,2,49387.2,98774.4,2025,11,1,Medium_Revenue,Adult,November,Saturday,Medium_Spender
+Ord100936,2025-11-10,Cust1122,Customer_447,65,Female,Kolkata,Rice,Grocery,4,30607.95,122431.8,2025,11,10,Medium_Revenue,Senior,November,Monday,Medium_Spender
+Ord100937,2025-10-22,Cust1997,Customer_437,40,Male,Patna,Chair,Furniture,10,7627.77,76277.7,2025,10,22,Medium_Revenue,Adult,October,Wednesday,Medium_Spender
+Ord100938,2025-09-28,Cust9287,Customer_420,30,Male,Pune,Shoes,Fashion,3,44146.06,132438.18,2025,9,28,Medium_Revenue,Young Adult,September,Sunday,Medium_Spender
+Ord100939,2025-12-13,Cust5413,Customer_20,62,Male,Bengaluru,Laptop,Electronics,7,31015.64,217109.48,2025,12,13,High_Revenue,Senior,December,Saturday,High_Spender
+Ord100940,2025-08-22,Cust8466,Customer_66,43,Male,Hyderabad,Laptop,Electronics,1,47743.08,47743.08,2025,8,22,Low_Revenue,Adult,August,Friday,Low_Spender
+Ord100941,2025-06-11,Cust9493,Customer_34,35,Male,Gaya,Laptop,Electronics,10,12754.35,127543.5,2025,6,11,Medium_Revenue,Young Adult,June,Wednesday,Medium_Spender
+Ord100942,2025-04-02,Cust3576,Customer_397,53,Male,Hyderabad,Laptop,Electronics,7,45883.95,321187.65,2025,4,2,High_Revenue,Adult,April,Wednesday,High_Spender
+Ord100943,2025-07-27,Cust2586,Customer_386,64,Male,Pune,Laptop,Electronics,5,16990.85,84954.25,2025,7,27,Medium_Revenue,Senior,July,Sunday,Medium_Spender
+Ord100944,2025-07-13,Cust3499,Customer_139,20,Male,Mumbai,Chair,Furniture,2,20191.53,40383.06,2025,7,13,Low_Revenue,Young Adult,July,Sunday,Low_Spender
+Ord100945,2025-08-12,Cust7718,Customer_293,26,Male,Delhi,Mobile,Electronics,8,46866.95,374935.6,2025,8,12,High_Revenue,Young Adult,August,Tuesday,High_Spender
+Ord100946,2025-06-28,Cust3330,Customer_450,62,Female,Hyderabad,Mobile,Electronics,8,20319.29,162554.32,2025,6,28,Medium_Revenue,Senior,June,Saturday,Medium_Spender
+Ord100947,2025-08-04,Cust9113,Customer_175,61,Male,Hyderabad,Book,Education,6,31857.18,191143.08,2025,8,4,High_Revenue,Senior,August,Monday,High_Spender
+Ord100948,2025-02-24,Cust1004,Customer_191,64,Female,Bengaluru,Mobile,Electronics,2,4160.77,8321.54,2025,2,24,Low_Revenue,Senior,February,Monday,Low_Spender
+Ord100949,2025-05-17,Cust8381,Customer_112,40,Male,Kolkata,Book,Education,10,47314.42,473144.2,2025,5,17,High_Revenue,Adult,May,Saturday,High_Spender
+Ord100950,2025-11-01,Cust6316,Customer_59,41,Male,Pune,Laptop,Electronics,9,34569.56,311126.04,2025,11,1,High_Revenue,Adult,November,Saturday,High_Spender
+Ord100951,2025-05-17,Cust2403,Customer_258,22,Male,Pune,Mobile,Electronics,8,29747.29,237978.32,2025,5,17,High_Revenue,Young Adult,May,Saturday,High_Spender
+Ord100952,2025-02-13,Cust1357,Customer_361,48,Male,Delhi,Shoes,Fashion,8,24450.18,195601.44,2025,2,13,High_Revenue,Adult,February,Thursday,High_Spender
+Ord100953,2025-04-16,Cust4337,Customer_269,53,Female,Kolkata,Mobile,Electronics,4,13994.12,55976.48,2025,4,16,Low_Revenue,Adult,April,Wednesday,Low_Spender
+Ord100954,2025-08-11,Cust9175,Customer_441,36,Male,Mumbai,Shoes,Fashion,9,23583.66,212252.94,2025,8,11,High_Revenue,Adult,August,Monday,High_Spender
+Ord100955,2025-06-16,Cust7177,Customer_40,21,Male,Hyderabad,Shoes,Fashion,3,25138.65,75415.95,2025,6,16,Medium_Revenue,Young Adult,June,Monday,Medium_Spender
+Ord100956,2025-12-10,Cust9009,Customer_424,43,Male,Mumbai,Mobile,Electronics,3,25618.42,76855.26,2025,12,10,Medium_Revenue,Adult,December,Wednesday,Medium_Spender
+Ord100957,2025-03-07,Cust8996,Customer_165,59,Male,Hyderabad,Shoes,Fashion,3,42044.69,126134.07,2025,3,7,Medium_Revenue,Senior,March,Friday,Medium_Spender
+Ord100958,2025-04-10,Cust3759,Customer_313,65,Female,Mumbai,Rice,Grocery,9,33475.97,301283.73,2025,4,10,High_Revenue,Senior,April,Thursday,High_Spender
+Ord100959,2025-01-09,Cust9966,Customer_455,46,Female,Kolkata,Rice,Grocery,5,29215.06,146075.3,2025,1,9,Medium_Revenue,Adult,January,Thursday,High_Spender
+Ord100050,2025-02-09,Cust7188,Customer_89,62,Male,Bengaluru,Mobile,Electronics,1,34619.77,34619.77,2025,2,9,Low_Revenue,Senior,February,Sunday,Medium_Spender
+Ord100961,2025-10-31,Cust6311,Customer_257,65,Female,Mumbai,Book,Education,9,33480.07,301320.63,2025,10,31,High_Revenue,Senior,October,Friday,High_Spender
+Ord100962,2025-04-20,Cust8525,Customer_126,40,Female,Gaya,Shoes,Fashion,10,8532.9,85329.0,2025,4,20,Medium_Revenue,Adult,April,Sunday,Medium_Spender
+Ord100963,2025-12-09,Cust9285,Customer_452,49,Female,Gaya,Laptop,Electronics,7,31899.76,223298.32,2025,12,9,High_Revenue,Adult,December,Tuesday,High_Spender
+Ord100964,2025-12-08,Cust8387,Customer_133,48,Female,Bengaluru,Chair,Furniture,5,30847.69,154238.45,2025,12,8,Medium_Revenue,Adult,December,Monday,Medium_Spender
+Ord100965,2025-09-02,Cust5726,Customer_192,20,Male,Pune,Mobile,Electronics,2,39578.6,79157.2,2025,9,2,Medium_Revenue,Young Adult,September,Tuesday,Medium_Spender
+Ord100966,2025-05-13,Cust7238,Customer_335,54,Female,Delhi,Mobile,Electronics,8,35028.53,280228.24,2025,5,13,High_Revenue,Adult,May,Tuesday,High_Spender
+Ord100967,2025-07-05,Cust3843,Customer_209,44,Female,Bengaluru,Mobile,Electronics,6,6287.85,37727.1,2025,7,5,Low_Revenue,Adult,July,Saturday,Low_Spender
+Ord100968,2025-02-15,Cust7185,Customer_285,61,Female,Delhi,Chair,Furniture,3,32751.77,98255.31,2025,2,15,Medium_Revenue,Senior,February,Saturday,Medium_Spender
+Ord100969,2025-07-21,Cust7757,Customer_494,58,Male,Mumbai,Laptop,Electronics,9,24421.73,219795.57,2025,7,21,High_Revenue,Senior,July,Monday,High_Spender
+Ord100970,2025-08-08,Cust1713,Customer_457,27,Female,Bengaluru,Shoes,Fashion,1,31739.18,31739.18,2025,8,8,Low_Revenue,Young Adult,August,Friday,Low_Spender
+Ord100971,2025-02-22,Cust6987,Customer_107,31,Female,Gaya,Rice,Grocery,1,6976.56,6976.56,2025,2,22,Low_Revenue,Young Adult,February,Saturday,Low_Spender
+Ord100972,2025-09-05,Cust5829,Customer_37,32,Male,Delhi,Book,Education,4,9989.04,39956.16,2025,9,5,Low_Revenue,Young Adult,September,Friday,Low_Spender
+Ord100973,2025-11-05,Cust2542,Customer_219,43,Male,Hyderabad,Laptop,Electronics,10,43146.39,431463.9,2025,11,5,High_Revenue,Adult,November,Wednesday,High_Spender
+Ord100974,2025-07-28,Cust4869,Customer_392,37,Male,Kolkata,Laptop,Electronics,10,48566.78,485667.8,2025,7,28,High_Revenue,Adult,July,Monday,High_Spender
+Ord100975,2025-10-15,Cust2870,Customer_311,25,Female,Patna,Book,Education,6,6189.16,37134.96,2025,10,15,Low_Revenue,Young Adult,October,Wednesday,High_Spender
+Ord100976,2025-05-29,Cust5338,Customer_269,22,Female,Patna,Shoes,Fashion,3,46910.35,140731.05,2025,5,29,Medium_Revenue,Young Adult,May,Thursday,Medium_Spender
+Ord100977,2025-10-16,Cust5373,Customer_256,24,Male,Delhi,Shoes,Fashion,1,25737.43,25737.43,2025,10,16,Low_Revenue,Young Adult,October,Thursday,Low_Spender
+Ord100978,2025-02-20,Cust2256,Customer_284,50,Male,Hyderabad,Shoes,Fashion,3,38656.45,115969.35,2025,2,20,Medium_Revenue,Adult,February,Thursday,Medium_Spender
+Ord100979,2025-06-13,Cust7388,Customer_6,48,Male,Hyderabad,Rice,Grocery,6,44566.74,267400.44,2025,6,13,High_Revenue,Adult,June,Friday,High_Spender
+Ord100980,2025-11-22,Cust1159,Customer_492,30,Male,Pune,Laptop,Electronics,5,16513.54,82567.7,2025,11,22,Medium_Revenue,Young Adult,November,Saturday,Medium_Spender
+Ord100981,2025-08-03,Cust9081,Customer_448,24,Male,Hyderabad,Book,Education,6,5066.44,30398.64,2025,8,3,Low_Revenue,Young Adult,August,Sunday,High_Spender
+Ord100982,2025-03-30,Cust4003,Customer_305,54,Female,Bengaluru,Rice,Grocery,10,46852.2,468522.0,2025,3,30,High_Revenue,Adult,March,Sunday,High_Spender
+Ord100983,2025-09-03,Cust6511,Customer_15,54,Male,Mumbai,Shoes,Fashion,3,18013.26,54039.78,2025,9,3,Low_Revenue,Adult,September,Wednesday,Low_Spender
+Ord100984,2025-11-07,Cust2836,Customer_434,46,Female,Patna,Shoes,Fashion,4,36188.72,144754.88,2025,11,7,Medium_Revenue,Adult,November,Friday,Medium_Spender
+Ord100985,2025-05-19,Cust3730,Customer_397,58,Female,Gaya,Chair,Furniture,3,33517.79,100553.37,2025,5,19,Medium_Revenue,Senior,May,Monday,High_Spender
+Ord100986,2025-03-27,Cust9945,Customer_495,24,Male,Hyderabad,Rice,Grocery,1,3375.35,3375.35,2025,3,27,Low_Revenue,Young Adult,March,Thursday,Low_Spender
+Ord100987,2025-03-16,Cust1603,Customer_434,37,Female,Mumbai,Mobile,Electronics,4,34140.07,136560.28,2025,3,16,Medium_Revenue,Adult,March,Sunday,Medium_Spender
+Ord100988,2025-12-16,Cust9871,Customer_187,27,Female,Pune,Mobile,Electronics,2,17345.15,34690.3,2025,12,16,Low_Revenue,Young Adult,December,Tuesday,Low_Spender
+Ord100989,2025-10-18,Cust2418,Customer_425,57,Male,Gaya,Chair,Furniture,2,46527.93,93055.86,2025,10,18,Medium_Revenue,Senior,October,Saturday,Medium_Spender
+Ord100990,2025-04-14,Cust2126,Customer_385,34,Male,Patna,Rice,Grocery,1,21819.5,21819.5,2025,4,14,Low_Revenue,Young Adult,April,Monday,Low_Spender
+Ord100991,2025-02-28,Cust1284,Customer_375,31,Male,Bengaluru,Mobile,Electronics,4,26365.27,105461.08,2025,2,28,Medium_Revenue,Young Adult,February,Friday,Medium_Spender
+Ord100992,2025-08-20,Cust6389,Customer_484,27,Male,Kolkata,Chair,Furniture,9,34835.55,313519.95,2025,8,20,High_Revenue,Young Adult,August,Wednesday,High_Spender
+Ord100993,2025-06-16,Cust9381,Customer_10,52,Male,Patna,Book,Education,8,44625.98,357007.84,2025,6,16,High_Revenue,Adult,June,Monday,High_Spender
+Ord100994,2025-07-11,Cust2967,Customer_483,52,Female,Mumbai,Chair,Furniture,5,7279.34,36396.7,2025,7,11,Low_Revenue,Adult,July,Friday,Low_Spender
+Ord100995,2025-07-30,Cust9092,Customer_97,64,Male,Mumbai,Chair,Furniture,1,37930.19,37930.19,2025,7,30,Low_Revenue,Senior,July,Wednesday,Low_Spender
+Ord100996,2025-06-12,Cust9351,Customer_352,36,Male,Pune,Book,Education,9,44322.64,398903.76,2025,6,12,High_Revenue,Adult,June,Thursday,High_Spender
+Ord100997,2025-11-07,Cust6410,Customer_301,61,Male,Gaya,Laptop,Electronics,9,35405.54,318649.86,2025,11,7,High_Revenue,Senior,November,Friday,High_Spender
+Ord100998,2025-09-03,Cust7618,Customer_154,25,Male,Gaya,Shoes,Fashion,5,18454.65,92273.25,2025,9,3,Medium_Revenue,Young Adult,September,Wednesday,Medium_Spender
+Ord100999,2025-09-30,Cust9544,Customer_140,62,Female,Hyderabad,Laptop,Electronics,9,12971.59,116744.31,2025,9,30,Medium_Revenue,Senior,September,Tuesday,Medium_Spender
+Ord101000,2025-02-21,Cust9501,Customer_241,41,Male,Delhi,Mobile,Electronics,9,2879.01,25911.09,2025,2,21,Low_Revenue,Adult,February,Friday,Low_Spender
+Ord101001,2025-04-23,Cust2714,Customer_98,58,Female,Gaya,Chair,Furniture,9,22493.87,202444.83,2025,4,23,High_Revenue,Senior,April,Wednesday,High_Spender
