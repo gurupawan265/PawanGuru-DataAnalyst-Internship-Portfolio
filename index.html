@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[YourName] · Data Analytics Portfolio</title>
+<style>
+/* ── Tokens ───────────────────────────────────────────── */
+:root {
+  --ink:     #0B1628;
+  --bg:      #F0F4FF;
+  --white:   #FFFFFF;
+  --amber:   #E8A23D;
+  --teal:    #4FB8AA;
+  --slate:   #8A93A3;
+  --panel:   #FFFFFF;
+  --border:  #DDE3EE;
+  --ink-dim: #4A5568;
+  --mono: 'SF Mono','IBM Plex Mono',Consolas,monospace;
+  --serif: Cambria,'Times New Roman',serif;
+  --sans: -apple-system,'Segoe UI',Arial,sans-serif;
+}
+
+/* ── Reset ───────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--sans); background:var(--bg); color:var(--ink);
+  font-size:16px; line-height:1.6; overflow-x:hidden;
+}
+
+/* ── Nav ─────────────────────────────────────────────── */
+nav{
+  position:fixed; top:0; left:0; right:0; z-index:100;
+  background:rgba(11,22,40,0.96); backdrop-filter:blur(12px);
+  padding:0 40px; display:flex; justify-content:space-between;
+  align-items:center; height:56px; border-bottom:1px solid rgba(255,255,255,0.06);
+}
+.nav-brand{
+  font-family:var(--serif); font-size:17px; font-weight:700;
+  color:var(--white); letter-spacing:-0.01em;
+}
+.nav-brand span{color:var(--amber);}
+.nav-links{display:flex; gap:28px;}
+.nav-links a{
+  color:var(--slate); text-decoration:none; font-size:13px;
+  font-weight:500; transition:color .18s; letter-spacing:0.02em;
+}
+.nav-links a:hover{color:var(--amber);}
+
+/* ── Hero ────────────────────────────────────────────── */
+.hero{
+  background:var(--ink); min-height:100vh;
+  display:flex; flex-direction:column; justify-content:center;
+  padding:120px 60px 80px; position:relative; overflow:hidden;
+}
+.hero-eyebrow{
+  font-family:var(--mono); font-size:12px; letter-spacing:0.16em;
+  color:var(--amber); text-transform:uppercase; margin-bottom:20px;
+}
+.hero-name{
+  font-family:var(--serif); font-size:clamp(42px,6vw,72px);
+  font-weight:700; color:var(--white); line-height:1.08;
+  letter-spacing:-0.02em; margin-bottom:16px;
+}
+.hero-role{
+  font-size:clamp(16px,2.2vw,22px); color:#CADCFC; margin-bottom:32px;
+  max-width:600px; font-weight:400;
+}
+.hero-stat{
+  display:inline-block; margin-bottom:40px;
+}
+.stat-big{
+  font-family:var(--serif); font-size:clamp(64px,10vw,120px);
+  font-weight:700; color:var(--amber); line-height:1;
+  display:block; letter-spacing:-0.03em;
+}
+.stat-label{
+  font-size:15px; color:#CADCFC; margin-top:6px; display:block;
+  font-weight:400;
+}
+.hero-cta{
+  display:flex; gap:14px; flex-wrap:wrap;
+}
+.btn{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:12px 26px; border-radius:6px; font-size:14px;
+  font-weight:600; text-decoration:none; transition:all .18s; cursor:pointer;
+  border:none;
+}
+.btn-primary{background:var(--amber); color:var(--ink);}
+.btn-primary:hover{background:#F5C060; transform:translateY(-1px);}
+.btn-secondary{
+  background:transparent; color:var(--white);
+  border:1px solid rgba(255,255,255,0.22);
+}
+.btn-secondary:hover{border-color:var(--amber); color:var(--amber);}
+
+/* ── Decorative circles ──────────────────────────────── */
+.hero-deco{
+  position:absolute; border-radius:50%; pointer-events:none;
+}
+.deco1{width:420px;height:420px;right:-100px;top:-60px;
+  background:radial-gradient(circle,rgba(79,184,170,.08) 0%,transparent 70%);}
+.deco2{width:280px;height:280px;right:200px;bottom:80px;
+  background:radial-gradient(circle,rgba(232,162,61,.06) 0%,transparent 70%);}
+
+/* ── Evidence strip ───────────────────────────────────── */
+/* The signature element: a scrolling marquee of actual deliverable filenames */
+.evidence-strip{
+  background:var(--ink); padding:18px 0; border-top:1px solid rgba(255,255,255,0.08);
+  overflow:hidden;
+}
+.strip-inner{
+  display:flex; gap:20px; animation:marquee 28s linear infinite;
+  width:max-content;
+}
+.strip-inner:hover{animation-play-state:paused;}
+.file-tag{
+  font-family:var(--mono); font-size:11.5px; color:var(--teal);
+  background:rgba(79,184,170,0.1); border:1px solid rgba(79,184,170,0.2);
+  padding:4px 12px; border-radius:4px; white-space:nowrap; flex-shrink:0;
+}
+.file-tag.amber{color:var(--amber); background:rgba(232,162,61,0.08); border-color:rgba(232,162,61,0.2);}
+@keyframes marquee{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-50%);}
+}
+
+/* ── Section shell ───────────────────────────────────── */
+.section{padding:96px 60px;}
+.section-eyebrow{
+  font-family:var(--mono); font-size:11px; letter-spacing:0.16em;
+  color:var(--amber); text-transform:uppercase; margin-bottom:14px;
+}
+.section-title{
+  font-family:var(--serif); font-size:clamp(28px,4vw,44px);
+  font-weight:700; color:var(--ink); letter-spacing:-0.01em; margin-bottom:12px;
+}
+.section-sub{
+  font-size:16px; color:var(--ink-dim); max-width:620px; margin-bottom:56px;
+  line-height:1.65;
+}
+
+/* ── Task cards ───────────────────────────────────────── */
+.tasks-grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:24px;
+}
+.task-card{
+  background:var(--panel); border:1px solid var(--border);
+  border-radius:12px; padding:28px 28px 24px; position:relative;
+  transition:box-shadow .2s, transform .2s;
+}
+.task-card:hover{
+  box-shadow:0 8px 32px rgba(11,22,40,0.1); transform:translateY(-3px);
+}
+.task-num{
+  font-family:var(--mono); font-size:11px; color:var(--slate);
+  letter-spacing:0.1em; margin-bottom:14px; text-transform:uppercase;
+}
+.task-icon{
+  width:44px; height:44px; border-radius:10px;
+  display:flex; align-items:center; justify-content:center;
+  font-size:22px; margin-bottom:18px;
+}
+.task-title{
+  font-family:var(--serif); font-size:20px; font-weight:700;
+  color:var(--ink); margin-bottom:10px; line-height:1.25;
+}
+.task-desc{
+  font-size:14px; color:var(--ink-dim); line-height:1.6; margin-bottom:18px;
+}
+.task-tags{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:20px;}
+.tag{
+  font-family:var(--mono); font-size:10.5px; color:var(--teal);
+  background:rgba(79,184,170,0.09); border:1px solid rgba(79,184,170,0.2);
+  padding:3px 9px; border-radius:4px;
+}
+.task-output{
+  font-family:var(--mono); font-size:11px; color:var(--slate);
+  background:#F7F9FC; border-radius:6px; padding:10px 14px;
+  border:1px solid var(--border); line-height:1.7;
+}
+.task-output span{color:var(--amber);}
+
+/* ── Stats row ───────────────────────────────────────── */
+.stats-row{
+  background:var(--ink); padding:72px 60px;
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:40px;
+}
+.stat-block{text-align:center;}
+.stat-n{
+  font-family:var(--serif); font-size:clamp(36px,5vw,58px);
+  font-weight:700; color:var(--amber); display:block;
+  letter-spacing:-0.02em;
+}
+.stat-d{font-size:13px; color:#CADCFC; margin-top:6px;}
+
+/* ── Skills ───────────────────────────────────────────── */
+.skills-section{background:var(--white);}
+.skills-grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:28px;
+}
+.skill-group{
+  background:var(--bg); border-radius:10px; padding:24px;
+  border:1px solid var(--border);
+}
+.skill-group-title{
+  font-size:13px; font-weight:700; color:var(--ink); margin-bottom:14px;
+  text-transform:uppercase; letter-spacing:0.06em;
+}
+.skill-item{
+  display:flex; align-items:center; gap:10px;
+  padding:6px 0; border-bottom:1px solid var(--border);
+  font-size:13.5px; color:var(--ink-dim);
+}
+.skill-item:last-child{border-bottom:none;}
+.skill-dot{
+  width:7px; height:7px; border-radius:50%; background:var(--teal);
+  flex-shrink:0;
+}
+.skill-dot.amber{background:var(--amber);}
+
+/* ── Findings ────────────────────────────────────────── */
+.findings-section{background:var(--bg);}
+.findings-grid{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:22px;
+}
+.finding-card{
+  background:var(--white); border-radius:10px; padding:24px 22px;
+  border:1px solid var(--border); position:relative; overflow:hidden;
+}
+.finding-icon{font-size:24px; margin-bottom:10px;}
+.finding-stat{
+  font-family:var(--serif); font-size:32px; font-weight:700;
+  color:var(--ink); line-height:1; margin-bottom:6px;
+}
+.finding-stat.amber{color:var(--amber);}
+.finding-title{font-size:14px; font-weight:600; color:var(--ink); margin-bottom:6px;}
+.finding-body{font-size:13px; color:var(--ink-dim); line-height:1.55;}
+
+/* ── Contact/links ───────────────────────────────────── */
+.links-section{
+  background:var(--ink); padding:80px 60px;
+  display:flex; flex-direction:column; align-items:center; text-align:center;
+}
+.links-title{
+  font-family:var(--serif); font-size:clamp(28px,4vw,44px);
+  font-weight:700; color:var(--white); margin-bottom:12px; letter-spacing:-0.01em;
+}
+.links-sub{font-size:16px; color:#CADCFC; margin-bottom:44px; max-width:500px;}
+.links-row{display:flex; gap:16px; flex-wrap:wrap; justify-content:center;}
+.link-btn{
+  display:inline-flex; align-items:center; gap:9px;
+  padding:13px 26px; border-radius:7px; font-size:14px; font-weight:600;
+  text-decoration:none; border:1px solid rgba(255,255,255,0.2);
+  color:var(--white); transition:all .18s;
+}
+.link-btn:hover{background:var(--amber); border-color:var(--amber); color:var(--ink);}
+.link-btn.primary{background:var(--amber); border-color:var(--amber); color:var(--ink);}
+.link-btn.primary:hover{background:#F5C060;}
+
+/* ── Footer ───────────────────────────────────────────── */
+footer{
+  background:#060D1A; padding:24px 60px;
+  display:flex; justify-content:space-between; align-items:center;
+  font-size:12px; color:var(--slate); flex-wrap:wrap; gap:10px;
+}
+
+/* ── Responsive ──────────────────────────────────────── */
+@media(max-width:768px){
+  .hero,.section{padding-left:24px;padding-right:24px;}
+  nav{padding:0 24px;}
+  .nav-links{gap:18px;}
+  .stats-row{padding:56px 24px;}
+  .links-section,.skills-section,.findings-section{padding:64px 24px;}
+  footer{padding:20px 24px;}
+  .links-row{flex-direction:column;align-items:stretch;}
+}
+</style>
+</head>
+<body>
+
+<!-- ── Navigation ── -->
+<nav>
+  <div class="nav-brand">[YourName]<span>.</span></div>
+  <div class="nav-links">
+    <a href="#tasks">Tasks</a>
+    <a href="#findings">Findings</a>
+    <a href="#skills">Skills</a>
+    <a href="#links">Portfolio</a>
+  </div>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero">
+  <div class="hero-deco deco1"></div>
+  <div class="hero-deco deco2"></div>
+
+  <div class="hero-eyebrow">ApexPlanet Software Pvt. Ltd. · Data Analytics Internship · FY 2025</div>
+  <h1 class="hero-name">[Your Full Name]<br>Data Analyst</h1>
+  <p class="hero-role">End-to-end analytics project: 1,000 orders, 5 tasks, one statistically proven business insight.</p>
+
+  <div class="hero-stat">
+    <span class="stat-big">2.26×</span>
+    <span class="stat-label">Customer Lifetime Value uplift for retained customers — confirmed at p &lt; 0.0001</span>
+  </div>
+
+  <div class="hero-cta">
+    <a href="#tasks" class="btn btn-primary">View the work ↓</a>
+    <a href="https://github.com/[YourUsername]/[YourName]-DataAnalyst-Internship-Portfolio" 
+       class="btn btn-secondary" target="_blank">GitHub Repository</a>
+  </div>
+</section>
+
+<!-- ── Evidence strip (signature element) ── -->
+<div class="evidence-strip">
+  <div class="strip-inner">
+    <!-- Set 1 -->
+    <span class="file-tag">data_cleaning.py</span>
+    <span class="file-tag amber">ApexPlanet_Cleaned_Dataset.xlsx</span>
+    <span class="file-tag">part1_univariate_analysis.py</span>
+    <span class="file-tag amber">SQL_Query_Results.xlsx</span>
+    <span class="file-tag">part2_sql_business_questions.py</span>
+    <span class="file-tag">part3_corrected.ipynb</span>
+    <span class="file-tag amber">Sales_KPI_Dashboard_Mockup.pptx</span>
+    <span class="file-tag">cohort_analysis.py</span>
+    <span class="file-tag amber">dashboard.html</span>
+    <span class="file-tag">customer_ltv_summary.csv</span>
+    <span class="file-tag amber">Task4_Final_Presentation.pptx</span>
+    <span class="file-tag">hypothesis_testing.py</span>
+    <span class="file-tag amber">Hypothesis_Testing_Summary.md</span>
+    <span class="file-tag">Core_KPIs.md</span>
+    <span class="file-tag amber">Deep_Dive_Report.md</span>
+    <span class="file-tag">EDA_Report.md</span>
+    <!-- Set 2 (duplicate for seamless loop) -->
+    <span class="file-tag">data_cleaning.py</span>
+    <span class="file-tag amber">ApexPlanet_Cleaned_Dataset.xlsx</span>
+    <span class="file-tag">part1_univariate_analysis.py</span>
+    <span class="file-tag amber">SQL_Query_Results.xlsx</span>
+    <span class="file-tag">part2_sql_business_questions.py</span>
+    <span class="file-tag">part3_corrected.ipynb</span>
+    <span class="file-tag amber">Sales_KPI_Dashboard_Mockup.pptx</span>
+    <span class="file-tag">cohort_analysis.py</span>
+    <span class="file-tag amber">dashboard.html</span>
+    <span class="file-tag">customer_ltv_summary.csv</span>
+    <span class="file-tag amber">Task4_Final_Presentation.pptx</span>
+    <span class="file-tag">hypothesis_testing.py</span>
+    <span class="file-tag amber">Hypothesis_Testing_Summary.md</span>
+    <span class="file-tag">Core_KPIs.md</span>
+    <span class="file-tag amber">Deep_Dive_Report.md</span>
+    <span class="file-tag">EDA_Report.md</span>
+  </div>
+</div>
+
+<!-- ── Project stats bar ── -->
+<div class="stats-row">
+  <div class="stat-block"><span class="stat-n">1,000</span><div class="stat-d">Orders analysed</div></div>
+  <div class="stat-block"><span class="stat-n">947</span><div class="stat-d">Unique customers</div></div>
+  <div class="stat-block"><span class="stat-n">₹13.94Cr</span><div class="stat-d">Total revenue mapped</div></div>
+  <div class="stat-block"><span class="stat-n">4</span><div class="stat-d">Statistical hypothesis tests</div></div>
+  <div class="stat-block"><span class="stat-n">18+</span><div class="stat-d">Visualisations produced</div></div>
+  <div class="stat-block"><span class="stat-n">5</span><div class="stat-d">Tasks completed</div></div>
+</div>
+
+<!-- ── Tasks ── -->
+<section class="section" id="tasks">
+  <div class="section-eyebrow">The project</div>
+  <h2 class="section-title">Five Tasks, One Complete Analysis</h2>
+  <p class="section-sub">Each task built on the last — from raw Excel data to statistical business recommendations presented to stakeholders.</p>
+
+  <div class="tasks-grid">
+
+    <div class="task-card">
+      <div class="task-num">Task 1 · 10 Days</div>
+      <div class="task-icon" style="background:#EEF4FF;">🔧</div>
+      <h3 class="task-title">Data Immersion & Wrangling</h3>
+      <p class="task-desc">Loaded 1,000-row sales dataset, profiled and fixed 5 data quality issues including 20 missing values, 8 duplicate Order IDs, and a mismatched column type. Added 7 engineered features. Produced a professional 4-sheet Excel workbook.</p>
+      <div class="task-tags">
+        <span class="tag">Python · Pandas</span>
+        <span class="tag">OpenPyXL</span>
+        <span class="tag">Data Cleaning</span>
+        <span class="tag">Feature Engineering</span>
+      </div>
+      <div class="task-output">
+        <span>📄</span> ApexPlanet_Cleaned_Dataset.xlsx<br>
+        <span>📄</span> data_cleaning.py<br>
+        <span>📄</span> Data Dictionary (4-sheet workbook)
+      </div>
+    </div>
+
+    <div class="task-card">
+      <div class="task-num">Task 2 · 14 Days</div>
+      <div class="task-icon" style="background:#F0FFF8;">📊</div>
+      <h3 class="task-title">EDA & Business Intelligence</h3>
+      <p class="task-desc">Produced 18 visualisations covering univariate, bivariate, and correlation analysis. Wrote 7 SQL queries using a normalised 3-table SQLite schema demonstrating JOINs and aggregation. Built a 4-slide Power BI static mock-up.</p>
+      <div class="task-tags">
+        <span class="tag">Matplotlib · Seaborn</span>
+        <span class="tag">SQL · SQLite</span>
+        <span class="tag">Correlation Analysis</span>
+      </div>
+      <div class="task-output">
+        <span>📄</span> SQL_Query_Results.xlsx (7 queries)<br>
+        <span>📄</span> 18 charts (.png)<br>
+        <span>📄</span> EDA_Report.md
+      </div>
+    </div>
+
+    <div class="task-card">
+      <div class="task-num">Task 3 · 12 Days</div>
+      <div class="task-icon" style="background:#FFF8EE;">🔍</div>
+      <h3 class="task-title">Deep-Dive & Interactive Dashboard</h3>
+      <p class="task-desc">Ran a cohort analysis identifying that only 5.5% of customers made repeat purchases — but those customers spend 2.26× more. Built a fully interactive HTML dashboard (Chart.js, category-filtering) and a Power BI guide with DAX measures.</p>
+      <div class="task-tags">
+        <span class="tag">Cohort Analysis</span>
+        <span class="tag">Chart.js</span>
+        <span class="tag">Power BI · DAX</span>
+        <span class="tag">KPI Definition</span>
+      </div>
+      <div class="task-output">
+        <span>📄</span> dashboard.html (interactive)<br>
+        <span>📄</span> customer_ltv_summary.csv<br>
+        <span>📄</span> Deep_Dive_Report.md
+      </div>
+    </div>
+
+    <div class="task-card">
+      <div class="task-num">Task 4 · 16 Days</div>
+      <div class="task-icon" style="background:#FFF0F0;">📐</div>
+      <h3 class="task-title">Data Storytelling & Statistical Validation</h3>
+      <p class="task-desc">Formulated and tested 4 business hypotheses using Welch t-tests and Chi-squared tests. Key finding (H4): repeat customers have statistically significantly higher LTV (t=6.62, p&lt;0.0001). Produced a 12-slide professional presentation deck.</p>
+      <div class="task-tags">
+        <span class="tag">Hypothesis Testing</span>
+        <span class="tag">SciPy · t-test · χ²</span>
+        <span class="tag">Data Storytelling</span>
+        <span class="tag">PowerPoint</span>
+      </div>
+      <div class="task-output">
+        <span>📄</span> Task4_Final_Presentation.pptx<br>
+        <span>📄</span> hypothesis_testing.py<br>
+        <span>📄</span> Hypothesis_Testing_Summary.md
+      </div>
+    </div>
+
+    <div class="task-card" style="border-color:var(--amber); background:#FFFBF2;">
+      <div class="task-num">Task 5 · 08 Days</div>
+      <div class="task-icon" style="background:#FFF8E7;">🎓</div>
+      <h3 class="task-title">Capstone Integration & Portfolio</h3>
+      <p class="task-desc">Consolidated all deliverables into this master portfolio repository. Structured README, GitHub Pages site, LinkedIn post, and a summary of key technical and analytical learnings from the full internship programme.</p>
+      <div class="task-tags">
+        <span class="tag">GitHub Pages</span>
+        <span class="tag">Portfolio Design</span>
+        <span class="tag">Technical Writing</span>
+      </div>
+      <div class="task-output">
+        <span>📄</span> This portfolio site<br>
+        <span>📄</span> Master README.md<br>
+        <span>📄</span> LinkedIn post
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Key findings ── -->
+<section class="section findings-section" id="findings">
+  <div class="section-eyebrow">What the data showed</div>
+  <h2 class="section-title">Key Findings</h2>
+  <p class="section-sub">Insights validated across EDA, cohort analysis, and formal hypothesis testing.</p>
+
+  <div class="findings-grid">
+    <div class="finding-card">
+      <div class="finding-icon">📈</div>
+      <div class="finding-stat amber">2.26×</div>
+      <div class="finding-title">Repeat Customer LTV Multiplier</div>
+      <div class="finding-body">Statistically proven (t=6.62, p&lt;0.0001). Repeat customers generate ₹1,73,353 more in lifetime value than one-time buyers — the strongest finding of the project.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-icon">⚡</div>
+      <div class="finding-stat">36.4%</div>
+      <div class="finding-title">Electronics Revenue Concentration</div>
+      <div class="finding-body">Electronics accounts for ₹5.08 Cr — more than Education + Grocery combined — but through volume (354 orders), not a higher per-order price (H2, not significant).</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-icon">📅</div>
+      <div class="finding-stat">₹1.31 Cr</div>
+      <div class="finding-title">March Revenue Peak</div>
+      <div class="finding-body">Monthly revenue peaked in March and dipped to ₹9.18M in September — a consistent seasonal pattern worth proactive promotion to defend next year.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-icon">⚖️</div>
+      <div class="finding-stat">p = 0.99</div>
+      <div class="finding-title">Gender Has No Effect on Tier</div>
+      <div class="finding-body">Chi-squared test (H3) showed revenue tier distribution is essentially identical across Male and Female customers — gender-based segmentation by tier is not supported by the data.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-icon">🏙️</div>
+      <div class="finding-stat">Patna #1</div>
+      <div class="finding-title">Top Revenue City</div>
+      <div class="finding-body">Patna leads at ₹2.08 Cr, ahead of Kolkata and Bengaluru, despite not having the largest customer count — indicative of higher-value orders rather than pure volume.</div>
+    </div>
+    <div class="finding-card">
+      <div class="finding-icon">🔁</div>
+      <div class="finding-stat">5.5%</div>
+      <div class="finding-title">Repeat Purchase Rate</div>
+      <div class="finding-body">Only 52 of 947 customers placed more than one order. The business is acquisition-dependent — retention is the highest-ROI lever with near-zero incremental cost.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Skills ── -->
+<section class="section skills-section" id="skills">
+  <div class="section-eyebrow">Technical skills demonstrated</div>
+  <h2 class="section-title">Tools & Technologies</h2>
+  <p class="section-sub">Every skill below was applied directly to a deliverable in this internship — not listed, demonstrated.</p>
+
+  <div class="skills-grid">
+    <div class="skill-group">
+      <div class="skill-group-title">Languages & Libraries</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Python 3.12</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Pandas · NumPy</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Matplotlib · Seaborn</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>SciPy (stats)</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>SQL (SQLite)</div>
+      <div class="skill-item"><div class="skill-dot"></div>JavaScript (Chart.js)</div>
+      <div class="skill-item"><div class="skill-dot"></div>HTML / CSS</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-group-title">Analytics Methods</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Data Cleaning & Wrangling</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Exploratory Data Analysis</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Cohort Analysis</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Hypothesis Testing (t-test, χ²)</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Correlation Analysis</div>
+      <div class="skill-item"><div class="skill-dot"></div>KPI Definition & Tracking</div>
+      <div class="skill-item"><div class="skill-dot"></div>Feature Engineering</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-group-title">Tools & Platforms</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Jupyter Notebook</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Power BI (Desktop + DAX)</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>Microsoft Excel / OpenPyXL</div>
+      <div class="skill-item"><div class="skill-dot amber"></div>PowerPoint / PptxGenJS</div>
+      <div class="skill-item"><div class="skill-dot"></div>Git & GitHub</div>
+      <div class="skill-item"><div class="skill-dot"></div>GitHub Pages</div>
+      <div class="skill-item"><div class="skill-dot"></div>VS Code</div>
+    </div>
+
+    <div class="skill-group">
+      <div class="skill-group-title">Soft Skills Applied</div>
+      <div class="skill-item"><div class="skill-dot"></div>Business narrative writing</div>
+      <div class="skill-item"><div class="skill-dot"></div>Stakeholder presentation design</div>
+      <div class="skill-item"><div class="skill-dot"></div>Statistical result interpretation</div>
+      <div class="skill-item"><div class="skill-dot"></div>Honest uncertainty communication</div>
+      <div class="skill-item"><div class="skill-dot"></div>Reproducible workflow design</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Links section ── -->
+<section class="links-section" id="links">
+  <h2 class="links-title">Explore the full portfolio</h2>
+  <p class="links-sub">All code, reports, and deliverables are open on GitHub. The interactive dashboard runs directly in any browser.</p>
+  <div class="links-row">
+    <a class="link-btn primary" href="https://github.com/[YourUsername]/[YourName]-DataAnalyst-Internship-Portfolio" target="_blank">
+      📁 Master GitHub Repo
+    </a>
+    <a class="link-btn" href="[POWERBI_LINK]" target="_blank">
+      📊 Live Power BI Dashboard
+    </a>
+    <a class="link-btn" href="./dashboard.html" target="_blank">
+      🌐 Interactive HTML Dashboard
+    </a>
+    <a class="link-btn" href="https://linkedin.com/in/[YourHandle]" target="_blank">
+      💼 LinkedIn
+    </a>
+  </div>
+</section>
+
+<footer>
+  <span>[YourName] · ApexPlanet Data Analytics Internship · FY 2025</span>
+  <span style="font-family:var(--mono); font-size:11px;">1,000 orders · 5 tasks · 4 hypothesis tests · 18+ charts</span>
+</footer>
+
+</body>
+</html>
